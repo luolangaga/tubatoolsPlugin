@@ -1,0 +1,17 @@
+{
+  "id": "advanced-ip-scanner",
+  "name": "Advanced IP Scanner",
+  "version": "2.5.4594.1",
+  "description": "\u5FEB\u901F\u7684\u626B\u63CF\u5C40\u57DF\u7F51\u4E2D\u5B58\u5728ip\u5730\u5740\u4EE5\u53CApc\u673A\u7684\u6D3B\u8DC3\u72B6\u6001\uFF0C\u5217\u51FA\u5C40\u57DF\u7F51\u8BA1\u7B97\u673A\u7684\u76F8\u5173\u4FE1\u606F\u3002",
+  "category": "\u7F51\u5361\u5DE5\u5177",
+  "publisher": "Famatech",
+  "tags": [
+    "\u7F51\u7EDC"
+  ],
+  "launchTarget": "Advanced_IP_Scanner_2.5.4594.1.exe",
+  "author": "jinsexinfeng",
+  "submittedAt": "2026-06-23T15:41:03.9962505\u002B00:00",
+  "homepage": null,
+  "file": "Advanced_IP_Scanner_2.5.4594.1.zip",
+  "icon": "Advanced_IP_Scanner.jpg"
+}
