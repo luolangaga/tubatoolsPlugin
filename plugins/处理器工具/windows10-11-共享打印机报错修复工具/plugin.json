@@ -1,0 +1,17 @@
+{
+  "id": "windows10-11-\u5171\u4EAB\u6253\u5370\u673A\u62A5\u9519\u4FEE\u590D\u5DE5\u5177",
+  "name": "Windows10-11 \u5171\u4EAB\u6253\u5370\u673A\u62A5\u9519\u4FEE\u590D\u5DE5\u5177",
+  "version": "1.0",
+  "description": "\u6574\u5408\u5171\u4EAB\u6253\u5370\u673A\u5168\u573A\u666F\u7684\u6545\u969C\u6392\u67E5\u4E0E\u4FEE\u590D\u65B9\u6848",
+  "category": "\u5904\u7406\u5668\u5DE5\u5177",
+  "publisher": "Thebzk",
+  "tags": [
+    "\u6253\u5370\u673A"
+  ],
+  "launchTarget": "Windows\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u04E1\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u07B8\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD.exe",
+  "author": "jinsexinfeng",
+  "submittedAt": "2026-06-24T11:32:11.6241243\u002B00:00",
+  "homepage": "https://www.52pojie.cn/thread-2106335-1-1.html",
+  "file": "Windows\u5171\u4EAB\u6253\u5370\u673A\u62A5\u9519\u4FEE\u590D\u5DE5\u5177.zip",
+  "icon": "Windows\u5171\u4EAB\u6253\u5370\u673A\u62A5\u9519\u4FEE\u590D\u5DE5\u5177.ico"
+}
