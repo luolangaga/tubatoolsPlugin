@@ -56,10 +56,16 @@ jobs:
             });
             core.setOutput('head_sha', pr.head.sha);
 
+      - name: Checkout main (for scripts/rules)
+        uses: actions/checkout@v4
+        with:
+          path: bot
+
       - name: Checkout PR head
         uses: actions/checkout@v4
         with:
           ref: ${{ steps.pr.outputs.head_sha }}
+          path: pr
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -68,11 +74,12 @@ jobs:
 
       - name: Collect files from PR
         id: collect
+        working-directory: pr
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p scan-dir
-          python3 scripts/collect-pr-files.py "${{ needs.check-trigger.outputs.pr_number }}" scan-dir
+          python3 ../bot/scripts/collect-pr-files.py "${{ needs.check-trigger.outputs.pr_number }}" scan-dir
 
       - name: Install ClamAV
         run: sudo apt-get update && sudo apt-get install -y clamav
@@ -82,6 +89,7 @@ jobs:
         timeout-minutes: 5
 
       - name: ClamAV Scan
+        working-directory: pr
         run: |
           mkdir -p results
           clamscan --recursive --infected --log=results/clamav.log scan-dir/ 2>&1 || true
@@ -92,19 +100,21 @@ jobs:
         run: sudo apt-get install -y yara
 
       - name: YARA Scan
+        working-directory: pr
         run: |
-          yara -r rules/malware.yar scan-dir/ > results/yara.txt 2>&1 || true
+          yara -r ../bot/rules/malware.yar scan-dir/ > results/yara.txt 2>&1 || true
           echo "--- YARA results ---"
           cat results/yara.txt || echo "No matches"
 
       - name: VirusTotal Check
+        working-directory: pr
         env:
           VT_API_KEY: ${{ secrets.VIRUSTOTAL_API_KEY }}
         run: |
           if [ -z "$VT_API_KEY" ]; then
             echo '{"status":"skip"}' > results/virustotal.json
           else
-            python3 scripts/virustotal-check.py scan-dir/ > results/virustotal.json 2>&1 || true
+            python3 ../bot/scripts/virustotal-check.py scan-dir/ > results/virustotal.json 2>&1 || true
           fi
 
       - name: Generate report and post
@@ -117,7 +127,7 @@ jobs:
             function readText(p) { try { return fs.readFileSync(p, 'utf8'); } catch { return ''; } }
             function readJson(p) { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return null; } }
 
-            const resultsDir = 'results';
+            const resultsDir = 'pr/results';
             const clamavLog = readText(path.join(resultsDir, 'clamav.log'));
             const yaraText = readText(path.join(resultsDir, 'yara.txt'));
             const vtResult = readJson(path.join(resultsDir, 'virustotal.json'));
