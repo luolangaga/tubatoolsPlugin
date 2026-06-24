@@ -148,7 +148,7 @@ def main():
 
     result = validate_usability(sys.argv[1], sys.argv[2])
     print(json.dumps(result, ensure_ascii=False, indent=2))
-    sys.exit(0 if result["status"] == "pass" else 1)
+    sys.exit(0)
 
 
 if __name__ == "__main__":

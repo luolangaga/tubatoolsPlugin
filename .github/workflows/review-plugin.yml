@@ -47,9 +47,9 @@ jobs:
     permissions:
       pull-requests: read
     outputs:
-      result: ${{ steps.meta.outputs.result }}
-      plugin_dir: ${{ steps.meta.outputs.plugin_dir }}
-      plugin_json: ${{ steps.meta.outputs.plugin_json }}
+      result: ${{ steps.meta.outputs.result || steps.no-plugin.outputs.result }}
+      plugin_dir: ${{ steps.pr-files.outputs.plugin_dir }}
+      plugin_json: ${{ steps.pr-files.outputs.plugin_json }}
     steps:
       - name: Get PR info
         id: pr
@@ -77,26 +77,44 @@ jobs:
       - name: Install dependencies
         run: pip install jsonschema
 
+      - name: Get PR changed files
+        id: pr-files
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: files } = await github.rest.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: Number('${{ needs.check-trigger.outputs.pr_number }}')
+            });
+            const pluginJsons = files
+              .filter(f => f.filename.match(/^plugins\/[^/]+\/plugin\.json$/) && f.status !== 'removed')
+              .map(f => f.filename);
+            core.setOutput('plugin_json', pluginJsons[0] || '');
+            core.setOutput('plugin_dir', pluginJsons[0] ? pluginJsons[0].replace(/\/plugin\.json$/, '') : '');
+            console.log('Found plugin.json files:', pluginJsons);
+
       - name: Find changed plugin.json and validate
         id: meta
+        if: steps.pr-files.outputs.plugin_json != ''
         run: |
-          git diff --name-only --diff-filter=AM origin/main...HEAD -- 'plugins/*/plugin.json' > changed_plugins.txt
-          cat changed_plugins.txt
-          PLUGIN_JSON=$(head -1 changed_plugins.txt)
-          if [ -z "$PLUGIN_JSON" ]; then
-            echo "result=fail" >> "$GITHUB_OUTPUT"
-            echo '{"status":"fail","errors":["未在 PR 变更中找到 plugin.json"],"warnings":[]}' > metadata-result.json
-            exit 0
-          fi
-          PLUGIN_DIR=$(dirname "$PLUGIN_JSON")
+          PLUGIN_JSON="${{ steps.pr-files.outputs.plugin_json }}"
+          PLUGIN_DIR="${{ steps.pr-files.outputs.plugin_dir }}"
           echo "plugin_json=$PLUGIN_JSON" >> "$GITHUB_OUTPUT"
           echo "plugin_dir=$PLUGIN_DIR" >> "$GITHUB_OUTPUT"
-          python3 scripts/validate-metadata.py "$PLUGIN_JSON" > metadata-result.json 2>&1 || true
+          python3 scripts/validate-metadata.py "$PLUGIN_JSON" > metadata-result.json
           if grep -q '"status": "pass"' metadata-result.json; then
             echo "result=pass" >> "$GITHUB_OUTPUT"
           else
             echo "result=fail" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: No plugin.json found
+        id: no-plugin
+        if: steps.pr-files.outputs.plugin_json == ''
+        run: |
+          echo '{"status":"fail","errors":["未在 PR 变更中找到 plugin.json"],"warnings":[]}' > metadata-result.json
+          echo "result=fail" >> "$GITHUB_OUTPUT"
 
       - name: Upload metadata result
         uses: actions/upload-artifact@v4

@@ -133,7 +133,7 @@ def main():
 
     result = scan_directory(sys.argv[1])
     print(json.dumps(result, ensure_ascii=False, indent=2))
-    sys.exit(0 if result["status"] in ("pass", "unknown") else 1)
+    sys.exit(0)
 
 
 if __name__ == "__main__":
