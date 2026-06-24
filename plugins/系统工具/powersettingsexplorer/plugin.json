@@ -1,0 +1,14 @@
+{
+  "id": "powersettingsexplorer",
+  "name": "PowerSettingsExplorer",
+  "version": "1.0",
+  "description": "\u67E5\u770B\u548C\u4FEE\u6539 Windows \u9690\u85CF\u7535\u6E90\u8BBE\u7F6E\u7684\u5DE5\u5177\u3002\u5B83\u53EF\u4EE5\u8BA9\u4F60\u8C03\u6574\u7CFB\u7EDF\u9ED8\u8BA4\u4E0D\u53EF\u89C1\u7684\u9AD8\u7EA7\u7535\u6E90\u9009\u9879\uFF0C\u4ECE\u800C\u66F4\u7CBE\u51C6\u5730\u63A7\u5236 CPU \u9891\u7387\u3001\u786C\u76D8\u4F11\u7720\u3001\u5C4F\u5E55\u4EAE\u5EA6\u3001\u7F51\u7EDC\u7535\u6E90\u7B56\u7565\u7B49\u3002",
+  "category": "\u7CFB\u7EDF\u5DE5\u5177",
+  "publisher": null,
+  "tags": [],
+  "launchTarget": "PowerSettingsExplorer.exe",
+  "author": "jinsexinfeng",
+  "submittedAt": "2026-06-24T11:39:40.8914617\u002B00:00",
+  "homepage": null,
+  "file": "PowerSettingsExplorer.zip"
+}
