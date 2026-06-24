@@ -1,0 +1,15 @@
+{
+  "id": "softcnkiller",
+  "name": "SoftCnKiller",
+  "version": "2.82",
+  "description": "\u6E05\u7406\u6D41\u6C13\u8F6F\u4EF6\u7684\u5DE5\u5177\uFF0C\u80FD\u591F\u5E2E\u52A9\u7528\u6237\u6D88\u706D\u7535\u8111\u4E2D\u7684\u5404\u79CD\u6D41\u6C13\u8F6F\u4EF6\u4EE5\u53CA\u5E7F\u544A\u5F39\u7A97\uFF0C\u652F\u6301\u4E00\u952E\u5FEB\u901F\u6E05\u7406\u6D41\u6C13\u8F6F\u4EF6\uFF0C\u8BA9\u4F60\u7684\u7535\u8111\u66F4\u52A0\u5E72\u51C0\u3002",
+  "category": "\u5904\u7406\u5668\u5DE5\u5177",
+  "publisher": "\u6797\u8BED\u98CE",
+  "tags": [],
+  "launchTarget": "SoftCnKiller.exe",
+  "author": "jinsexinfeng",
+  "submittedAt": "2026-06-24T11:35:36.8835372\u002B00:00",
+  "homepage": "https://gitee.com/softcnkiller",
+  "file": "SoftCnKiller2.82.zip",
+  "icon": "SoftCnKiller.ico"
+}
