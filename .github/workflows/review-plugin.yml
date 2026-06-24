@@ -1,0 +1,308 @@
+name: Review Community Plugin
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  check-trigger:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    outputs:
+      triggered: ${{ steps.check.outputs.triggered }}
+      pr_number: ${{ steps.check.outputs.pr_number }}
+    steps:
+      - name: Check if @tubabot review trigger
+        id: check
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const comment = context.payload.comment.body.trim();
+            const isPr = !!context.payload.issue.pull_request;
+            const triggered = isPr && /^@tubabot\s+review\b/i.test(comment);
+            core.setOutput('triggered', String(triggered));
+            core.setOutput('pr_number', String(context.payload.issue.number));
+            if (triggered) {
+              console.log(`Triggered by comment: "${comment}" on PR #${context.payload.issue.number}`);
+            }
+
+      - name: Acknowledge trigger
+        if: steps.check.outputs.triggered == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: '🔍 **TubaBot** 正在审核该插件，请稍候...\n\n| 检查项 | 状态 |\n|--------|------|\n| 元数据校验 | ⏳ 进行中 |\n| 病毒扫描 | ⏳ 等待中 |\n| 可用性检查 | ⏳ 等待中 |'
+            });
+
+  metadata-check:
+    needs: check-trigger
+    if: needs.check-trigger.outputs.triggered == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
+    outputs:
+      result: ${{ steps.meta.outputs.result }}
+      plugin_dir: ${{ steps.meta.outputs.plugin_dir }}
+      plugin_json: ${{ steps.meta.outputs.plugin_json }}
+    steps:
+      - name: Get PR info
+        id: pr
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: Number('${{ needs.check-trigger.outputs.pr_number }}')
+            });
+            core.setOutput('head_sha', pr.head.sha);
+
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.pr.outputs.head_sha }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install jsonschema
+
+      - name: Find changed plugin.json and validate
+        id: meta
+        run: |
+          git diff --name-only --diff-filter=AM origin/main...HEAD -- 'plugins/*/plugin.json' > changed_plugins.txt
+          cat changed_plugins.txt
+          PLUGIN_JSON=$(head -1 changed_plugins.txt)
+          if [ -z "$PLUGIN_JSON" ]; then
+            echo "result=fail" >> "$GITHUB_OUTPUT"
+            echo '{"status":"fail","errors":["未在 PR 变更中找到 plugin.json"],"warnings":[]}' > metadata-result.json
+            exit 0
+          fi
+          PLUGIN_DIR=$(dirname "$PLUGIN_JSON")
+          echo "plugin_json=$PLUGIN_JSON" >> "$GITHUB_OUTPUT"
+          echo "plugin_dir=$PLUGIN_DIR" >> "$GITHUB_OUTPUT"
+          python3 scripts/validate-metadata.py "$PLUGIN_JSON" > metadata-result.json 2>&1 || true
+          if grep -q '"status": "pass"' metadata-result.json; then
+            echo "result=pass" >> "$GITHUB_OUTPUT"
+          else
+            echo "result=fail" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Upload metadata result
+        uses: actions/upload-artifact@v4
+        with:
+          name: metadata-result
+          path: metadata-result.json
+
+  virus-scan:
+    needs: [check-trigger, metadata-check]
+    if: needs.check-trigger.outputs.triggered == 'true' && needs.metadata-check.outputs.result != 'fail'
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - name: Get PR info
+        id: pr
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: Number('${{ needs.check-trigger.outputs.pr_number }}')
+            });
+            core.setOutput('head_sha', pr.head.sha);
+
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.pr.outputs.head_sha }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Download PR assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p downloaded
+          python3 scripts/download-pr-assets.py "${{ needs.metadata-check.outputs.plugin_dir }}" downloaded
+
+      - name: Install ClamAV
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y clamav
+
+      - name: Update ClamAV database
+        run: sudo freshclam --quiet || true
+        timeout-minutes: 5
+
+      - name: ClamAV Scan
+        continue-on-error: true
+        run: |
+          mkdir -p scan-results
+          clamscan --recursive --infected --log=scan-results/clamav.log downloaded/ 2>&1 || true
+
+      - name: Install YARA
+        run: sudo apt-get install -y yara
+
+      - name: YARA Scan
+        continue-on-error: true
+        run: |
+          yara -r rules/malware.yar downloaded/ > scan-results/yara.txt 2>&1 || true
+
+      - name: VirusTotal Check
+        continue-on-error: true
+        env:
+          VT_API_KEY: ${{ secrets.VIRUSTOTAL_API_KEY }}
+        run: |
+          if [ -z "$VT_API_KEY" ]; then
+            echo '{"status":"skip","message":"VIRUSTOTAL_API_KEY not configured"}' > scan-results/virustotal.json
+            exit 0
+          fi
+          python3 scripts/virustotal-check.py downloaded/ > scan-results/virustotal.json 2>&1 || true
+
+      - name: Upload scan results
+        uses: actions/upload-artifact@v4
+        with:
+          name: virus-scan-result
+          path: scan-results/
+
+  usability-check:
+    needs: [check-trigger, metadata-check]
+    if: needs.check-trigger.outputs.triggered == 'true' && needs.metadata-check.outputs.result != 'fail'
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - name: Get PR info
+        id: pr
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: Number('${{ needs.check-trigger.outputs.pr_number }}')
+            });
+            core.setOutput('head_sha', pr.head.sha);
+
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.pr.outputs.head_sha }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install Pillow
+
+      - name: Download PR assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p downloaded
+          python3 scripts/download-pr-assets.py "${{ needs.metadata-check.outputs.plugin_dir }}" downloaded
+
+      - name: Validate usability
+        run: |
+          python3 scripts/validate-usability.py \
+            "${{ needs.metadata-check.outputs.plugin_json }}" \
+            downloaded/ > usability-result.json 2>&1 || true
+
+      - name: Upload usability result
+        uses: actions/upload-artifact@v4
+        with:
+          name: usability-result
+          path: usability-result.json
+
+  report:
+    needs: [check-trigger, metadata-check, virus-scan, usability-check]
+    if: always() && needs.check-trigger.outputs.triggered == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Download all results
+        uses: actions/download-artifact@v4
+        with:
+          path: results/
+        continue-on-error: true
+
+      - name: Generate report
+        id: report
+        run: |
+          python3 scripts/generate-report.py results/ > full-report.md 2>&1 || true
+          echo "Generated report:"
+          cat full-report.md
+
+      - name: Determine label
+        id: label
+        run: |
+          if grep -q "审核通过" full-report.md 2>/dev/null; then
+            echo "label=verified" >> "$GITHUB_OUTPUT"
+          elif grep -q "malware-detected\|病毒扫描.*❌" full-report.md 2>/dev/null; then
+            echo "label=malware-detected" >> "$GITHUB_OUTPUT"
+          elif grep -q "审核未通过" full-report.md 2>/dev/null; then
+            echo "label=needs-fix" >> "$GITHUB_OUTPUT"
+          else
+            echo "label=needs-review" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Post report and apply label
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('full-report.md', 'utf8');
+            const prNumber = Number('${{ needs.check-trigger.outputs.pr_number }}');
+            const label = '${{ steps.label.outputs.label }}';
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              body: report
+            });
+
+            const labelsToAdd = [label];
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              labels: labelsToAdd
+            });
+
+            const labelsToRemove = ['verified', 'needs-fix', 'needs-review', 'malware-detected'].filter(l => l !== label);
+            for (const l of labelsToRemove) {
+              try {
+                await github.rest.issues.removeLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: prNumber,
+                  name: l
+                });
+              } catch (e) {}
+            }
