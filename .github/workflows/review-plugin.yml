@@ -9,12 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
-      pull-requests: write
     outputs:
       triggered: ${{ steps.check.outputs.triggered }}
       pr_number: ${{ steps.check.outputs.pr_number }}
     steps:
-      - name: Check if @tubabot review trigger
+      - name: Check trigger
         id: check
         uses: actions/github-script@v7
         with:
@@ -24,11 +23,8 @@ jobs:
             const triggered = isPr && /^@tubabot\s+review\b/i.test(comment);
             core.setOutput('triggered', String(triggered));
             core.setOutput('pr_number', String(context.payload.issue.number));
-            if (triggered) {
-              console.log(`Triggered by comment: "${comment}" on PR #${context.payload.issue.number}`);
-            }
 
-      - name: Acknowledge trigger
+      - name: Acknowledge
         if: steps.check.outputs.triggered == 'true'
         uses: actions/github-script@v7
         with:
@@ -37,96 +33,15 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.payload.issue.number,
-              body: '🔍 **TubaBot** 正在审核该插件，请稍候...\n\n| 检查项 | 状态 |\n|--------|------|\n| 元数据校验 | ⏳ 进行中 |\n| 病毒扫描 | ⏳ 等待中 |\n| 可用性检查 | ⏳ 等待中 |'
+              body: '🔍 **TubaBot** 正在扫描病毒，请稍候...'
             });
 
-  metadata-check:
+  virus-scan:
     needs: check-trigger
     if: needs.check-trigger.outputs.triggered == 'true'
     runs-on: ubuntu-latest
     permissions:
       pull-requests: read
-    outputs:
-      result: ${{ steps.meta.outputs.result || steps.no-plugin.outputs.result }}
-      plugin_dir: ${{ steps.pr-files.outputs.plugin_dir }}
-      plugin_json: ${{ steps.pr-files.outputs.plugin_json }}
-    steps:
-      - name: Get PR info
-        id: pr
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const { data: pr } = await github.rest.pulls.get({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: Number('${{ needs.check-trigger.outputs.pr_number }}')
-            });
-            core.setOutput('head_sha', pr.head.sha);
-
-      - name: Checkout PR head
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ steps.pr.outputs.head_sha }}
-          fetch-depth: 0
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Install dependencies
-        run: pip install jsonschema
-
-      - name: Get PR changed files
-        id: pr-files
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const { data: files } = await github.rest.pulls.listFiles({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: Number('${{ needs.check-trigger.outputs.pr_number }}')
-            });
-            const pluginJsons = files
-              .filter(f => f.filename.match(/^plugins\/[^/]+\/plugin\.json$/) && f.status !== 'removed')
-              .map(f => f.filename);
-            core.setOutput('plugin_json', pluginJsons[0] || '');
-            core.setOutput('plugin_dir', pluginJsons[0] ? pluginJsons[0].replace(/\/plugin\.json$/, '') : '');
-            console.log('Found plugin.json files:', pluginJsons);
-
-      - name: Find changed plugin.json and validate
-        id: meta
-        if: steps.pr-files.outputs.plugin_json != ''
-        run: |
-          PLUGIN_JSON="${{ steps.pr-files.outputs.plugin_json }}"
-          PLUGIN_DIR="${{ steps.pr-files.outputs.plugin_dir }}"
-          echo "plugin_json=$PLUGIN_JSON" >> "$GITHUB_OUTPUT"
-          echo "plugin_dir=$PLUGIN_DIR" >> "$GITHUB_OUTPUT"
-          python3 scripts/validate-metadata.py "$PLUGIN_JSON" > metadata-result.json
-          if grep -q '"status": "pass"' metadata-result.json; then
-            echo "result=pass" >> "$GITHUB_OUTPUT"
-          else
-            echo "result=fail" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: No plugin.json found
-        id: no-plugin
-        if: steps.pr-files.outputs.plugin_json == ''
-        run: |
-          echo '{"status":"fail","errors":["未在 PR 变更中找到 plugin.json"],"warnings":[]}' > metadata-result.json
-          echo "result=fail" >> "$GITHUB_OUTPUT"
-
-      - name: Upload metadata result
-        uses: actions/upload-artifact@v4
-        with:
-          name: metadata-result
-          path: metadata-result.json
-
-  virus-scan:
-    needs: [check-trigger, metadata-check]
-    if: needs.check-trigger.outputs.triggered == 'true' && needs.metadata-check.outputs.result != 'fail'
-    runs-on: ubuntu-latest
-    permissions: {}
     steps:
       - name: Get PR info
         id: pr
@@ -150,153 +65,135 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Download PR assets
+      - name: Collect files from PR
+        id: collect
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir -p downloaded
-          python3 scripts/download-pr-assets.py "${{ needs.metadata-check.outputs.plugin_dir }}" downloaded
+          mkdir -p scan-dir
+          python3 scripts/collect-pr-files.py "${{ needs.check-trigger.outputs.pr_number }}" scan-dir
 
       - name: Install ClamAV
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y clamav
+        run: sudo apt-get update && sudo apt-get install -y clamav
 
-      - name: Update ClamAV database
+      - name: Update virus database
         run: sudo freshclam --quiet || true
         timeout-minutes: 5
 
       - name: ClamAV Scan
-        continue-on-error: true
         run: |
-          mkdir -p scan-results
-          clamscan --recursive --infected --log=scan-results/clamav.log downloaded/ 2>&1 || true
+          mkdir -p results
+          clamscan --recursive --infected --log=results/clamav.log scan-dir/ 2>&1 || true
+          echo "--- ClamAV results ---"
+          cat results/clamav.log || echo "No log"
 
       - name: Install YARA
         run: sudo apt-get install -y yara
 
       - name: YARA Scan
-        continue-on-error: true
         run: |
-          yara -r rules/malware.yar downloaded/ > scan-results/yara.txt 2>&1 || true
+          yara -r rules/malware.yar scan-dir/ > results/yara.txt 2>&1 || true
+          echo "--- YARA results ---"
+          cat results/yara.txt || echo "No matches"
 
       - name: VirusTotal Check
-        continue-on-error: true
         env:
           VT_API_KEY: ${{ secrets.VIRUSTOTAL_API_KEY }}
         run: |
           if [ -z "$VT_API_KEY" ]; then
-            echo '{"status":"skip","message":"VIRUSTOTAL_API_KEY not configured"}' > scan-results/virustotal.json
-            exit 0
-          fi
-          python3 scripts/virustotal-check.py downloaded/ > scan-results/virustotal.json 2>&1 || true
-
-      - name: Upload scan results
-        uses: actions/upload-artifact@v4
-        with:
-          name: virus-scan-result
-          path: scan-results/
-
-  usability-check:
-    needs: [check-trigger, metadata-check]
-    if: needs.check-trigger.outputs.triggered == 'true' && needs.metadata-check.outputs.result != 'fail'
-    runs-on: ubuntu-latest
-    permissions: {}
-    steps:
-      - name: Get PR info
-        id: pr
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const { data: pr } = await github.rest.pulls.get({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: Number('${{ needs.check-trigger.outputs.pr_number }}')
-            });
-            core.setOutput('head_sha', pr.head.sha);
-
-      - name: Checkout PR head
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ steps.pr.outputs.head_sha }}
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Install dependencies
-        run: pip install Pillow
-
-      - name: Download PR assets
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          mkdir -p downloaded
-          python3 scripts/download-pr-assets.py "${{ needs.metadata-check.outputs.plugin_dir }}" downloaded
-
-      - name: Validate usability
-        run: |
-          python3 scripts/validate-usability.py \
-            "${{ needs.metadata-check.outputs.plugin_json }}" \
-            downloaded/ > usability-result.json 2>&1 || true
-
-      - name: Upload usability result
-        uses: actions/upload-artifact@v4
-        with:
-          name: usability-result
-          path: usability-result.json
-
-  report:
-    needs: [check-trigger, metadata-check, virus-scan, usability-check]
-    if: always() && needs.check-trigger.outputs.triggered == 'true'
-    runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-      issues: write
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Download all results
-        uses: actions/download-artifact@v4
-        with:
-          path: results/
-        continue-on-error: true
-
-      - name: Generate report
-        id: report
-        run: |
-          python3 scripts/generate-report.py results/ > full-report.md 2>&1 || true
-          echo "Generated report:"
-          cat full-report.md
-
-      - name: Determine label
-        id: label
-        run: |
-          if grep -q "审核通过" full-report.md 2>/dev/null; then
-            echo "label=verified" >> "$GITHUB_OUTPUT"
-          elif grep -q "malware-detected\|病毒扫描.*❌" full-report.md 2>/dev/null; then
-            echo "label=malware-detected" >> "$GITHUB_OUTPUT"
-          elif grep -q "审核未通过" full-report.md 2>/dev/null; then
-            echo "label=needs-fix" >> "$GITHUB_OUTPUT"
+            echo '{"status":"skip"}' > results/virustotal.json
           else
-            echo "label=needs-review" >> "$GITHUB_OUTPUT"
+            python3 scripts/virustotal-check.py scan-dir/ > results/virustotal.json 2>&1 || true
           fi
 
-      - name: Post report and apply label
+      - name: Generate report and post
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
-            const report = fs.readFileSync('full-report.md', 'utf8');
+            const path = require('path');
+
+            function readText(p) { try { return fs.readFileSync(p, 'utf8'); } catch { return ''; } }
+            function readJson(p) { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return null; } }
+
+            const resultsDir = 'results';
+            const clamavLog = readText(path.join(resultsDir, 'clamav.log'));
+            const yaraText = readText(path.join(resultsDir, 'yara.txt'));
+            const vtResult = readJson(path.join(resultsDir, 'virustotal.json'));
+
+            // Parse ClamAV
+            const clamavInfected = (clamavLog.match(/FOUND/g) || []).length;
+            const clamavStatus = clamavInfected > 0 ? '❌' : '✅';
+            const clamavDetail = clamavInfected > 0 ? `发现 ${clamavInfected} 个威胁` : '未发现威胁';
+
+            // Parse YARA
+            const yaraHits = yaraText.trim().split('\n').filter(l => l.trim()).length;
+            const yaraStatus = yaraHits > 0 ? '⚠️' : '✅';
+            const yaraDetail = yaraHits > 0 ? `${yaraHits} 条规则匹配` : '无匹配';
+
+            // Parse VirusTotal
+            let vtStatus = '⏭️';
+            let vtDetail = '未配置';
+            if (vtResult && vtResult.status !== 'skip') {
+              const positives = vtResult.positives || 0;
+              const total = vtResult.total || 0;
+              vtDetail = `${positives}/${total} 引擎报毒`;
+              if (positives >= 3) vtStatus = '❌';
+              else if (positives >= 1) vtStatus = '⚠️';
+              else vtStatus = '✅';
+            }
+
+            // Overall
+            const hasFail = clamavStatus === '❌' || vtStatus === '❌';
+            const hasWarn = yaraStatus === '⚠️' || vtStatus === '⚠️';
+            const overall = hasFail ? '❌' : (hasWarn ? '⚠️' : '✅');
+
+            let report = `## 🔍 病毒扫描报告\n\n`;
+            report += `| 扫描引擎 | 状态 | 结果 |\n`;
+            report += `|----------|------|------|\n`;
+            report += `| ClamAV | ${clamavStatus} | ${clamavDetail} |\n`;
+            report += `| YARA | ${yaraStatus} | ${yaraDetail} |\n`;
+            report += `| VirusTotal | ${vtStatus} | ${vtDetail} |\n\n`;
+
+            if (clamavInfected > 0) {
+              report += `### 🚨 ClamAV 检测详情\n`;
+              for (const line of clamavLog.split('\n')) {
+                if (line.includes('FOUND')) report += `- \`${line.trim()}\`\n`;
+              }
+              report += '\n';
+            }
+
+            if (yaraHits > 0) {
+              report += `### ⚠️ YARA 匹配详情\n`;
+              for (const line of yaraText.trim().split('\n').slice(0, 10)) {
+                if (line.trim()) report += `- \`${line.trim()}\`\n`;
+              }
+              if (yaraHits > 10) report += `- ... 还有 ${yaraHits - 10} 条\n`;
+              report += '\n';
+            }
+
+            if (vtResult && vtResult.files) {
+              const flagged = vtResult.files.filter(f => (f.positives || 0) > 0);
+              if (flagged.length > 0) {
+                report += `### 🛡️ VirusTotal 报毒详情\n`;
+                for (const f of flagged) {
+                  report += `- **${f.file}**: ${f.positives}/${f.total} [查看](${f.permalink || ''})\n`;
+                }
+                report += '\n';
+              }
+            }
+
+            if (overall === '✅') {
+              report += `**结论**: ✅ 未发现病毒，可以合并。\n\n`;
+            } else if (overall === '❌') {
+              report += `**结论**: ❌ 检测到病毒，请勿合并！\n\n`;
+            } else {
+              report += `**结论**: ⚠️ 存在可疑特征，建议人工复核。\n\n`;
+            }
+
+            report += `*此报告由 **TubaBot** 自动生成。*`;
+
             const prNumber = Number('${{ needs.check-trigger.outputs.pr_number }}');
-            const label = '${{ steps.label.outputs.label }}';
 
             await github.rest.issues.createComment({
               owner: context.repo.owner,
@@ -305,22 +202,14 @@ jobs:
               body: report
             });
 
-            const labelsToAdd = [label];
+            // Apply label
+            const label = overall === '✅' ? 'verified' : (overall === '❌' ? 'malware-detected' : 'needs-review');
             await github.rest.issues.addLabels({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: prNumber,
-              labels: labelsToAdd
+              labels: [label]
             });
-
-            const labelsToRemove = ['verified', 'needs-fix', 'needs-review', 'malware-detected'].filter(l => l !== label);
-            for (const l of labelsToRemove) {
-              try {
-                await github.rest.issues.removeLabel({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: prNumber,
-                  name: l
-                });
-              } catch (e) {}
+            for (const l of ['verified', 'needs-review', 'malware-detected'].filter(x => x !== label)) {
+              try { await github.rest.issues.removeLabel({ owner: context.repo.owner, repo: context.repo.repo, issue_number: prNumber, name: l }); } catch {}
             }
