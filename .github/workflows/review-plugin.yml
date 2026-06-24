@@ -4,11 +4,14 @@ on:
   issue_comment:
     types: [created]
 
+permissions:
+  issues: write
+  pull-requests: write
+  contents: read
+
 jobs:
   check-trigger:
     runs-on: ubuntu-latest
-    permissions:
-      issues: write
     outputs:
       triggered: ${{ steps.check.outputs.triggered }}
       pr_number: ${{ steps.check.outputs.pr_number }}
@@ -40,8 +43,6 @@ jobs:
     needs: check-trigger
     if: needs.check-trigger.outputs.triggered == 'true'
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: read
     steps:
       - name: Get PR info
         id: pr
