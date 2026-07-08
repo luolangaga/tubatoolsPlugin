@@ -1,0 +1,15 @@
+{
+  "id": "crystaldiskinfo",
+  "name": "CrystalDiskInfo",
+  "version": "1.0",
+  "description": "",
+  "category": "\u786C\u76D8\u5DE5\u5177",
+  "publisher": null,
+  "tags": [],
+  "launchTarget": "AlertMail.exe",
+  "author": "shenrenyige",
+  "submittedAt": "2026-07-03T14:23:21.1130998\u002B00:00",
+  "homepage": null,
+  "file": "CrystalDiskInfo.zip",
+  "icon": "logo-100.png"
+}
