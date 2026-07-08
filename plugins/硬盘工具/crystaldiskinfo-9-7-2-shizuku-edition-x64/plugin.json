@@ -1,0 +1,17 @@
+{
+  "id": "crystaldiskinfo-9-7-2-shizuku-edition-x64",
+  "name": "CrystalDiskinfo 9.7.2 Shizuku Edition x64",
+  "version": "1.0",
+  "description": "CrystalDiskMark\u6C34\u6676\u96EB\u7248 v9.0.3 Shizuku\u7248",
+  "category": "\u786C\u76D8\u5DE5\u5177",
+  "publisher": null,
+  "tags": [
+    "\u4E00\u6B3E\u786C\u76D8\u53C2\u6570\u68C0\u6D4B\u8F6F\u4EF6"
+  ],
+  "launchTarget": "DiskInfo64S.exe",
+  "author": "shenrenyige",
+  "submittedAt": "2026-07-03T14:32:24.8798721\u002B00:00",
+  "homepage": null,
+  "file": "CrystalDiskInfo.zip",
+  "icon": "logo-100.png"
+}
