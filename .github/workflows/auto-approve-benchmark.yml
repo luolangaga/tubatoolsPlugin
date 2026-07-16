@@ -1,147 +1,21 @@
-name: Auto-approve benchmark reports
+name: Update leaderboard
 
 on:
-  pull_request_target:
-    types: [opened, synchronize, reopened]
-    paths:
-      - 'reports/**'
   push:
     branches: [main]
     paths:
       - 'reports/**'
 
 jobs:
-  auto-approve:
-    if: github.event_name == 'pull_request'
-    runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-      contents: write
-
-    steps:
-      - name: Check PR title
-        id: check-title
-        run: |
-          TITLE="${{ github.event.pull_request.title }}"
-          if [[ "$TITLE" == "[性能报告]"* ]] || [[ "$TITLE" == "[删除报告]"* ]]; then
-            echo "is_benchmark=true" >> $GITHUB_OUTPUT
-            if [[ "$TITLE" == "[性能报告]"* ]]; then
-              echo "pr_type=upload" >> $GITHUB_OUTPUT
-            else
-              echo "pr_type=delete" >> $GITHUB_OUTPUT
-            fi
-          else
-            echo "is_benchmark=false" >> $GITHUB_OUTPUT
-            echo "Skipping: PR title does not match benchmark pattern"
-          fi
-
-      - name: Get changed files
-        id: changed-files
-        if: steps.check-title.outputs.is_benchmark == 'true'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const { data: files } = await github.rest.pulls.listFiles({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number,
-            });
-
-            const allInReports = files.every(f => f.filename.startsWith('reports/'));
-            const allJson = files.every(f => f.filename.endsWith('.json'));
-            const allSmall = files.every(f => f.changes <= 200);
-            const fileCount = files.length;
-
-            core.setOutput('all_in_reports', allInReports);
-            core.setOutput('all_json', allJson);
-            core.setOutput('all_small', allSmall);
-            core.setOutput('file_count', fileCount);
-
-            const addedOrModified = files
-              .filter(f => f.status === 'added' || f.status === 'modified')
-              .map(f => ({ filename: f.filename, sha: f.sha }));
-            core.setOutput('added_files', JSON.stringify(addedOrModified));
-
-      - name: Validate JSON structure
-        if: steps.check-title.outputs.is_benchmark == 'true'
-        id: validate-json
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const prType = '${{ steps.check-title.outputs.pr_type }}';
-
-            if (prType === 'delete') {
-              core.setOutput('valid', 'true');
-              core.info('Delete PR - skipping content validation');
-              return;
-            }
-
-            const addedFiles = JSON.parse('${{ steps.changed-files.outputs.added_files }}' || '[]');
-            if (addedFiles.length === 0) {
-              core.setOutput('valid', 'true');
-              return;
-            }
-
-            const requiredFields = ['id', 'author', 'cpuName', 'gpuName', 'gamingScore', 'officeScore'];
-
-            for (const file of addedFiles) {
-              const { data: blob } = await github.rest.git.getBlob({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                file_sha: file.sha,
-              });
-
-              const content = Buffer.from(blob.content, 'base64').toString('utf8');
-              let json;
-              try {
-                json = JSON.parse(content);
-              } catch {
-                core.setFailed(`Invalid JSON in ${file.filename}`);
-                return;
-              }
-
-              const missing = requiredFields.filter(f => json[f] === undefined || json[f] === null);
-              if (missing.length > 0) {
-                core.setFailed(`Missing fields [${missing.join(', ')}] in ${file.filename}`);
-                return;
-              }
-            }
-
-            core.setOutput('valid', 'true');
-
-      - name: Merge PR
-        if: |
-          steps.check-title.outputs.is_benchmark == 'true' &&
-          steps.changed-files.outputs.all_in_reports == 'true' &&
-          steps.changed-files.outputs.all_json == 'true' &&
-          steps.changed-files.outputs.all_small == 'true' &&
-          steps.changed-files.outputs.file_count > 0 &&
-          steps.validate-json.outputs.valid == 'true'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            await github.rest.pulls.merge({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number,
-              merge_method: 'merge',
-              commit_title: `${context.payload.pull_request.title} (auto-merged)`,
-              commit_message: 'Auto-merged: benchmark report PR passed validation checks.'
-            });
-            core.info('PR merged successfully');
-
-  rebuild-leaderboard:
-    if: github.event_name == 'push'
+  rebuild:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '20'
 
@@ -154,20 +28,18 @@ jobs:
 
             const reportsDir = path.join(process.env.GITHUB_WORKSPACE, 'reports');
             if (!fs.existsSync(reportsDir)) {
-              core.info('No reports directory found, creating empty leaderboard');
-              const empty = { updatedAt: new Date().toISOString(), reports: [], leaderboards: {} };
-              fs.writeFileSync('leaderboard.json', JSON.stringify(empty, null, 2));
+              core.info('No reports directory found');
               return;
             }
 
             const reports = [];
 
-            function walkDir(dir, authorFromDir) {
+            function walkDir(dir) {
               const entries = fs.readdirSync(dir, { withFileTypes: true });
               for (const entry of entries) {
                 const fullPath = path.join(dir, entry.name);
                 if (entry.isDirectory()) {
-                  walkDir(fullPath, entry.name);
+                  walkDir(fullPath);
                 } else if (entry.isFile() && entry.name.endsWith('.json')) {
                   try {
                     const content = fs.readFileSync(fullPath, 'utf8');
@@ -183,7 +55,7 @@ jobs:
               }
             }
 
-            walkDir(reportsDir, '');
+            walkDir(reportsDir);
 
             function computeRanking(reports, sortKey) {
               return [...reports]
@@ -235,8 +107,7 @@ jobs:
             fs.writeFileSync('leaderboard.json', JSON.stringify(result, null, 2));
             core.info(`Leaderboard rebuilt with ${reports.length} reports`);
 
-      - name: Commit leaderboard.json
-        run: |
+      - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add leaderboard.json
