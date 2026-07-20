@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-20T05:46:46.998Z",
-  "totalReports": 140,
+  "updatedAt": "2026-07-20T05:47:59.694Z",
+  "totalReports": 141,
   "leaderboards": {
     "gaming": [
       {
@@ -1706,6 +1706,33 @@
       },
       {
         "rank": 64,
+        "id": "WinGua-20260720-104950",
+        "author": "WinGua",
+        "cpuName": "13th Gen Intel Core i7-13700HX",
+        "gpuName": "NVIDIA GeForce RTX 4070 Laptop GPU",
+        "gamingScore": 166,
+        "officeScore": 122,
+        "cpuSingleCoreScore": 107,
+        "cpuMultiCoreScore": 118,
+        "gpuRenderScore": 261,
+        "memoryCapacityScore": 99,
+        "diskSeqReadScore": 114,
+        "diskSeqWriteScore": 73,
+        "disk4KReadScore": 170,
+        "disk4KWriteScore": 156,
+        "browserTotalScore": 120,
+        "gamingGrade": "S",
+        "officeGrade": "A+",
+        "submittedAt": "2026-07-20T03:29:53.5196301+00:00",
+        "osName": "Microsoft Windows 11 家庭版 中文版",
+        "motherboardName": "Micro-Star International Co., Ltd. MS-17S2 BIOS E17S2IMS.114",
+        "memoryInfo": "31.7 GB | DDR5 | 三星(Samsung) M425R2GA3BB0-CQKOL 16 GB 4800 MHz | 三星(Samsung) M425R2GA3BB0-CQKOL 16 GB 4800 MHz",
+        "diskInfo": "NVMe SAMSUNG MZVL21T0HCLR-00B00 HDD 953.9 GB SCSI | NVMe ZHITAI TiPlus7100 2TB HDD 1907.7 GB SCSI",
+        "displayInfo": "友达(AU Optronics) 2560 x 1600 240 Hz 主显",
+        "repoPath": "reports/WinGua/WinGua-20260720-104950.json"
+      },
+      {
+        "rank": 65,
         "id": "ZZN521-20260719-180242",
         "author": "ZZN521",
         "cpuName": "AMD Ryzen 9 8945HX with Radeon Graphics",
@@ -1732,7 +1759,7 @@
         "repoPath": "reports/ZZN521/ZZN521-20260719-180242.json"
       },
       {
-        "rank": 65,
+        "rank": 66,
         "id": "ArcLight-netizen-20260712-093012",
         "author": "ArcLight-netizen",
         "cpuName": "AMD Ryzen 5 9600X",
@@ -1759,7 +1786,7 @@
         "repoPath": "reports/ArcLight-netizen/ArcLight-netizen-20260712-093012.json"
       },
       {
-        "rank": 66,
+        "rank": 67,
         "id": "qulongkun-20260714-101927",
         "author": "qulongkun",
         "cpuName": "Intel Core i5-14600KF",
@@ -1786,7 +1813,7 @@
         "repoPath": "reports/qulongkun/qulongkun-20260714-101927.json"
       },
       {
-        "rank": 67,
+        "rank": 68,
         "id": "217432-20260711-211208",
         "author": "217432",
         "cpuName": "13th Gen Intel Core i5-13400F",
@@ -1813,7 +1840,7 @@
         "repoPath": "reports/217432/217432-20260711-211208.json"
       },
       {
-        "rank": 68,
+        "rank": 69,
         "id": "Freewind72-20260710-231927",
         "author": "Freewind72",
         "cpuName": "12th Gen Intel Core i5-12600K",
@@ -1840,7 +1867,7 @@
         "repoPath": "reports/Freewind72/Freewind72-20260710-231927.json"
       },
       {
-        "rank": 69,
+        "rank": 70,
         "id": "ldzandqwe-ship-it-20260715-235554",
         "author": "ldzandqwe-ship-it",
         "cpuName": "AMD Ryzen 7 7800X3D",
@@ -1867,7 +1894,7 @@
         "repoPath": "reports/ldzandqwe-ship-it/ldzandqwe-ship-it-20260715-235554.json"
       },
       {
-        "rank": 70,
+        "rank": 71,
         "id": "KindaCello4028-20260711-135308",
         "author": "KindaCello4028",
         "cpuName": "AMD Ryzen 9 9955HX",
@@ -1894,7 +1921,7 @@
         "repoPath": "reports/KindaCello4028/KindaCello4028-20260711-135308.json"
       },
       {
-        "rank": 71,
+        "rank": 72,
         "id": "PDSB001-20260710-144250",
         "author": "PDSB001",
         "cpuName": "Intel Core Ultra 7 255HX",
@@ -1921,7 +1948,7 @@
         "repoPath": "reports/PDSB001/PDSB001-20260710-144250.json"
       },
       {
-        "rank": 72,
+        "rank": 73,
         "id": "RSSeeker-20260709-181542",
         "author": "RSSeeker",
         "cpuName": "Intel Core Ultra 9 386H",
@@ -1948,7 +1975,7 @@
         "repoPath": "reports/RSSeeker/RSSeeker-20260709-181542.json"
       },
       {
-        "rank": 73,
+        "rank": 74,
         "id": "ZZN521-20260709-222936",
         "author": "ZZN521",
         "cpuName": "AMD Ryzen 9 8945HX with Radeon Graphics",
@@ -1975,7 +2002,7 @@
         "repoPath": "reports/ZZN521/ZZN521-20260709-222936.json"
       },
       {
-        "rank": 74,
+        "rank": 75,
         "id": "cheekibreeki480-20260711-003742",
         "author": "cheekibreeki480",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -2002,7 +2029,7 @@
         "repoPath": "reports/cheekibreeki480/cheekibreeki480-20260711-003742.json"
       },
       {
-        "rank": 75,
+        "rank": 76,
         "id": "tomcatone-20260708-190440",
         "author": "tomcatone",
         "cpuName": "Intel Core Ultra 5 230F",
@@ -2029,7 +2056,7 @@
         "repoPath": "reports/tomcatone/tomcatone-20260708-190440.json"
       },
       {
-        "rank": 76,
+        "rank": 77,
         "id": "DaDPrime-20260715-001347",
         "author": "DaDPrime",
         "cpuName": "AMD Ryzen 7 8845H w/ Radeon 780M Graphics",
@@ -2056,7 +2083,7 @@
         "repoPath": "reports/DaDPrime/DaDPrime-20260715-001347.json"
       },
       {
-        "rank": 77,
+        "rank": 78,
         "id": "RainZhu862-20260712-100107",
         "author": "RainZhu862",
         "cpuName": "13th Gen Intel Core i5-13600K",
@@ -2083,7 +2110,7 @@
         "repoPath": "reports/RainZhu862/RainZhu862-20260712-100107.json"
       },
       {
-        "rank": 78,
+        "rank": 79,
         "id": "HU233MAX-20260711-174143",
         "author": "HU233MAX",
         "cpuName": "AMD Ryzen 5 5500X3D",
@@ -2110,7 +2137,7 @@
         "repoPath": "reports/HU233MAX/HU233MAX-20260711-174143.json"
       },
       {
-        "rank": 79,
+        "rank": 80,
         "id": "Kudonly-20260715-111040",
         "author": "Kudonly",
         "cpuName": "12th Gen Intel Core i5-12600KF",
@@ -2137,7 +2164,7 @@
         "repoPath": "reports/Kudonly/Kudonly-20260715-111040.json"
       },
       {
-        "rank": 80,
+        "rank": 81,
         "id": "Evoltsuki-20260712-220301",
         "author": "Evoltsuki",
         "cpuName": "Genuine Intel 0000",
@@ -2164,7 +2191,7 @@
         "repoPath": "reports/Evoltsuki/Evoltsuki-20260712-220301.json"
       },
       {
-        "rank": 81,
+        "rank": 82,
         "id": "hinokaze-20260711-193400",
         "author": "hinokaze",
         "cpuName": "13th Gen Intel Core i5-13600KF",
@@ -2191,7 +2218,7 @@
         "repoPath": "reports/hinokaze/hinokaze-20260711-193400.json"
       },
       {
-        "rank": 82,
+        "rank": 83,
         "id": "megane3251-20260713-032437",
         "author": "megane3251",
         "cpuName": "AMD Ryzen 7 7800X3D",
@@ -2218,7 +2245,7 @@
         "repoPath": "reports/megane3251/megane3251-20260713-032437.json"
       },
       {
-        "rank": 83,
+        "rank": 84,
         "id": "xushengping666-20260710-104525",
         "author": "xushengping666",
         "cpuName": "Intel Core i7-14650HX",
@@ -2245,7 +2272,7 @@
         "repoPath": "reports/xushengping666/xushengping666-20260710-104525.json"
       },
       {
-        "rank": 84,
+        "rank": 85,
         "id": "liu7863-20260712-133554",
         "author": "liu7863",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -2272,7 +2299,7 @@
         "repoPath": "reports/liu7863/liu7863-20260712-133554.json"
       },
       {
-        "rank": 85,
+        "rank": 86,
         "id": "megane3251-20260713-030234",
         "author": "megane3251",
         "cpuName": "AMD Ryzen 7 7800X3D",
@@ -2299,7 +2326,7 @@
         "repoPath": "reports/megane3251/megane3251-20260713-030234.json"
       },
       {
-        "rank": 86,
+        "rank": 87,
         "id": "Alpha-Qian-20260711-172441",
         "author": "Alpha-Qian",
         "cpuName": "13th Gen Intel Core i9-13900HX",
@@ -2326,7 +2353,7 @@
         "repoPath": "reports/Alpha-Qian/Alpha-Qian-20260711-172441.json"
       },
       {
-        "rank": 87,
+        "rank": 88,
         "id": "mianhuatangcrystal117-cloud-20260711-202716",
         "author": "mianhuatangcrystal117-cloud",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -2353,7 +2380,7 @@
         "repoPath": "reports/mianhuatangcrystal117-cloud/mianhuatangcrystal117-cloud-20260711-202716.json"
       },
       {
-        "rank": 88,
+        "rank": 89,
         "id": "breeze313-20260711-174727",
         "author": "breeze313",
         "cpuName": "AMD Ryzen 9 7940HX with Radeon Graphics",
@@ -2380,7 +2407,7 @@
         "repoPath": "reports/breeze313/breeze313-20260711-174727.json"
       },
       {
-        "rank": 89,
+        "rank": 90,
         "id": "w007-01-20260711-164628",
         "author": "w007-01",
         "cpuName": "AMD Ryzen 9 8940HX with Radeon Graphics",
@@ -2407,7 +2434,7 @@
         "repoPath": "reports/w007-01/w007-01-20260711-164628.json"
       },
       {
-        "rank": 90,
+        "rank": 91,
         "id": "RekiP-20260720-010000",
         "author": "RekiP",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -2434,7 +2461,7 @@
         "repoPath": "reports/RekiP/RekiP-20260720-010000.json"
       },
       {
-        "rank": 91,
+        "rank": 92,
         "id": "byybht-20260719-214147",
         "author": "byybht",
         "cpuName": "AMD Ryzen 7 5700X",
@@ -2461,7 +2488,7 @@
         "repoPath": "reports/byybht/byybht-20260719-214147.json"
       },
       {
-        "rank": 92,
+        "rank": 93,
         "id": "sunshengyan-20260712-124320",
         "author": "sunshengyan",
         "cpuName": "Intel Core Ultra 9 285H",
@@ -2488,7 +2515,7 @@
         "repoPath": "reports/sunshengyan/sunshengyan-20260712-124320.json"
       },
       {
-        "rank": 93,
+        "rank": 94,
         "id": "AuthoRay-20260714-164236",
         "author": "AuthoRay",
         "cpuName": "Intel Core i7-14650HX",
@@ -2515,7 +2542,7 @@
         "repoPath": "reports/AuthoRay/AuthoRay-20260714-164236.json"
       },
       {
-        "rank": 94,
+        "rank": 95,
         "id": "kearnysong-20260712-005806",
         "author": "kearnysong",
         "cpuName": "Intel Core Ultra 7 251HX",
@@ -2542,7 +2569,7 @@
         "repoPath": "reports/kearnysong/kearnysong-20260712-005806.json"
       },
       {
-        "rank": 95,
+        "rank": 96,
         "id": "jinmmliang-20260702-183632",
         "author": "jinmmliang",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -2569,7 +2596,7 @@
         "repoPath": "reports/jinmmliang/jinmmliang-20260702-183632.json"
       },
       {
-        "rank": 96,
+        "rank": 97,
         "id": "zhouben-110-20260711-191527",
         "author": "zhouben-110",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -2596,7 +2623,7 @@
         "repoPath": "reports/zhouben-110/zhouben-110-20260711-191527.json"
       },
       {
-        "rank": 97,
+        "rank": 98,
         "id": "byybht-20260716-161452",
         "author": "byybht",
         "cpuName": "AMD Ryzen 7 5700X",
@@ -2623,7 +2650,7 @@
         "repoPath": "reports/byybht/byybht-20260716-161452.json"
       },
       {
-        "rank": 98,
+        "rank": 99,
         "id": "blacater-20260715-062033",
         "author": "blacater",
         "cpuName": "12th Gen Intel Core i5-12400F",
@@ -2650,7 +2677,7 @@
         "repoPath": "reports/blacater/blacater-20260715-062033.json"
       },
       {
-        "rank": 99,
+        "rank": 100,
         "id": "Mio114-20260710-064735",
         "author": "Mio114",
         "cpuName": "AMD Ryzen 9 8945H w/ Radeon 780M Graphics",
@@ -2677,7 +2704,7 @@
         "repoPath": "reports/Mio114/Mio114-20260710-064735.json"
       },
       {
-        "rank": 100,
+        "rank": 101,
         "id": "haihaihailailo-20260716-211337",
         "author": "haihaihailailo",
         "cpuName": "AMD Ryzen 7 H 255 W/ Radeon 780M",
@@ -2704,7 +2731,7 @@
         "repoPath": "reports/haihaihailailo/haihaihailailo-20260716-211337.json"
       },
       {
-        "rank": 101,
+        "rank": 102,
         "id": "jjh060807-dev-20260711-184251",
         "author": "jjh060807-dev",
         "cpuName": "Intel Core 7 240H",
@@ -2731,7 +2758,7 @@
         "repoPath": "reports/jjh060807-dev/jjh060807-dev-20260711-184251.json"
       },
       {
-        "rank": 102,
+        "rank": 103,
         "id": "kdinsky-20260714-135840",
         "author": "kdinsky",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -2758,7 +2785,7 @@
         "repoPath": "reports/kdinsky/kdinsky-20260714-135840.json"
       },
       {
-        "rank": 103,
+        "rank": 104,
         "id": "dai123-dai-20260716-082824",
         "author": "dai123-dai",
         "cpuName": "AMD Ryzen 5 5600",
@@ -2785,7 +2812,7 @@
         "repoPath": "reports/dai123-dai/dai123-dai-20260716-082824.json"
       },
       {
-        "rank": 104,
+        "rank": 105,
         "id": "woods1w-20260718-224159",
         "author": "woods1w",
         "cpuName": "13th Gen Intel Core i9-13900HX",
@@ -2812,7 +2839,7 @@
         "repoPath": "reports/woods1w/woods1w-20260718-224159.json"
       },
       {
-        "rank": 105,
+        "rank": 106,
         "id": "smile-wq-20260715-221232",
         "author": "smile-wq",
         "cpuName": "Intel Core i7-14700HX",
@@ -2839,7 +2866,7 @@
         "repoPath": "reports/smile-wq/smile-wq-20260715-221232.json"
       },
       {
-        "rank": 106,
+        "rank": 107,
         "id": "RenYong-GitHub-20260711-060945",
         "author": "RenYong-GitHub",
         "cpuName": "12th Gen Intel Core i7-12650H",
@@ -2866,7 +2893,7 @@
         "repoPath": "reports/RenYong-GitHub/RenYong-GitHub-20260711-060945.json"
       },
       {
-        "rank": 107,
+        "rank": 108,
         "id": "Mark66616-20260711-014443",
         "author": "Mark66616",
         "cpuName": "AMD Ryzen 5 5600",
@@ -2893,7 +2920,7 @@
         "repoPath": "reports/Mark66616/Mark66616-20260711-014443.json"
       },
       {
-        "rank": 108,
+        "rank": 109,
         "id": "520005962-eng-20260711-192848",
         "author": "520005962-eng",
         "cpuName": "Intel Core Ultra 7 270K Plus",
@@ -2920,7 +2947,7 @@
         "repoPath": "reports/520005962-eng/520005962-eng-20260711-192848.json"
       },
       {
-        "rank": 109,
+        "rank": 110,
         "id": "Sandwitch-eat-20260712-161551",
         "author": "Sandwitch-eat",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -2947,7 +2974,7 @@
         "repoPath": "reports/Sandwitch-eat/Sandwitch-eat-20260712-161551.json"
       },
       {
-        "rank": 110,
+        "rank": 111,
         "id": "andrewlinzp-20260711-223053",
         "author": "andrewlinzp",
         "cpuName": "AMD Ryzen 5 5600G with Radeon Graphics",
@@ -2974,7 +3001,7 @@
         "repoPath": "reports/andrewlinzp/andrewlinzp-20260711-223053.json"
       },
       {
-        "rank": 111,
+        "rank": 112,
         "id": "SXT3808-20260712-162855",
         "author": "SXT3808",
         "cpuName": "12th Gen Intel Core i5-12400F",
@@ -3001,7 +3028,7 @@
         "repoPath": "reports/SXT3808/SXT3808-20260712-162855.json"
       },
       {
-        "rank": 112,
+        "rank": 113,
         "id": "3804313647-20260713-093902",
         "author": "3804313647",
         "cpuName": "Genuine Intel 0000",
@@ -3028,7 +3055,7 @@
         "repoPath": "reports/3804313647/3804313647-20260713-093902.json"
       },
       {
-        "rank": 113,
+        "rank": 114,
         "id": "hunanhjx-20260711-005632",
         "author": "hunanhjx",
         "cpuName": "Intel Core i7-14650HX",
@@ -3055,7 +3082,7 @@
         "repoPath": "reports/hunanhjx/hunanhjx-20260711-005632.json"
       },
       {
-        "rank": 114,
+        "rank": 115,
         "id": "xiaohuangbo-20260715-113212",
         "author": "xiaohuangbo",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -3082,7 +3109,7 @@
         "repoPath": "reports/xiaohuangbo/xiaohuangbo-20260715-113212.json"
       },
       {
-        "rank": 115,
+        "rank": 116,
         "id": "Asher-08-20260710-215558",
         "author": "Asher-08",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -3109,7 +3136,7 @@
         "repoPath": "reports/Asher-08/Asher-08-20260710-215558.json"
       },
       {
-        "rank": 116,
+        "rank": 117,
         "id": "cqian93-20260710-152504",
         "author": "cqian93",
         "cpuName": "AMD Ryzen 5 5600",
@@ -3136,7 +3163,7 @@
         "repoPath": "reports/cqian93/cqian93-20260710-152504.json"
       },
       {
-        "rank": 117,
+        "rank": 118,
         "id": "IOOIZIO-20260710-213453",
         "author": "IOOIZIO",
         "cpuName": "Intel Core i7-14650HX",
@@ -3163,7 +3190,7 @@
         "repoPath": "reports/IOOIZIO/IOOIZIO-20260710-213453.json"
       },
       {
-        "rank": 118,
+        "rank": 119,
         "id": "xuebi1326-20260719-050815",
         "author": "xuebi1326",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -3190,7 +3217,7 @@
         "repoPath": "reports/xuebi1326/xuebi1326-20260719-050815.json"
       },
       {
-        "rank": 119,
+        "rank": 120,
         "id": "yyy123zc-20260713-225645",
         "author": "yyy123zc",
         "cpuName": "AMD Ryzen 5 3500X",
@@ -3217,7 +3244,7 @@
         "repoPath": "reports/yyy123zc/yyy123zc-20260713-225645.json"
       },
       {
-        "rank": 120,
+        "rank": 121,
         "id": "NaiveDrifter-20260715-213805",
         "author": "NaiveDrifter",
         "cpuName": "AMD Ryzen 5 5500X3D",
@@ -3244,7 +3271,7 @@
         "repoPath": "reports/NaiveDrifter/NaiveDrifter-20260715-213805.json"
       },
       {
-        "rank": 121,
+        "rank": 122,
         "id": "zazahuizaichi-20260713-160926",
         "author": "zazahuizaichi",
         "cpuName": "Intel Xeon E5-2673 v4",
@@ -3271,7 +3298,7 @@
         "repoPath": "reports/zazahuizaichi/zazahuizaichi-20260713-160926.json"
       },
       {
-        "rank": 122,
+        "rank": 123,
         "id": "DongMui-20260711-171725",
         "author": "DongMui",
         "cpuName": "12th Gen Intel Core i7-12700H",
@@ -3298,7 +3325,7 @@
         "repoPath": "reports/DongMui/DongMui-20260711-171725.json"
       },
       {
-        "rank": 123,
+        "rank": 124,
         "id": "SipherNa-20260710-082710",
         "author": "SipherNa",
         "cpuName": "AMD Ryzen 5 5600",
@@ -3325,7 +3352,7 @@
         "repoPath": "reports/SipherNa/SipherNa-20260710-082710.json"
       },
       {
-        "rank": 124,
+        "rank": 125,
         "id": "luolangaga-20260709-233646",
         "author": "luolangaga",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -3352,7 +3379,7 @@
         "repoPath": "reports/luolangaga/luolangaga-20260709-233646.json"
       },
       {
-        "rank": 125,
+        "rank": 126,
         "id": "miuiv5ztl-20260714-194447",
         "author": "miuiv5ztl",
         "cpuName": "Intel Core Ultra 7 155H",
@@ -3379,7 +3406,7 @@
         "repoPath": "reports/miuiv5ztl/miuiv5ztl-20260714-194447.json"
       },
       {
-        "rank": 126,
+        "rank": 127,
         "id": "luolangaga-20260709-231859",
         "author": "luolangaga",
         "cpuName": "Intel Core Ultra 5 338H",
@@ -3406,7 +3433,7 @@
         "repoPath": "reports/luolangaga/luolangaga-20260709-231859.json"
       },
       {
-        "rank": 127,
+        "rank": 128,
         "id": "2581374794-20260712-113741",
         "author": "2581374794",
         "cpuName": "13th Gen Intel Core i5-13500HX",
@@ -3433,7 +3460,7 @@
         "repoPath": "reports/2581374794/2581374794-20260712-113741.json"
       },
       {
-        "rank": 128,
+        "rank": 129,
         "id": "491666886-20260709-094041",
         "author": "491666886",
         "cpuName": "12th Gen Intel Core i5-12500H",
@@ -3460,7 +3487,7 @@
         "repoPath": "reports/491666886/491666886-20260709-094041.json"
       },
       {
-        "rank": 129,
+        "rank": 130,
         "id": "Qian-Xi-QuQ-20260711-173510",
         "author": "Qian-Xi-QuQ",
         "cpuName": "12th Gen Intel(R) Core(TM) i3-12100F",
@@ -3487,7 +3514,7 @@
         "repoPath": "reports/Qian-Xi-QuQ/Qian-Xi-QuQ-20260711-173510.json"
       },
       {
-        "rank": 130,
+        "rank": 131,
         "id": "Kudonly-20260715-110617",
         "author": "Kudonly",
         "cpuName": "Intel Core Ultra 5 125H",
@@ -3514,7 +3541,7 @@
         "repoPath": "reports/Kudonly/Kudonly-20260715-110617.json"
       },
       {
-        "rank": 131,
+        "rank": 132,
         "id": "WinMCHG31400-20260714-123452",
         "author": "WinMCHG31400",
         "cpuName": "AMD Ryzen 7 8845H w/ Radeon 780M Graphics",
@@ -3541,7 +3568,7 @@
         "repoPath": "reports/WinMCHG31400/WinMCHG31400-20260714-123452.json"
       },
       {
-        "rank": 132,
+        "rank": 133,
         "id": "xiaolingawa-20260711-124055",
         "author": "xiaolingawa",
         "cpuName": "AMD Ryzen 7 8745H w/ Radeon 780M Graphics",
@@ -3568,7 +3595,7 @@
         "repoPath": "reports/xiaolingawa/xiaolingawa-20260711-124055.json"
       },
       {
-        "rank": 133,
+        "rank": 134,
         "id": "HugoXOX3-20260716-103141",
         "author": "HugoXOX3",
         "cpuName": "Intel Core i5-9400F",
@@ -3595,7 +3622,7 @@
         "repoPath": "reports/HugoXOX3/HugoXOX3-20260716-103141.json"
       },
       {
-        "rank": 134,
+        "rank": 135,
         "id": "zeng-xingling-20260709-224729",
         "author": "zeng-xingling",
         "cpuName": "12th Gen Intel Core i5-12450H",
@@ -3622,7 +3649,7 @@
         "repoPath": "reports/zeng-xingling/zeng-xingling-20260709-224729.json"
       },
       {
-        "rank": 135,
+        "rank": 136,
         "id": "doublex2gao-20260719-171105",
         "author": "doublex2gao",
         "cpuName": "AMD Ryzen 5 7600",
@@ -3649,7 +3676,7 @@
         "repoPath": "reports/doublex2gao/doublex2gao-20260719-171105.json"
       },
       {
-        "rank": 136,
+        "rank": 137,
         "id": "wjs6awa-20260714-100324",
         "author": "wjs6awa",
         "cpuName": "Intel Xeon E5-2660 0",
@@ -3676,7 +3703,7 @@
         "repoPath": "reports/wjs6awa/wjs6awa-20260714-100324.json"
       },
       {
-        "rank": 137,
+        "rank": 138,
         "id": "G-y-b-20260714-174655",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -3703,7 +3730,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260714-174655.json"
       },
       {
-        "rank": 138,
+        "rank": 139,
         "id": "G-y-b-20260713-132811",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -3730,7 +3757,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260713-132811.json"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "id": "ms-win-20260719-210928",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -3757,7 +3784,7 @@
         "repoPath": "reports/ms-win/ms-win-20260719-210928.json"
       },
       {
-        "rank": 140,
+        "rank": 141,
         "id": "hindows11-20260713-113354",
         "author": "hindows11",
         "cpuName": "Intel Core i5-8250U",
@@ -5488,6 +5515,33 @@
       },
       {
         "rank": 64,
+        "id": "WinGua-20260720-104950",
+        "author": "WinGua",
+        "cpuName": "13th Gen Intel Core i7-13700HX",
+        "gpuName": "NVIDIA GeForce RTX 4070 Laptop GPU",
+        "gamingScore": 166,
+        "officeScore": 122,
+        "cpuSingleCoreScore": 107,
+        "cpuMultiCoreScore": 118,
+        "gpuRenderScore": 261,
+        "memoryCapacityScore": 99,
+        "diskSeqReadScore": 114,
+        "diskSeqWriteScore": 73,
+        "disk4KReadScore": 170,
+        "disk4KWriteScore": 156,
+        "browserTotalScore": 120,
+        "gamingGrade": "S",
+        "officeGrade": "A+",
+        "submittedAt": "2026-07-20T03:29:53.5196301+00:00",
+        "osName": "Microsoft Windows 11 家庭版 中文版",
+        "motherboardName": "Micro-Star International Co., Ltd. MS-17S2 BIOS E17S2IMS.114",
+        "memoryInfo": "31.7 GB | DDR5 | 三星(Samsung) M425R2GA3BB0-CQKOL 16 GB 4800 MHz | 三星(Samsung) M425R2GA3BB0-CQKOL 16 GB 4800 MHz",
+        "diskInfo": "NVMe SAMSUNG MZVL21T0HCLR-00B00 HDD 953.9 GB SCSI | NVMe ZHITAI TiPlus7100 2TB HDD 1907.7 GB SCSI",
+        "displayInfo": "友达(AU Optronics) 2560 x 1600 240 Hz 主显",
+        "repoPath": "reports/WinGua/WinGua-20260720-104950.json"
+      },
+      {
+        "rank": 65,
         "id": "roby30307-20260713-183316",
         "author": "roby30307",
         "cpuName": "13th Gen Intel Core i9-13980HX",
@@ -5514,7 +5568,7 @@
         "repoPath": "reports/roby30307/roby30307-20260713-183316.json"
       },
       {
-        "rank": 65,
+        "rank": 66,
         "id": "ArcLight-netizen-20260712-103517",
         "author": "ArcLight-netizen",
         "cpuName": "AMD Ryzen 5 9600X",
@@ -5541,7 +5595,7 @@
         "repoPath": "reports/ArcLight-netizen/ArcLight-netizen-20260712-103517.json"
       },
       {
-        "rank": 66,
+        "rank": 67,
         "id": "Asher-08-20260710-215558",
         "author": "Asher-08",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -5568,7 +5622,7 @@
         "repoPath": "reports/Asher-08/Asher-08-20260710-215558.json"
       },
       {
-        "rank": 67,
+        "rank": 68,
         "id": "x1ex1eyu-20260713-070348",
         "author": "x1ex1eyu",
         "cpuName": "AMD Ryzen 7 7700",
@@ -5595,7 +5649,7 @@
         "repoPath": "reports/x1ex1eyu/x1ex1eyu-20260713-070348.json"
       },
       {
-        "rank": 68,
+        "rank": 69,
         "id": "KindaCello4028-20260711-135308",
         "author": "KindaCello4028",
         "cpuName": "AMD Ryzen 9 9955HX",
@@ -5622,7 +5676,7 @@
         "repoPath": "reports/KindaCello4028/KindaCello4028-20260711-135308.json"
       },
       {
-        "rank": 69,
+        "rank": 70,
         "id": "Kudonly-20260715-111040",
         "author": "Kudonly",
         "cpuName": "12th Gen Intel Core i5-12600KF",
@@ -5649,7 +5703,7 @@
         "repoPath": "reports/Kudonly/Kudonly-20260715-111040.json"
       },
       {
-        "rank": 70,
+        "rank": 71,
         "id": "q978383152-20260714-131852",
         "author": "q978383152",
         "cpuName": "13th Gen Intel Core i9-13980HX",
@@ -5676,7 +5730,7 @@
         "repoPath": "reports/q978383152/q978383152-20260714-131852.json"
       },
       {
-        "rank": 71,
+        "rank": 72,
         "id": "xiaohuangbo-20260715-113212",
         "author": "xiaohuangbo",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -5703,7 +5757,7 @@
         "repoPath": "reports/xiaohuangbo/xiaohuangbo-20260715-113212.json"
       },
       {
-        "rank": 72,
+        "rank": 73,
         "id": "PDSB001-20260710-144250",
         "author": "PDSB001",
         "cpuName": "Intel Core Ultra 7 255HX",
@@ -5730,7 +5784,7 @@
         "repoPath": "reports/PDSB001/PDSB001-20260710-144250.json"
       },
       {
-        "rank": 73,
+        "rank": 74,
         "id": "cheekibreeki480-20260711-003742",
         "author": "cheekibreeki480",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -5757,7 +5811,7 @@
         "repoPath": "reports/cheekibreeki480/cheekibreeki480-20260711-003742.json"
       },
       {
-        "rank": 74,
+        "rank": 75,
         "id": "ArcLight-netizen-20260712-093012",
         "author": "ArcLight-netizen",
         "cpuName": "AMD Ryzen 5 9600X",
@@ -5784,7 +5838,7 @@
         "repoPath": "reports/ArcLight-netizen/ArcLight-netizen-20260712-093012.json"
       },
       {
-        "rank": 75,
+        "rank": 76,
         "id": "DaDPrime-20260715-001347",
         "author": "DaDPrime",
         "cpuName": "AMD Ryzen 7 8845H w/ Radeon 780M Graphics",
@@ -5811,7 +5865,7 @@
         "repoPath": "reports/DaDPrime/DaDPrime-20260715-001347.json"
       },
       {
-        "rank": 76,
+        "rank": 77,
         "id": "FUFNOU-20260710-111548",
         "author": "FUFNOU",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -5838,7 +5892,7 @@
         "repoPath": "reports/FUFNOU/FUFNOU-20260710-111548.json"
       },
       {
-        "rank": 77,
+        "rank": 78,
         "id": "IOOIZIO-20260710-213453",
         "author": "IOOIZIO",
         "cpuName": "Intel Core i7-14650HX",
@@ -5865,7 +5919,7 @@
         "repoPath": "reports/IOOIZIO/IOOIZIO-20260710-213453.json"
       },
       {
-        "rank": 78,
+        "rank": 79,
         "id": "jjh060807-dev-20260711-184251",
         "author": "jjh060807-dev",
         "cpuName": "Intel Core 7 240H",
@@ -5892,7 +5946,7 @@
         "repoPath": "reports/jjh060807-dev/jjh060807-dev-20260711-184251.json"
       },
       {
-        "rank": 79,
+        "rank": 80,
         "id": "liu7863-20260712-133554",
         "author": "liu7863",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -5919,7 +5973,7 @@
         "repoPath": "reports/liu7863/liu7863-20260712-133554.json"
       },
       {
-        "rank": 80,
+        "rank": 81,
         "id": "Freewind72-20260710-231927",
         "author": "Freewind72",
         "cpuName": "12th Gen Intel Core i5-12600K",
@@ -5946,7 +6000,7 @@
         "repoPath": "reports/Freewind72/Freewind72-20260710-231927.json"
       },
       {
-        "rank": 81,
+        "rank": 82,
         "id": "megane3251-20260713-032437",
         "author": "megane3251",
         "cpuName": "AMD Ryzen 7 7800X3D",
@@ -5973,7 +6027,7 @@
         "repoPath": "reports/megane3251/megane3251-20260713-032437.json"
       },
       {
-        "rank": 82,
+        "rank": 83,
         "id": "AuthoRay-20260714-164236",
         "author": "AuthoRay",
         "cpuName": "Intel Core i7-14650HX",
@@ -6000,7 +6054,7 @@
         "repoPath": "reports/AuthoRay/AuthoRay-20260714-164236.json"
       },
       {
-        "rank": 83,
+        "rank": 84,
         "id": "miuiv5ztl-20260714-194447",
         "author": "miuiv5ztl",
         "cpuName": "Intel Core Ultra 7 155H",
@@ -6027,7 +6081,7 @@
         "repoPath": "reports/miuiv5ztl/miuiv5ztl-20260714-194447.json"
       },
       {
-        "rank": 84,
+        "rank": 85,
         "id": "sunshengyan-20260712-124320",
         "author": "sunshengyan",
         "cpuName": "Intel Core Ultra 9 285H",
@@ -6054,7 +6108,7 @@
         "repoPath": "reports/sunshengyan/sunshengyan-20260712-124320.json"
       },
       {
-        "rank": 85,
+        "rank": 86,
         "id": "x1ex1eyu-20260713-065505",
         "author": "x1ex1eyu",
         "cpuName": "AMD Ryzen 7 7700",
@@ -6081,7 +6135,7 @@
         "repoPath": "reports/x1ex1eyu/x1ex1eyu-20260713-065505.json"
       },
       {
-        "rank": 86,
+        "rank": 87,
         "id": "xianyu2383-20260711-191149",
         "author": "xianyu2383",
         "cpuName": "AMD Ryzen 9 8945HX with Radeon Graphics",
@@ -6108,7 +6162,7 @@
         "repoPath": "reports/xianyu2383/xianyu2383-20260711-191149.json"
       },
       {
-        "rank": 87,
+        "rank": 88,
         "id": "217432-20260711-211208",
         "author": "217432",
         "cpuName": "13th Gen Intel Core i5-13400F",
@@ -6135,7 +6189,7 @@
         "repoPath": "reports/217432/217432-20260711-211208.json"
       },
       {
-        "rank": 88,
+        "rank": 89,
         "id": "RekiP-20260720-010000",
         "author": "RekiP",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -6162,7 +6216,7 @@
         "repoPath": "reports/RekiP/RekiP-20260720-010000.json"
       },
       {
-        "rank": 89,
+        "rank": 90,
         "id": "mianhuatangcrystal117-cloud-20260711-202716",
         "author": "mianhuatangcrystal117-cloud",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -6189,7 +6243,7 @@
         "repoPath": "reports/mianhuatangcrystal117-cloud/mianhuatangcrystal117-cloud-20260711-202716.json"
       },
       {
-        "rank": 90,
+        "rank": 91,
         "id": "smile-wq-20260715-221232",
         "author": "smile-wq",
         "cpuName": "Intel Core i7-14700HX",
@@ -6216,7 +6270,7 @@
         "repoPath": "reports/smile-wq/smile-wq-20260715-221232.json"
       },
       {
-        "rank": 91,
+        "rank": 92,
         "id": "lingkawaii-20260715-165659",
         "author": "lingkawaii",
         "cpuName": "AMD Ryzen 5 9600X",
@@ -6243,7 +6297,7 @@
         "repoPath": "reports/lingkawaii/lingkawaii-20260715-165659.json"
       },
       {
-        "rank": 92,
+        "rank": 93,
         "id": "megane3251-20260713-030234",
         "author": "megane3251",
         "cpuName": "AMD Ryzen 7 7800X3D",
@@ -6270,7 +6324,7 @@
         "repoPath": "reports/megane3251/megane3251-20260713-030234.json"
       },
       {
-        "rank": 93,
+        "rank": 94,
         "id": "ldzandqwe-ship-it-20260715-235554",
         "author": "ldzandqwe-ship-it",
         "cpuName": "AMD Ryzen 7 7800X3D",
@@ -6297,7 +6351,7 @@
         "repoPath": "reports/ldzandqwe-ship-it/ldzandqwe-ship-it-20260715-235554.json"
       },
       {
-        "rank": 94,
+        "rank": 95,
         "id": "Alpha-Qian-20260711-172441",
         "author": "Alpha-Qian",
         "cpuName": "13th Gen Intel Core i9-13900HX",
@@ -6324,7 +6378,7 @@
         "repoPath": "reports/Alpha-Qian/Alpha-Qian-20260711-172441.json"
       },
       {
-        "rank": 95,
+        "rank": 96,
         "id": "Mio114-20260710-064735",
         "author": "Mio114",
         "cpuName": "AMD Ryzen 9 8945H w/ Radeon 780M Graphics",
@@ -6351,7 +6405,7 @@
         "repoPath": "reports/Mio114/Mio114-20260710-064735.json"
       },
       {
-        "rank": 96,
+        "rank": 97,
         "id": "hunanhjx-20260711-005632",
         "author": "hunanhjx",
         "cpuName": "Intel Core i7-14650HX",
@@ -6378,7 +6432,7 @@
         "repoPath": "reports/hunanhjx/hunanhjx-20260711-005632.json"
       },
       {
-        "rank": 97,
+        "rank": 98,
         "id": "qulongkun-20260714-101927",
         "author": "qulongkun",
         "cpuName": "Intel Core i5-14600KF",
@@ -6405,7 +6459,7 @@
         "repoPath": "reports/qulongkun/qulongkun-20260714-101927.json"
       },
       {
-        "rank": 98,
+        "rank": 99,
         "id": "zhouben-110-20260711-191527",
         "author": "zhouben-110",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -6432,7 +6486,7 @@
         "repoPath": "reports/zhouben-110/zhouben-110-20260711-191527.json"
       },
       {
-        "rank": 99,
+        "rank": 100,
         "id": "RenYong-GitHub-20260711-060945",
         "author": "RenYong-GitHub",
         "cpuName": "12th Gen Intel Core i7-12650H",
@@ -6459,7 +6513,7 @@
         "repoPath": "reports/RenYong-GitHub/RenYong-GitHub-20260711-060945.json"
       },
       {
-        "rank": 100,
+        "rank": 101,
         "id": "kearnysong-20260712-005806",
         "author": "kearnysong",
         "cpuName": "Intel Core Ultra 7 251HX",
@@ -6486,7 +6540,7 @@
         "repoPath": "reports/kearnysong/kearnysong-20260712-005806.json"
       },
       {
-        "rank": 101,
+        "rank": 102,
         "id": "luolangaga-20260709-231859",
         "author": "luolangaga",
         "cpuName": "Intel Core Ultra 5 338H",
@@ -6513,7 +6567,7 @@
         "repoPath": "reports/luolangaga/luolangaga-20260709-231859.json"
       },
       {
-        "rank": 102,
+        "rank": 103,
         "id": "breeze313-20260711-174727",
         "author": "breeze313",
         "cpuName": "AMD Ryzen 9 7940HX with Radeon Graphics",
@@ -6540,7 +6594,7 @@
         "repoPath": "reports/breeze313/breeze313-20260711-174727.json"
       },
       {
-        "rank": 103,
+        "rank": 104,
         "id": "woods1w-20260718-224159",
         "author": "woods1w",
         "cpuName": "13th Gen Intel Core i9-13900HX",
@@ -6567,7 +6621,7 @@
         "repoPath": "reports/woods1w/woods1w-20260718-224159.json"
       },
       {
-        "rank": 104,
+        "rank": 105,
         "id": "blacater-20260715-062033",
         "author": "blacater",
         "cpuName": "12th Gen Intel Core i5-12400F",
@@ -6594,7 +6648,7 @@
         "repoPath": "reports/blacater/blacater-20260715-062033.json"
       },
       {
-        "rank": 105,
+        "rank": 106,
         "id": "HU233MAX-20260711-174143",
         "author": "HU233MAX",
         "cpuName": "AMD Ryzen 5 5500X3D",
@@ -6621,7 +6675,7 @@
         "repoPath": "reports/HU233MAX/HU233MAX-20260711-174143.json"
       },
       {
-        "rank": 106,
+        "rank": 107,
         "id": "byybht-20260719-214147",
         "author": "byybht",
         "cpuName": "AMD Ryzen 7 5700X",
@@ -6648,7 +6702,7 @@
         "repoPath": "reports/byybht/byybht-20260719-214147.json"
       },
       {
-        "rank": 107,
+        "rank": 108,
         "id": "haihaihailailo-20260716-211337",
         "author": "haihaihailailo",
         "cpuName": "AMD Ryzen 7 H 255 W/ Radeon 780M",
@@ -6675,7 +6729,7 @@
         "repoPath": "reports/haihaihailailo/haihaihailailo-20260716-211337.json"
       },
       {
-        "rank": 108,
+        "rank": 109,
         "id": "w007-01-20260711-164628",
         "author": "w007-01",
         "cpuName": "AMD Ryzen 9 8940HX with Radeon Graphics",
@@ -6702,7 +6756,7 @@
         "repoPath": "reports/w007-01/w007-01-20260711-164628.json"
       },
       {
-        "rank": 109,
+        "rank": 110,
         "id": "jinmmliang-20260702-183632",
         "author": "jinmmliang",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -6729,7 +6783,7 @@
         "repoPath": "reports/jinmmliang/jinmmliang-20260702-183632.json"
       },
       {
-        "rank": 110,
+        "rank": 111,
         "id": "luolangaga-20260709-233646",
         "author": "luolangaga",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -6756,7 +6810,7 @@
         "repoPath": "reports/luolangaga/luolangaga-20260709-233646.json"
       },
       {
-        "rank": 111,
+        "rank": 112,
         "id": "SXT3808-20260712-162855",
         "author": "SXT3808",
         "cpuName": "12th Gen Intel Core i5-12400F",
@@ -6783,7 +6837,7 @@
         "repoPath": "reports/SXT3808/SXT3808-20260712-162855.json"
       },
       {
-        "rank": 112,
+        "rank": 113,
         "id": "SipherNa-20260710-082710",
         "author": "SipherNa",
         "cpuName": "AMD Ryzen 5 5600",
@@ -6810,7 +6864,7 @@
         "repoPath": "reports/SipherNa/SipherNa-20260710-082710.json"
       },
       {
-        "rank": 113,
+        "rank": 114,
         "id": "NaiveDrifter-20260715-213805",
         "author": "NaiveDrifter",
         "cpuName": "AMD Ryzen 5 5500X3D",
@@ -6837,7 +6891,7 @@
         "repoPath": "reports/NaiveDrifter/NaiveDrifter-20260715-213805.json"
       },
       {
-        "rank": 114,
+        "rank": 115,
         "id": "491666886-20260709-094041",
         "author": "491666886",
         "cpuName": "12th Gen Intel Core i5-12500H",
@@ -6864,7 +6918,7 @@
         "repoPath": "reports/491666886/491666886-20260709-094041.json"
       },
       {
-        "rank": 115,
+        "rank": 116,
         "id": "DongMui-20260711-171725",
         "author": "DongMui",
         "cpuName": "12th Gen Intel Core i7-12700H",
@@ -6891,7 +6945,7 @@
         "repoPath": "reports/DongMui/DongMui-20260711-171725.json"
       },
       {
-        "rank": 116,
+        "rank": 117,
         "id": "xuebi1326-20260719-050815",
         "author": "xuebi1326",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -6918,7 +6972,7 @@
         "repoPath": "reports/xuebi1326/xuebi1326-20260719-050815.json"
       },
       {
-        "rank": 117,
+        "rank": 118,
         "id": "xushengping666-20260710-104525",
         "author": "xushengping666",
         "cpuName": "Intel Core i7-14650HX",
@@ -6945,7 +6999,7 @@
         "repoPath": "reports/xushengping666/xushengping666-20260710-104525.json"
       },
       {
-        "rank": 118,
+        "rank": 119,
         "id": "Kudonly-20260715-110617",
         "author": "Kudonly",
         "cpuName": "Intel Core Ultra 5 125H",
@@ -6972,7 +7026,7 @@
         "repoPath": "reports/Kudonly/Kudonly-20260715-110617.json"
       },
       {
-        "rank": 119,
+        "rank": 120,
         "id": "Sandwitch-eat-20260712-161551",
         "author": "Sandwitch-eat",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -6999,7 +7053,7 @@
         "repoPath": "reports/Sandwitch-eat/Sandwitch-eat-20260712-161551.json"
       },
       {
-        "rank": 120,
+        "rank": 121,
         "id": "byybht-20260716-161452",
         "author": "byybht",
         "cpuName": "AMD Ryzen 7 5700X",
@@ -7026,7 +7080,7 @@
         "repoPath": "reports/byybht/byybht-20260716-161452.json"
       },
       {
-        "rank": 121,
+        "rank": 122,
         "id": "dai123-dai-20260716-082824",
         "author": "dai123-dai",
         "cpuName": "AMD Ryzen 5 5600",
@@ -7053,7 +7107,7 @@
         "repoPath": "reports/dai123-dai/dai123-dai-20260716-082824.json"
       },
       {
-        "rank": 122,
+        "rank": 123,
         "id": "xiaolingawa-20260711-124055",
         "author": "xiaolingawa",
         "cpuName": "AMD Ryzen 7 8745H w/ Radeon 780M Graphics",
@@ -7080,7 +7134,7 @@
         "repoPath": "reports/xiaolingawa/xiaolingawa-20260711-124055.json"
       },
       {
-        "rank": 123,
+        "rank": 124,
         "id": "WinMCHG31400-20260714-123452",
         "author": "WinMCHG31400",
         "cpuName": "AMD Ryzen 7 8845H w/ Radeon 780M Graphics",
@@ -7107,7 +7161,7 @@
         "repoPath": "reports/WinMCHG31400/WinMCHG31400-20260714-123452.json"
       },
       {
-        "rank": 124,
+        "rank": 125,
         "id": "doublex2gao-20260719-171105",
         "author": "doublex2gao",
         "cpuName": "AMD Ryzen 5 7600",
@@ -7134,7 +7188,7 @@
         "repoPath": "reports/doublex2gao/doublex2gao-20260719-171105.json"
       },
       {
-        "rank": 125,
+        "rank": 126,
         "id": "andrewlinzp-20260711-223053",
         "author": "andrewlinzp",
         "cpuName": "AMD Ryzen 5 5600G with Radeon Graphics",
@@ -7161,7 +7215,7 @@
         "repoPath": "reports/andrewlinzp/andrewlinzp-20260711-223053.json"
       },
       {
-        "rank": 126,
+        "rank": 127,
         "id": "cqian93-20260710-152504",
         "author": "cqian93",
         "cpuName": "AMD Ryzen 5 5600",
@@ -7188,7 +7242,7 @@
         "repoPath": "reports/cqian93/cqian93-20260710-152504.json"
       },
       {
-        "rank": 127,
+        "rank": 128,
         "id": "Qian-Xi-QuQ-20260711-173510",
         "author": "Qian-Xi-QuQ",
         "cpuName": "12th Gen Intel(R) Core(TM) i3-12100F",
@@ -7215,7 +7269,7 @@
         "repoPath": "reports/Qian-Xi-QuQ/Qian-Xi-QuQ-20260711-173510.json"
       },
       {
-        "rank": 128,
+        "rank": 129,
         "id": "yyy123zc-20260713-225645",
         "author": "yyy123zc",
         "cpuName": "AMD Ryzen 5 3500X",
@@ -7242,7 +7296,7 @@
         "repoPath": "reports/yyy123zc/yyy123zc-20260713-225645.json"
       },
       {
-        "rank": 129,
+        "rank": 130,
         "id": "zeng-xingling-20260709-224729",
         "author": "zeng-xingling",
         "cpuName": "12th Gen Intel Core i5-12450H",
@@ -7269,7 +7323,7 @@
         "repoPath": "reports/zeng-xingling/zeng-xingling-20260709-224729.json"
       },
       {
-        "rank": 130,
+        "rank": 131,
         "id": "Mark66616-20260711-014443",
         "author": "Mark66616",
         "cpuName": "AMD Ryzen 5 5600",
@@ -7296,7 +7350,7 @@
         "repoPath": "reports/Mark66616/Mark66616-20260711-014443.json"
       },
       {
-        "rank": 131,
+        "rank": 132,
         "id": "tomcatone-20260708-190440",
         "author": "tomcatone",
         "cpuName": "Intel Core Ultra 5 230F",
@@ -7323,7 +7377,7 @@
         "repoPath": "reports/tomcatone/tomcatone-20260708-190440.json"
       },
       {
-        "rank": 132,
+        "rank": 133,
         "id": "3804313647-20260713-093902",
         "author": "3804313647",
         "cpuName": "Genuine Intel 0000",
@@ -7350,7 +7404,7 @@
         "repoPath": "reports/3804313647/3804313647-20260713-093902.json"
       },
       {
-        "rank": 133,
+        "rank": 134,
         "id": "2581374794-20260712-113741",
         "author": "2581374794",
         "cpuName": "13th Gen Intel Core i5-13500HX",
@@ -7377,7 +7431,7 @@
         "repoPath": "reports/2581374794/2581374794-20260712-113741.json"
       },
       {
-        "rank": 134,
+        "rank": 135,
         "id": "HugoXOX3-20260716-103141",
         "author": "HugoXOX3",
         "cpuName": "Intel Core i5-9400F",
@@ -7404,7 +7458,7 @@
         "repoPath": "reports/HugoXOX3/HugoXOX3-20260716-103141.json"
       },
       {
-        "rank": 135,
+        "rank": 136,
         "id": "zazahuizaichi-20260713-160926",
         "author": "zazahuizaichi",
         "cpuName": "Intel Xeon E5-2673 v4",
@@ -7431,7 +7485,7 @@
         "repoPath": "reports/zazahuizaichi/zazahuizaichi-20260713-160926.json"
       },
       {
-        "rank": 136,
+        "rank": 137,
         "id": "wjs6awa-20260714-100324",
         "author": "wjs6awa",
         "cpuName": "Intel Xeon E5-2660 0",
@@ -7458,7 +7512,7 @@
         "repoPath": "reports/wjs6awa/wjs6awa-20260714-100324.json"
       },
       {
-        "rank": 137,
+        "rank": 138,
         "id": "G-y-b-20260714-174655",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -7485,7 +7539,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260714-174655.json"
       },
       {
-        "rank": 138,
+        "rank": 139,
         "id": "G-y-b-20260713-132811",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -7512,7 +7566,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260713-132811.json"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "id": "hindows11-20260713-113354",
         "author": "hindows11",
         "cpuName": "Intel Core i5-8250U",
@@ -7539,7 +7593,7 @@
         "repoPath": "reports/hindows11/hindows11-20260713-113354.json"
       },
       {
-        "rank": 140,
+        "rank": 141,
         "id": "ms-win-20260719-210928",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -8757,6 +8811,33 @@
       },
       {
         "rank": 45,
+        "id": "WinGua-20260720-104950",
+        "author": "WinGua",
+        "cpuName": "13th Gen Intel Core i7-13700HX",
+        "gpuName": "NVIDIA GeForce RTX 4070 Laptop GPU",
+        "gamingScore": 166,
+        "officeScore": 122,
+        "cpuSingleCoreScore": 107,
+        "cpuMultiCoreScore": 118,
+        "gpuRenderScore": 261,
+        "memoryCapacityScore": 99,
+        "diskSeqReadScore": 114,
+        "diskSeqWriteScore": 73,
+        "disk4KReadScore": 170,
+        "disk4KWriteScore": 156,
+        "browserTotalScore": 120,
+        "gamingGrade": "S",
+        "officeGrade": "A+",
+        "submittedAt": "2026-07-20T03:29:53.5196301+00:00",
+        "osName": "Microsoft Windows 11 家庭版 中文版",
+        "motherboardName": "Micro-Star International Co., Ltd. MS-17S2 BIOS E17S2IMS.114",
+        "memoryInfo": "31.7 GB | DDR5 | 三星(Samsung) M425R2GA3BB0-CQKOL 16 GB 4800 MHz | 三星(Samsung) M425R2GA3BB0-CQKOL 16 GB 4800 MHz",
+        "diskInfo": "NVMe SAMSUNG MZVL21T0HCLR-00B00 HDD 953.9 GB SCSI | NVMe ZHITAI TiPlus7100 2TB HDD 1907.7 GB SCSI",
+        "displayInfo": "友达(AU Optronics) 2560 x 1600 240 Hz 主显",
+        "repoPath": "reports/WinGua/WinGua-20260720-104950.json"
+      },
+      {
+        "rank": 46,
         "id": "OwenLinZero-20260714-221547",
         "author": "OwenLinZero",
         "cpuName": "Intel Core i5-14600K",
@@ -8783,7 +8864,7 @@
         "repoPath": "reports/OwenLinZero/OwenLinZero-20260714-221547.json"
       },
       {
-        "rank": 46,
+        "rank": 47,
         "id": "RainZhu862-20260712-100107",
         "author": "RainZhu862",
         "cpuName": "13th Gen Intel Core i5-13600K",
@@ -8810,7 +8891,7 @@
         "repoPath": "reports/RainZhu862/RainZhu862-20260712-100107.json"
       },
       {
-        "rank": 47,
+        "rank": 48,
         "id": "Gwy1111-20260715-001056",
         "author": "Gwy1111",
         "cpuName": "Intel Core i5-14600KF",
@@ -8837,7 +8918,7 @@
         "repoPath": "reports/Gwy1111/Gwy1111-20260715-001056.json"
       },
       {
-        "rank": 48,
+        "rank": 49,
         "id": "hunanhjx-20260711-005632",
         "author": "hunanhjx",
         "cpuName": "Intel Core i7-14650HX",
@@ -8864,7 +8945,7 @@
         "repoPath": "reports/hunanhjx/hunanhjx-20260711-005632.json"
       },
       {
-        "rank": 49,
+        "rank": 50,
         "id": "sunshengyan-20260712-124320",
         "author": "sunshengyan",
         "cpuName": "Intel Core Ultra 9 285H",
@@ -8891,7 +8972,7 @@
         "repoPath": "reports/sunshengyan/sunshengyan-20260712-124320.json"
       },
       {
-        "rank": 50,
+        "rank": 51,
         "id": "Alioth-MuCanoe-20260712-213956",
         "author": "Alioth-MuCanoe",
         "cpuName": "13th Gen Intel Core i5-13600KF",
@@ -8918,7 +8999,7 @@
         "repoPath": "reports/Alioth-MuCanoe/Alioth-MuCanoe-20260712-213956.json"
       },
       {
-        "rank": 51,
+        "rank": 52,
         "id": "Asher-08-20260710-215558",
         "author": "Asher-08",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -8945,7 +9026,7 @@
         "repoPath": "reports/Asher-08/Asher-08-20260710-215558.json"
       },
       {
-        "rank": 52,
+        "rank": 53,
         "id": "SaboCJ-20260713-143236",
         "author": "SaboCJ",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -8972,7 +9053,7 @@
         "repoPath": "reports/SaboCJ/SaboCJ-20260713-143236.json"
       },
       {
-        "rank": 53,
+        "rank": 54,
         "id": "Evoltsuki-20260712-220301",
         "author": "Evoltsuki",
         "cpuName": "Genuine Intel 0000",
@@ -8999,7 +9080,7 @@
         "repoPath": "reports/Evoltsuki/Evoltsuki-20260712-220301.json"
       },
       {
-        "rank": 54,
+        "rank": 55,
         "id": "SaboCJ-20260711-004328",
         "author": "SaboCJ",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -9026,7 +9107,7 @@
         "repoPath": "reports/SaboCJ/SaboCJ-20260711-004328.json"
       },
       {
-        "rank": 55,
+        "rank": 56,
         "id": "zealot1620-20260710-213242",
         "author": "zealot1620",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -9053,7 +9134,7 @@
         "repoPath": "reports/zealot1620/zealot1620-20260710-213242.json"
       },
       {
-        "rank": 56,
+        "rank": 57,
         "id": "8848van-20260710-135242",
         "author": "8848van",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -9080,7 +9161,7 @@
         "repoPath": "reports/8848van/8848van-20260710-135242.json"
       },
       {
-        "rank": 57,
+        "rank": 58,
         "id": "OneT1er-20260715-104746",
         "author": "OneT1er",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -9107,7 +9188,7 @@
         "repoPath": "reports/OneT1er/OneT1er-20260715-104746.json"
       },
       {
-        "rank": 58,
+        "rank": 59,
         "id": "luolangaga-20260709-233646",
         "author": "luolangaga",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -9134,7 +9215,7 @@
         "repoPath": "reports/luolangaga/luolangaga-20260709-233646.json"
       },
       {
-        "rank": 59,
+        "rank": 60,
         "id": "cheekibreeki480-20260711-003742",
         "author": "cheekibreeki480",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -9161,7 +9242,7 @@
         "repoPath": "reports/cheekibreeki480/cheekibreeki480-20260711-003742.json"
       },
       {
-        "rank": 60,
+        "rank": 61,
         "id": "smile-wq-20260715-221232",
         "author": "smile-wq",
         "cpuName": "Intel Core i7-14700HX",
@@ -9188,7 +9269,7 @@
         "repoPath": "reports/smile-wq/smile-wq-20260715-221232.json"
       },
       {
-        "rank": 61,
+        "rank": 62,
         "id": "xiaohuangbo-20260715-113212",
         "author": "xiaohuangbo",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -9215,7 +9296,7 @@
         "repoPath": "reports/xiaohuangbo/xiaohuangbo-20260715-113212.json"
       },
       {
-        "rank": 62,
+        "rank": 63,
         "id": "zealot1620-20260714-024203",
         "author": "zealot1620",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -9242,7 +9323,7 @@
         "repoPath": "reports/zealot1620/zealot1620-20260714-024203.json"
       },
       {
-        "rank": 63,
+        "rank": 64,
         "id": "AuthoRay-20260714-164236",
         "author": "AuthoRay",
         "cpuName": "Intel Core i7-14650HX",
@@ -9269,7 +9350,7 @@
         "repoPath": "reports/AuthoRay/AuthoRay-20260714-164236.json"
       },
       {
-        "rank": 64,
+        "rank": 65,
         "id": "mianhuatangcrystal117-cloud-20260711-202716",
         "author": "mianhuatangcrystal117-cloud",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -9296,7 +9377,7 @@
         "repoPath": "reports/mianhuatangcrystal117-cloud/mianhuatangcrystal117-cloud-20260711-202716.json"
       },
       {
-        "rank": 65,
+        "rank": 66,
         "id": "qulongkun-20260714-101927",
         "author": "qulongkun",
         "cpuName": "Intel Core i5-14600KF",
@@ -9323,7 +9404,7 @@
         "repoPath": "reports/qulongkun/qulongkun-20260714-101927.json"
       },
       {
-        "rank": 66,
+        "rank": 67,
         "id": "abc1317679842-ui-20260720-114436",
         "author": "abc1317679842-ui",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -9350,7 +9431,7 @@
         "repoPath": "reports/abc1317679842-ui/abc1317679842-ui-20260720-114436.json"
       },
       {
-        "rank": 67,
+        "rank": 68,
         "id": "anzheerdiya-20260712-214242",
         "author": "anzheerdiya",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -9377,7 +9458,7 @@
         "repoPath": "reports/anzheerdiya/anzheerdiya-20260712-214242.json"
       },
       {
-        "rank": 68,
+        "rank": 69,
         "id": "OneT1er-20260710-194709",
         "author": "OneT1er",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -9404,7 +9485,7 @@
         "repoPath": "reports/OneT1er/OneT1er-20260710-194709.json"
       },
       {
-        "rank": 69,
+        "rank": 70,
         "id": "augetyz-20260714-114821",
         "author": "augetyz",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -9431,7 +9512,7 @@
         "repoPath": "reports/augetyz/augetyz-20260714-114821.json"
       },
       {
-        "rank": 70,
+        "rank": 71,
         "id": "FUFNOU-20260710-111548",
         "author": "FUFNOU",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -9458,7 +9539,7 @@
         "repoPath": "reports/FUFNOU/FUFNOU-20260710-111548.json"
       },
       {
-        "rank": 71,
+        "rank": 72,
         "id": "RSSeeker-20260709-181542",
         "author": "RSSeeker",
         "cpuName": "Intel Core Ultra 9 386H",
@@ -9485,7 +9566,7 @@
         "repoPath": "reports/RSSeeker/RSSeeker-20260709-181542.json"
       },
       {
-        "rank": 72,
+        "rank": 73,
         "id": "RekiP-20260720-010000",
         "author": "RekiP",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -9512,7 +9593,7 @@
         "repoPath": "reports/RekiP/RekiP-20260720-010000.json"
       },
       {
-        "rank": 73,
+        "rank": 74,
         "id": "racmanlai-20260711-210822",
         "author": "racmanlai",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -9539,7 +9620,7 @@
         "repoPath": "reports/racmanlai/racmanlai-20260711-210822.json"
       },
       {
-        "rank": 74,
+        "rank": 75,
         "id": "hinokaze-20260711-193400",
         "author": "hinokaze",
         "cpuName": "13th Gen Intel Core i5-13600KF",
@@ -9566,7 +9647,7 @@
         "repoPath": "reports/hinokaze/hinokaze-20260711-193400.json"
       },
       {
-        "rank": 75,
+        "rank": 76,
         "id": "kdinsky-20260714-135840",
         "author": "kdinsky",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -9593,7 +9674,7 @@
         "repoPath": "reports/kdinsky/kdinsky-20260714-135840.json"
       },
       {
-        "rank": 76,
+        "rank": 77,
         "id": "chy9002-20260712-160548",
         "author": "chy9002",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -9620,7 +9701,7 @@
         "repoPath": "reports/chy9002/chy9002-20260712-160548.json"
       },
       {
-        "rank": 77,
+        "rank": 78,
         "id": "x1ex1eyu-20260713-070348",
         "author": "x1ex1eyu",
         "cpuName": "AMD Ryzen 7 7700",
@@ -9647,7 +9728,7 @@
         "repoPath": "reports/x1ex1eyu/x1ex1eyu-20260713-070348.json"
       },
       {
-        "rank": 78,
+        "rank": 79,
         "id": "zazahuizaichi-20260713-160926",
         "author": "zazahuizaichi",
         "cpuName": "Intel Xeon E5-2673 v4",
@@ -9674,7 +9755,7 @@
         "repoPath": "reports/zazahuizaichi/zazahuizaichi-20260713-160926.json"
       },
       {
-        "rank": 79,
+        "rank": 80,
         "id": "austin1286-20260714-120357",
         "author": "austin1286",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -9701,7 +9782,7 @@
         "repoPath": "reports/austin1286/austin1286-20260714-120357.json"
       },
       {
-        "rank": 80,
+        "rank": 81,
         "id": "miuiv5ztl-20260714-194447",
         "author": "miuiv5ztl",
         "cpuName": "Intel Core Ultra 7 155H",
@@ -9728,7 +9809,7 @@
         "repoPath": "reports/miuiv5ztl/miuiv5ztl-20260714-194447.json"
       },
       {
-        "rank": 81,
+        "rank": 82,
         "id": "tb18911217759-20260713-142452",
         "author": "tb18911217759",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -9755,7 +9836,7 @@
         "repoPath": "reports/tb18911217759/tb18911217759-20260713-142452.json"
       },
       {
-        "rank": 82,
+        "rank": 83,
         "id": "Zzz-0-0-20260715-141646",
         "author": "Zzz-0-0",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -9782,7 +9863,7 @@
         "repoPath": "reports/Zzz-0-0/Zzz-0-0-20260715-141646.json"
       },
       {
-        "rank": 83,
+        "rank": 84,
         "id": "mzero28-20260714-120157",
         "author": "mzero28",
         "cpuName": "AMD Ryzen 7 7700",
@@ -9809,7 +9890,7 @@
         "repoPath": "reports/mzero28/mzero28-20260714-120157.json"
       },
       {
-        "rank": 84,
+        "rank": 85,
         "id": "DaDPrime-20260715-001347",
         "author": "DaDPrime",
         "cpuName": "AMD Ryzen 7 8845H w/ Radeon 780M Graphics",
@@ -9836,7 +9917,7 @@
         "repoPath": "reports/DaDPrime/DaDPrime-20260715-001347.json"
       },
       {
-        "rank": 85,
+        "rank": 86,
         "id": "Kudonly-20260715-111040",
         "author": "Kudonly",
         "cpuName": "12th Gen Intel Core i5-12600KF",
@@ -9863,7 +9944,7 @@
         "repoPath": "reports/Kudonly/Kudonly-20260715-111040.json"
       },
       {
-        "rank": 86,
+        "rank": 87,
         "id": "tomcatone-20260708-190440",
         "author": "tomcatone",
         "cpuName": "Intel Core Ultra 5 230F",
@@ -9890,7 +9971,7 @@
         "repoPath": "reports/tomcatone/tomcatone-20260708-190440.json"
       },
       {
-        "rank": 87,
+        "rank": 88,
         "id": "str796-20260715-213441",
         "author": "str796",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -9917,7 +9998,7 @@
         "repoPath": "reports/str796/str796-20260715-213441.json"
       },
       {
-        "rank": 88,
+        "rank": 89,
         "id": "jinmmliang-20260702-183632",
         "author": "jinmmliang",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -9944,7 +10025,7 @@
         "repoPath": "reports/jinmmliang/jinmmliang-20260702-183632.json"
       },
       {
-        "rank": 89,
+        "rank": 90,
         "id": "Yoasobisong-20260715-175138",
         "author": "Yoasobisong",
         "cpuName": "Intel Core i5-14490F",
@@ -9971,7 +10052,7 @@
         "repoPath": "reports/Yoasobisong/Yoasobisong-20260715-175138.json"
       },
       {
-        "rank": 90,
+        "rank": 91,
         "id": "ldzandqwe-ship-it-20260715-235554",
         "author": "ldzandqwe-ship-it",
         "cpuName": "AMD Ryzen 7 7800X3D",
@@ -9998,7 +10079,7 @@
         "repoPath": "reports/ldzandqwe-ship-it/ldzandqwe-ship-it-20260715-235554.json"
       },
       {
-        "rank": 91,
+        "rank": 92,
         "id": "megane3251-20260713-032437",
         "author": "megane3251",
         "cpuName": "AMD Ryzen 7 7800X3D",
@@ -10025,7 +10106,7 @@
         "repoPath": "reports/megane3251/megane3251-20260713-032437.json"
       },
       {
-        "rank": 92,
+        "rank": 93,
         "id": "zhengshu2000-20260711-191651",
         "author": "zhengshu2000",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -10052,7 +10133,7 @@
         "repoPath": "reports/zhengshu2000/zhengshu2000-20260711-191651.json"
       },
       {
-        "rank": 93,
+        "rank": 94,
         "id": "Freewind72-20260710-231927",
         "author": "Freewind72",
         "cpuName": "12th Gen Intel Core i5-12600K",
@@ -10079,7 +10160,7 @@
         "repoPath": "reports/Freewind72/Freewind72-20260710-231927.json"
       },
       {
-        "rank": 94,
+        "rank": 95,
         "id": "luolangaga-20260709-231859",
         "author": "luolangaga",
         "cpuName": "Intel Core Ultra 5 338H",
@@ -10106,7 +10187,7 @@
         "repoPath": "reports/luolangaga/luolangaga-20260709-231859.json"
       },
       {
-        "rank": 95,
+        "rank": 96,
         "id": "megane3251-20260713-030234",
         "author": "megane3251",
         "cpuName": "AMD Ryzen 7 7800X3D",
@@ -10133,7 +10214,7 @@
         "repoPath": "reports/megane3251/megane3251-20260713-030234.json"
       },
       {
-        "rank": 96,
+        "rank": 97,
         "id": "823322932-20260712-024041",
         "author": "823322932",
         "cpuName": "AMD Ryzen 5 9600X",
@@ -10160,7 +10241,7 @@
         "repoPath": "reports/823322932/823322932-20260712-024041.json"
       },
       {
-        "rank": 97,
+        "rank": 98,
         "id": "lingkawaii-20260715-165659",
         "author": "lingkawaii",
         "cpuName": "AMD Ryzen 5 9600X",
@@ -10187,7 +10268,7 @@
         "repoPath": "reports/lingkawaii/lingkawaii-20260715-165659.json"
       },
       {
-        "rank": 98,
+        "rank": 99,
         "id": "x1ex1eyu-20260713-065505",
         "author": "x1ex1eyu",
         "cpuName": "AMD Ryzen 7 7700",
@@ -10214,7 +10295,7 @@
         "repoPath": "reports/x1ex1eyu/x1ex1eyu-20260713-065505.json"
       },
       {
-        "rank": 99,
+        "rank": 100,
         "id": "217432-20260711-211208",
         "author": "217432",
         "cpuName": "13th Gen Intel Core i5-13400F",
@@ -10241,7 +10322,7 @@
         "repoPath": "reports/217432/217432-20260711-211208.json"
       },
       {
-        "rank": 100,
+        "rank": 101,
         "id": "Mio114-20260710-064735",
         "author": "Mio114",
         "cpuName": "AMD Ryzen 9 8945H w/ Radeon 780M Graphics",
@@ -10268,7 +10349,7 @@
         "repoPath": "reports/Mio114/Mio114-20260710-064735.json"
       },
       {
-        "rank": 101,
+        "rank": 102,
         "id": "byybht-20260716-161452",
         "author": "byybht",
         "cpuName": "AMD Ryzen 7 5700X",
@@ -10295,7 +10376,7 @@
         "repoPath": "reports/byybht/byybht-20260716-161452.json"
       },
       {
-        "rank": 102,
+        "rank": 103,
         "id": "WinMCHG31400-20260714-123452",
         "author": "WinMCHG31400",
         "cpuName": "AMD Ryzen 7 8845H w/ Radeon 780M Graphics",
@@ -10322,7 +10403,7 @@
         "repoPath": "reports/WinMCHG31400/WinMCHG31400-20260714-123452.json"
       },
       {
-        "rank": 103,
+        "rank": 104,
         "id": "ArcLight-netizen-20260712-093012",
         "author": "ArcLight-netizen",
         "cpuName": "AMD Ryzen 5 9600X",
@@ -10349,7 +10430,7 @@
         "repoPath": "reports/ArcLight-netizen/ArcLight-netizen-20260712-093012.json"
       },
       {
-        "rank": 104,
+        "rank": 105,
         "id": "RenYong-GitHub-20260711-060945",
         "author": "RenYong-GitHub",
         "cpuName": "12th Gen Intel Core i7-12650H",
@@ -10376,7 +10457,7 @@
         "repoPath": "reports/RenYong-GitHub/RenYong-GitHub-20260711-060945.json"
       },
       {
-        "rank": 105,
+        "rank": 106,
         "id": "haihaihailailo-20260716-211337",
         "author": "haihaihailailo",
         "cpuName": "AMD Ryzen 7 H 255 W/ Radeon 780M",
@@ -10403,7 +10484,7 @@
         "repoPath": "reports/haihaihailailo/haihaihailailo-20260716-211337.json"
       },
       {
-        "rank": 106,
+        "rank": 107,
         "id": "ziyin-zzz-20260709-190024",
         "author": "ziyin-zzz",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -10430,7 +10511,7 @@
         "repoPath": "reports/ziyin-zzz/ziyin-zzz-20260709-190024.json"
       },
       {
-        "rank": 107,
+        "rank": 108,
         "id": "LuckyWang6-20260710-001931",
         "author": "LuckyWang6",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -10457,7 +10538,7 @@
         "repoPath": "reports/LuckyWang6/LuckyWang6-20260710-001931.json"
       },
       {
-        "rank": 108,
+        "rank": 109,
         "id": "ArcLight-netizen-20260712-103517",
         "author": "ArcLight-netizen",
         "cpuName": "AMD Ryzen 5 9600X",
@@ -10484,7 +10565,7 @@
         "repoPath": "reports/ArcLight-netizen/ArcLight-netizen-20260712-103517.json"
       },
       {
-        "rank": 109,
+        "rank": 110,
         "id": "LuckyWang6-20260711-095154",
         "author": "LuckyWang6",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -10511,7 +10592,7 @@
         "repoPath": "reports/LuckyWang6/LuckyWang6-20260711-095154.json"
       },
       {
-        "rank": 110,
+        "rank": 111,
         "id": "jjh060807-dev-20260711-184251",
         "author": "jjh060807-dev",
         "cpuName": "Intel Core 7 240H",
@@ -10538,7 +10619,7 @@
         "repoPath": "reports/jjh060807-dev/jjh060807-dev-20260711-184251.json"
       },
       {
-        "rank": 111,
+        "rank": 112,
         "id": "491666886-20260709-094041",
         "author": "491666886",
         "cpuName": "12th Gen Intel Core i5-12500H",
@@ -10565,7 +10646,7 @@
         "repoPath": "reports/491666886/491666886-20260709-094041.json"
       },
       {
-        "rank": 112,
+        "rank": 113,
         "id": "xuebi1326-20260719-050815",
         "author": "xuebi1326",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -10592,7 +10673,7 @@
         "repoPath": "reports/xuebi1326/xuebi1326-20260719-050815.json"
       },
       {
-        "rank": 113,
+        "rank": 114,
         "id": "zhouben-110-20260711-191527",
         "author": "zhouben-110",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -10619,7 +10700,7 @@
         "repoPath": "reports/zhouben-110/zhouben-110-20260711-191527.json"
       },
       {
-        "rank": 114,
+        "rank": 115,
         "id": "byybht-20260719-214147",
         "author": "byybht",
         "cpuName": "AMD Ryzen 7 5700X",
@@ -10646,7 +10727,7 @@
         "repoPath": "reports/byybht/byybht-20260719-214147.json"
       },
       {
-        "rank": 115,
+        "rank": 116,
         "id": "Kudonly-20260715-110617",
         "author": "Kudonly",
         "cpuName": "Intel Core Ultra 5 125H",
@@ -10673,7 +10754,7 @@
         "repoPath": "reports/Kudonly/Kudonly-20260715-110617.json"
       },
       {
-        "rank": 116,
+        "rank": 117,
         "id": "xiaolingawa-20260711-124055",
         "author": "xiaolingawa",
         "cpuName": "AMD Ryzen 7 8745H w/ Radeon 780M Graphics",
@@ -10700,7 +10781,7 @@
         "repoPath": "reports/xiaolingawa/xiaolingawa-20260711-124055.json"
       },
       {
-        "rank": 117,
+        "rank": 118,
         "id": "liu7863-20260712-133554",
         "author": "liu7863",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -10727,7 +10808,7 @@
         "repoPath": "reports/liu7863/liu7863-20260712-133554.json"
       },
       {
-        "rank": 118,
+        "rank": 119,
         "id": "Sandwitch-eat-20260712-161551",
         "author": "Sandwitch-eat",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -10754,7 +10835,7 @@
         "repoPath": "reports/Sandwitch-eat/Sandwitch-eat-20260712-161551.json"
       },
       {
-        "rank": 119,
+        "rank": 120,
         "id": "SipherNa-20260710-082710",
         "author": "SipherNa",
         "cpuName": "AMD Ryzen 5 5600",
@@ -10781,7 +10862,7 @@
         "repoPath": "reports/SipherNa/SipherNa-20260710-082710.json"
       },
       {
-        "rank": 120,
+        "rank": 121,
         "id": "blacater-20260715-062033",
         "author": "blacater",
         "cpuName": "12th Gen Intel Core i5-12400F",
@@ -10808,7 +10889,7 @@
         "repoPath": "reports/blacater/blacater-20260715-062033.json"
       },
       {
-        "rank": 121,
+        "rank": 122,
         "id": "cqian93-20260710-152504",
         "author": "cqian93",
         "cpuName": "AMD Ryzen 5 5600",
@@ -10835,7 +10916,7 @@
         "repoPath": "reports/cqian93/cqian93-20260710-152504.json"
       },
       {
-        "rank": 122,
+        "rank": 123,
         "id": "dai123-dai-20260716-082824",
         "author": "dai123-dai",
         "cpuName": "AMD Ryzen 5 5600",
@@ -10862,7 +10943,7 @@
         "repoPath": "reports/dai123-dai/dai123-dai-20260716-082824.json"
       },
       {
-        "rank": 123,
+        "rank": 124,
         "id": "doublex2gao-20260719-171105",
         "author": "doublex2gao",
         "cpuName": "AMD Ryzen 5 7600",
@@ -10889,7 +10970,7 @@
         "repoPath": "reports/doublex2gao/doublex2gao-20260719-171105.json"
       },
       {
-        "rank": 124,
+        "rank": 125,
         "id": "SXT3808-20260712-162855",
         "author": "SXT3808",
         "cpuName": "12th Gen Intel Core i5-12400F",
@@ -10916,7 +10997,7 @@
         "repoPath": "reports/SXT3808/SXT3808-20260712-162855.json"
       },
       {
-        "rank": 125,
+        "rank": 126,
         "id": "andrewlinzp-20260711-223053",
         "author": "andrewlinzp",
         "cpuName": "AMD Ryzen 5 5600G with Radeon Graphics",
@@ -10943,7 +11024,7 @@
         "repoPath": "reports/andrewlinzp/andrewlinzp-20260711-223053.json"
       },
       {
-        "rank": 126,
+        "rank": 127,
         "id": "DongMui-20260711-171725",
         "author": "DongMui",
         "cpuName": "12th Gen Intel Core i7-12700H",
@@ -10970,7 +11051,7 @@
         "repoPath": "reports/DongMui/DongMui-20260711-171725.json"
       },
       {
-        "rank": 127,
+        "rank": 128,
         "id": "HU233MAX-20260711-174143",
         "author": "HU233MAX",
         "cpuName": "AMD Ryzen 5 5500X3D",
@@ -10997,7 +11078,7 @@
         "repoPath": "reports/HU233MAX/HU233MAX-20260711-174143.json"
       },
       {
-        "rank": 128,
+        "rank": 129,
         "id": "NaiveDrifter-20260715-213805",
         "author": "NaiveDrifter",
         "cpuName": "AMD Ryzen 5 5500X3D",
@@ -11024,7 +11105,7 @@
         "repoPath": "reports/NaiveDrifter/NaiveDrifter-20260715-213805.json"
       },
       {
-        "rank": 129,
+        "rank": 130,
         "id": "Mark66616-20260711-014443",
         "author": "Mark66616",
         "cpuName": "AMD Ryzen 5 5600",
@@ -11051,7 +11132,7 @@
         "repoPath": "reports/Mark66616/Mark66616-20260711-014443.json"
       },
       {
-        "rank": 130,
+        "rank": 131,
         "id": "3804313647-20260713-093902",
         "author": "3804313647",
         "cpuName": "Genuine Intel 0000",
@@ -11078,7 +11159,7 @@
         "repoPath": "reports/3804313647/3804313647-20260713-093902.json"
       },
       {
-        "rank": 131,
+        "rank": 132,
         "id": "zeng-xingling-20260709-224729",
         "author": "zeng-xingling",
         "cpuName": "12th Gen Intel Core i5-12450H",
@@ -11105,7 +11186,7 @@
         "repoPath": "reports/zeng-xingling/zeng-xingling-20260709-224729.json"
       },
       {
-        "rank": 132,
+        "rank": 133,
         "id": "Qian-Xi-QuQ-20260711-173510",
         "author": "Qian-Xi-QuQ",
         "cpuName": "12th Gen Intel(R) Core(TM) i3-12100F",
@@ -11132,7 +11213,7 @@
         "repoPath": "reports/Qian-Xi-QuQ/Qian-Xi-QuQ-20260711-173510.json"
       },
       {
-        "rank": 133,
+        "rank": 134,
         "id": "2581374794-20260712-113741",
         "author": "2581374794",
         "cpuName": "13th Gen Intel Core i5-13500HX",
@@ -11159,7 +11240,7 @@
         "repoPath": "reports/2581374794/2581374794-20260712-113741.json"
       },
       {
-        "rank": 134,
+        "rank": 135,
         "id": "wjs6awa-20260714-100324",
         "author": "wjs6awa",
         "cpuName": "Intel Xeon E5-2660 0",
@@ -11186,7 +11267,7 @@
         "repoPath": "reports/wjs6awa/wjs6awa-20260714-100324.json"
       },
       {
-        "rank": 135,
+        "rank": 136,
         "id": "G-y-b-20260713-132811",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -11213,7 +11294,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260713-132811.json"
       },
       {
-        "rank": 136,
+        "rank": 137,
         "id": "yyy123zc-20260713-225645",
         "author": "yyy123zc",
         "cpuName": "AMD Ryzen 5 3500X",
@@ -11240,7 +11321,7 @@
         "repoPath": "reports/yyy123zc/yyy123zc-20260713-225645.json"
       },
       {
-        "rank": 137,
+        "rank": 138,
         "id": "G-y-b-20260714-174655",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -11267,7 +11348,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260714-174655.json"
       },
       {
-        "rank": 138,
+        "rank": 139,
         "id": "HugoXOX3-20260716-103141",
         "author": "HugoXOX3",
         "cpuName": "Intel Core i5-9400F",
@@ -11294,7 +11375,7 @@
         "repoPath": "reports/HugoXOX3/HugoXOX3-20260716-103141.json"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "id": "hindows11-20260713-113354",
         "author": "hindows11",
         "cpuName": "Intel Core i5-8250U",
@@ -11321,7 +11402,7 @@
         "repoPath": "reports/hindows11/hindows11-20260713-113354.json"
       },
       {
-        "rank": 140,
+        "rank": 141,
         "id": "ms-win-20260719-210928",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -13187,6 +13268,33 @@
       },
       {
         "rank": 69,
+        "id": "WinGua-20260720-104950",
+        "author": "WinGua",
+        "cpuName": "13th Gen Intel Core i7-13700HX",
+        "gpuName": "NVIDIA GeForce RTX 4070 Laptop GPU",
+        "gamingScore": 166,
+        "officeScore": 122,
+        "cpuSingleCoreScore": 107,
+        "cpuMultiCoreScore": 118,
+        "gpuRenderScore": 261,
+        "memoryCapacityScore": 99,
+        "diskSeqReadScore": 114,
+        "diskSeqWriteScore": 73,
+        "disk4KReadScore": 170,
+        "disk4KWriteScore": 156,
+        "browserTotalScore": 120,
+        "gamingGrade": "S",
+        "officeGrade": "A+",
+        "submittedAt": "2026-07-20T03:29:53.5196301+00:00",
+        "osName": "Microsoft Windows 11 家庭版 中文版",
+        "motherboardName": "Micro-Star International Co., Ltd. MS-17S2 BIOS E17S2IMS.114",
+        "memoryInfo": "31.7 GB | DDR5 | 三星(Samsung) M425R2GA3BB0-CQKOL 16 GB 4800 MHz | 三星(Samsung) M425R2GA3BB0-CQKOL 16 GB 4800 MHz",
+        "diskInfo": "NVMe SAMSUNG MZVL21T0HCLR-00B00 HDD 953.9 GB SCSI | NVMe ZHITAI TiPlus7100 2TB HDD 1907.7 GB SCSI",
+        "displayInfo": "友达(AU Optronics) 2560 x 1600 240 Hz 主显",
+        "repoPath": "reports/WinGua/WinGua-20260720-104950.json"
+      },
+      {
+        "rank": 70,
         "id": "DaDPrime-20260715-001347",
         "author": "DaDPrime",
         "cpuName": "AMD Ryzen 7 8845H w/ Radeon 780M Graphics",
@@ -13213,7 +13321,7 @@
         "repoPath": "reports/DaDPrime/DaDPrime-20260715-001347.json"
       },
       {
-        "rank": 70,
+        "rank": 71,
         "id": "roby30307-20260713-183316",
         "author": "roby30307",
         "cpuName": "13th Gen Intel Core i9-13980HX",
@@ -13240,7 +13348,7 @@
         "repoPath": "reports/roby30307/roby30307-20260713-183316.json"
       },
       {
-        "rank": 71,
+        "rank": 72,
         "id": "cheekibreeki480-20260711-003742",
         "author": "cheekibreeki480",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -13267,7 +13375,7 @@
         "repoPath": "reports/cheekibreeki480/cheekibreeki480-20260711-003742.json"
       },
       {
-        "rank": 72,
+        "rank": 73,
         "id": "ZZN521-20260719-180242",
         "author": "ZZN521",
         "cpuName": "AMD Ryzen 9 8945HX with Radeon Graphics",
@@ -13294,7 +13402,7 @@
         "repoPath": "reports/ZZN521/ZZN521-20260719-180242.json"
       },
       {
-        "rank": 73,
+        "rank": 74,
         "id": "megane3251-20260713-032437",
         "author": "megane3251",
         "cpuName": "AMD Ryzen 7 7800X3D",
@@ -13321,7 +13429,7 @@
         "repoPath": "reports/megane3251/megane3251-20260713-032437.json"
       },
       {
-        "rank": 74,
+        "rank": 75,
         "id": "liu7863-20260712-133554",
         "author": "liu7863",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -13348,7 +13456,7 @@
         "repoPath": "reports/liu7863/liu7863-20260712-133554.json"
       },
       {
-        "rank": 75,
+        "rank": 76,
         "id": "PDSB001-20260710-144250",
         "author": "PDSB001",
         "cpuName": "Intel Core Ultra 7 255HX",
@@ -13375,7 +13483,7 @@
         "repoPath": "reports/PDSB001/PDSB001-20260710-144250.json"
       },
       {
-        "rank": 76,
+        "rank": 77,
         "id": "xushengping666-20260710-104525",
         "author": "xushengping666",
         "cpuName": "Intel Core i7-14650HX",
@@ -13402,7 +13510,7 @@
         "repoPath": "reports/xushengping666/xushengping666-20260710-104525.json"
       },
       {
-        "rank": 77,
+        "rank": 78,
         "id": "megane3251-20260713-030234",
         "author": "megane3251",
         "cpuName": "AMD Ryzen 7 7800X3D",
@@ -13429,7 +13537,7 @@
         "repoPath": "reports/megane3251/megane3251-20260713-030234.json"
       },
       {
-        "rank": 78,
+        "rank": 79,
         "id": "RSSeeker-20260709-181542",
         "author": "RSSeeker",
         "cpuName": "Intel Core Ultra 9 386H",
@@ -13456,7 +13564,7 @@
         "repoPath": "reports/RSSeeker/RSSeeker-20260709-181542.json"
       },
       {
-        "rank": 79,
+        "rank": 80,
         "id": "byybht-20260716-161452",
         "author": "byybht",
         "cpuName": "AMD Ryzen 7 5700X",
@@ -13483,7 +13591,7 @@
         "repoPath": "reports/byybht/byybht-20260716-161452.json"
       },
       {
-        "rank": 80,
+        "rank": 81,
         "id": "byybht-20260719-214147",
         "author": "byybht",
         "cpuName": "AMD Ryzen 7 5700X",
@@ -13510,7 +13618,7 @@
         "repoPath": "reports/byybht/byybht-20260719-214147.json"
       },
       {
-        "rank": 81,
+        "rank": 82,
         "id": "ZZN521-20260709-222936",
         "author": "ZZN521",
         "cpuName": "AMD Ryzen 9 8945HX with Radeon Graphics",
@@ -13537,7 +13645,7 @@
         "repoPath": "reports/ZZN521/ZZN521-20260709-222936.json"
       },
       {
-        "rank": 82,
+        "rank": 83,
         "id": "breeze313-20260711-174727",
         "author": "breeze313",
         "cpuName": "AMD Ryzen 9 7940HX with Radeon Graphics",
@@ -13564,7 +13672,7 @@
         "repoPath": "reports/breeze313/breeze313-20260711-174727.json"
       },
       {
-        "rank": 83,
+        "rank": 84,
         "id": "jinmmliang-20260702-183632",
         "author": "jinmmliang",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -13591,7 +13699,7 @@
         "repoPath": "reports/jinmmliang/jinmmliang-20260702-183632.json"
       },
       {
-        "rank": 84,
+        "rank": 85,
         "id": "Kudonly-20260715-111040",
         "author": "Kudonly",
         "cpuName": "12th Gen Intel Core i5-12600KF",
@@ -13618,7 +13726,7 @@
         "repoPath": "reports/Kudonly/Kudonly-20260715-111040.json"
       },
       {
-        "rank": 85,
+        "rank": 86,
         "id": "KindaCello4028-20260711-135308",
         "author": "KindaCello4028",
         "cpuName": "AMD Ryzen 9 9955HX",
@@ -13645,7 +13753,7 @@
         "repoPath": "reports/KindaCello4028/KindaCello4028-20260711-135308.json"
       },
       {
-        "rank": 86,
+        "rank": 87,
         "id": "dai123-dai-20260716-082824",
         "author": "dai123-dai",
         "cpuName": "AMD Ryzen 5 5600",
@@ -13672,7 +13780,7 @@
         "repoPath": "reports/dai123-dai/dai123-dai-20260716-082824.json"
       },
       {
-        "rank": 87,
+        "rank": 88,
         "id": "mianhuatangcrystal117-cloud-20260711-202716",
         "author": "mianhuatangcrystal117-cloud",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -13699,7 +13807,7 @@
         "repoPath": "reports/mianhuatangcrystal117-cloud/mianhuatangcrystal117-cloud-20260711-202716.json"
       },
       {
-        "rank": 88,
+        "rank": 89,
         "id": "haihaihailailo-20260716-211337",
         "author": "haihaihailailo",
         "cpuName": "AMD Ryzen 7 H 255 W/ Radeon 780M",
@@ -13726,7 +13834,7 @@
         "repoPath": "reports/haihaihailailo/haihaihailailo-20260716-211337.json"
       },
       {
-        "rank": 89,
+        "rank": 90,
         "id": "zazahuizaichi-20260713-160926",
         "author": "zazahuizaichi",
         "cpuName": "Intel Xeon E5-2673 v4",
@@ -13753,7 +13861,7 @@
         "repoPath": "reports/zazahuizaichi/zazahuizaichi-20260713-160926.json"
       },
       {
-        "rank": 90,
+        "rank": 91,
         "id": "w007-01-20260711-164628",
         "author": "w007-01",
         "cpuName": "AMD Ryzen 9 8940HX with Radeon Graphics",
@@ -13780,7 +13888,7 @@
         "repoPath": "reports/w007-01/w007-01-20260711-164628.json"
       },
       {
-        "rank": 91,
+        "rank": 92,
         "id": "Mark66616-20260711-014443",
         "author": "Mark66616",
         "cpuName": "AMD Ryzen 5 5600",
@@ -13807,7 +13915,7 @@
         "repoPath": "reports/Mark66616/Mark66616-20260711-014443.json"
       },
       {
-        "rank": 92,
+        "rank": 93,
         "id": "zhouben-110-20260711-191527",
         "author": "zhouben-110",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -13834,7 +13942,7 @@
         "repoPath": "reports/zhouben-110/zhouben-110-20260711-191527.json"
       },
       {
-        "rank": 93,
+        "rank": 94,
         "id": "Alpha-Qian-20260711-172441",
         "author": "Alpha-Qian",
         "cpuName": "13th Gen Intel Core i9-13900HX",
@@ -13861,7 +13969,7 @@
         "repoPath": "reports/Alpha-Qian/Alpha-Qian-20260711-172441.json"
       },
       {
-        "rank": 94,
+        "rank": 95,
         "id": "RainZhu862-20260712-100107",
         "author": "RainZhu862",
         "cpuName": "13th Gen Intel Core i5-13600K",
@@ -13888,7 +13996,7 @@
         "repoPath": "reports/RainZhu862/RainZhu862-20260712-100107.json"
       },
       {
-        "rank": 95,
+        "rank": 96,
         "id": "blacater-20260715-062033",
         "author": "blacater",
         "cpuName": "12th Gen Intel Core i5-12400F",
@@ -13915,7 +14023,7 @@
         "repoPath": "reports/blacater/blacater-20260715-062033.json"
       },
       {
-        "rank": 96,
+        "rank": 97,
         "id": "0xRedFlag1-20260716-102253",
         "author": "0xRedFlag1",
         "cpuName": "AMD Ryzen 9 9950X",
@@ -13942,7 +14050,7 @@
         "repoPath": "reports/0xRedFlag1/0xRedFlag1-20260716-102253.json"
       },
       {
-        "rank": 97,
+        "rank": 98,
         "id": "Evoltsuki-20260712-220301",
         "author": "Evoltsuki",
         "cpuName": "Genuine Intel 0000",
@@ -13969,7 +14077,7 @@
         "repoPath": "reports/Evoltsuki/Evoltsuki-20260712-220301.json"
       },
       {
-        "rank": 98,
+        "rank": 99,
         "id": "hinokaze-20260711-193400",
         "author": "hinokaze",
         "cpuName": "13th Gen Intel Core i5-13600KF",
@@ -13996,7 +14104,7 @@
         "repoPath": "reports/hinokaze/hinokaze-20260711-193400.json"
       },
       {
-        "rank": 99,
+        "rank": 100,
         "id": "AuthoRay-20260714-164236",
         "author": "AuthoRay",
         "cpuName": "Intel Core i7-14650HX",
@@ -14023,7 +14131,7 @@
         "repoPath": "reports/AuthoRay/AuthoRay-20260714-164236.json"
       },
       {
-        "rank": 100,
+        "rank": 101,
         "id": "RekiP-20260720-010000",
         "author": "RekiP",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -14050,7 +14158,7 @@
         "repoPath": "reports/RekiP/RekiP-20260720-010000.json"
       },
       {
-        "rank": 101,
+        "rank": 102,
         "id": "kearnysong-20260712-005806",
         "author": "kearnysong",
         "cpuName": "Intel Core Ultra 7 251HX",
@@ -14077,7 +14185,7 @@
         "repoPath": "reports/kearnysong/kearnysong-20260712-005806.json"
       },
       {
-        "rank": 102,
+        "rank": 103,
         "id": "sunshengyan-20260712-124320",
         "author": "sunshengyan",
         "cpuName": "Intel Core Ultra 9 285H",
@@ -14104,7 +14212,7 @@
         "repoPath": "reports/sunshengyan/sunshengyan-20260712-124320.json"
       },
       {
-        "rank": 103,
+        "rank": 104,
         "id": "3804313647-20260713-093902",
         "author": "3804313647",
         "cpuName": "Genuine Intel 0000",
@@ -14131,7 +14239,7 @@
         "repoPath": "reports/3804313647/3804313647-20260713-093902.json"
       },
       {
-        "rank": 104,
+        "rank": 105,
         "id": "Mio114-20260710-064735",
         "author": "Mio114",
         "cpuName": "AMD Ryzen 9 8945H w/ Radeon 780M Graphics",
@@ -14158,7 +14266,7 @@
         "repoPath": "reports/Mio114/Mio114-20260710-064735.json"
       },
       {
-        "rank": 105,
+        "rank": 106,
         "id": "andrewlinzp-20260711-223053",
         "author": "andrewlinzp",
         "cpuName": "AMD Ryzen 5 5600G with Radeon Graphics",
@@ -14185,7 +14293,7 @@
         "repoPath": "reports/andrewlinzp/andrewlinzp-20260711-223053.json"
       },
       {
-        "rank": 106,
+        "rank": 107,
         "id": "yyy123zc-20260713-225645",
         "author": "yyy123zc",
         "cpuName": "AMD Ryzen 5 3500X",
@@ -14212,7 +14320,7 @@
         "repoPath": "reports/yyy123zc/yyy123zc-20260713-225645.json"
       },
       {
-        "rank": 107,
+        "rank": 108,
         "id": "Sandwitch-eat-20260712-161551",
         "author": "Sandwitch-eat",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -14239,7 +14347,7 @@
         "repoPath": "reports/Sandwitch-eat/Sandwitch-eat-20260712-161551.json"
       },
       {
-        "rank": 108,
+        "rank": 109,
         "id": "jjh060807-dev-20260711-184251",
         "author": "jjh060807-dev",
         "cpuName": "Intel Core 7 240H",
@@ -14266,7 +14374,7 @@
         "repoPath": "reports/jjh060807-dev/jjh060807-dev-20260711-184251.json"
       },
       {
-        "rank": 109,
+        "rank": 110,
         "id": "woods1w-20260718-224159",
         "author": "woods1w",
         "cpuName": "13th Gen Intel Core i9-13900HX",
@@ -14293,7 +14401,7 @@
         "repoPath": "reports/woods1w/woods1w-20260718-224159.json"
       },
       {
-        "rank": 110,
+        "rank": 111,
         "id": "SXT3808-20260712-162855",
         "author": "SXT3808",
         "cpuName": "12th Gen Intel Core i5-12400F",
@@ -14320,7 +14428,7 @@
         "repoPath": "reports/SXT3808/SXT3808-20260712-162855.json"
       },
       {
-        "rank": 111,
+        "rank": 112,
         "id": "RenYong-GitHub-20260711-060945",
         "author": "RenYong-GitHub",
         "cpuName": "12th Gen Intel Core i7-12650H",
@@ -14347,7 +14455,7 @@
         "repoPath": "reports/RenYong-GitHub/RenYong-GitHub-20260711-060945.json"
       },
       {
-        "rank": 112,
+        "rank": 113,
         "id": "cqian93-20260710-152504",
         "author": "cqian93",
         "cpuName": "AMD Ryzen 5 5600",
@@ -14374,7 +14482,7 @@
         "repoPath": "reports/cqian93/cqian93-20260710-152504.json"
       },
       {
-        "rank": 113,
+        "rank": 114,
         "id": "smile-wq-20260715-221232",
         "author": "smile-wq",
         "cpuName": "Intel Core i7-14700HX",
@@ -14401,7 +14509,7 @@
         "repoPath": "reports/smile-wq/smile-wq-20260715-221232.json"
       },
       {
-        "rank": 114,
+        "rank": 115,
         "id": "2581374794-20260712-113741",
         "author": "2581374794",
         "cpuName": "13th Gen Intel Core i5-13500HX",
@@ -14428,7 +14536,7 @@
         "repoPath": "reports/2581374794/2581374794-20260712-113741.json"
       },
       {
-        "rank": 115,
+        "rank": 116,
         "id": "NaiveDrifter-20260715-213805",
         "author": "NaiveDrifter",
         "cpuName": "AMD Ryzen 5 5500X3D",
@@ -14455,7 +14563,7 @@
         "repoPath": "reports/NaiveDrifter/NaiveDrifter-20260715-213805.json"
       },
       {
-        "rank": 116,
+        "rank": 117,
         "id": "xuebi1326-20260719-050815",
         "author": "xuebi1326",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -14482,7 +14590,7 @@
         "repoPath": "reports/xuebi1326/xuebi1326-20260719-050815.json"
       },
       {
-        "rank": 117,
+        "rank": 118,
         "id": "kdinsky-20260714-135840",
         "author": "kdinsky",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -14509,7 +14617,7 @@
         "repoPath": "reports/kdinsky/kdinsky-20260714-135840.json"
       },
       {
-        "rank": 118,
+        "rank": 119,
         "id": "DongMui-20260711-171725",
         "author": "DongMui",
         "cpuName": "12th Gen Intel Core i7-12700H",
@@ -14536,7 +14644,7 @@
         "repoPath": "reports/DongMui/DongMui-20260711-171725.json"
       },
       {
-        "rank": 119,
+        "rank": 120,
         "id": "SipherNa-20260710-082710",
         "author": "SipherNa",
         "cpuName": "AMD Ryzen 5 5600",
@@ -14563,7 +14671,7 @@
         "repoPath": "reports/SipherNa/SipherNa-20260710-082710.json"
       },
       {
-        "rank": 120,
+        "rank": 121,
         "id": "hunanhjx-20260711-005632",
         "author": "hunanhjx",
         "cpuName": "Intel Core i7-14650HX",
@@ -14590,7 +14698,7 @@
         "repoPath": "reports/hunanhjx/hunanhjx-20260711-005632.json"
       },
       {
-        "rank": 121,
+        "rank": 122,
         "id": "xiaohuangbo-20260715-113212",
         "author": "xiaohuangbo",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -14617,7 +14725,7 @@
         "repoPath": "reports/xiaohuangbo/xiaohuangbo-20260715-113212.json"
       },
       {
-        "rank": 122,
+        "rank": 123,
         "id": "luolangaga-20260709-233646",
         "author": "luolangaga",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -14644,7 +14752,7 @@
         "repoPath": "reports/luolangaga/luolangaga-20260709-233646.json"
       },
       {
-        "rank": 123,
+        "rank": 124,
         "id": "IOOIZIO-20260710-213453",
         "author": "IOOIZIO",
         "cpuName": "Intel Core i7-14650HX",
@@ -14671,7 +14779,7 @@
         "repoPath": "reports/IOOIZIO/IOOIZIO-20260710-213453.json"
       },
       {
-        "rank": 124,
+        "rank": 125,
         "id": "Asher-08-20260710-215558",
         "author": "Asher-08",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -14698,7 +14806,7 @@
         "repoPath": "reports/Asher-08/Asher-08-20260710-215558.json"
       },
       {
-        "rank": 125,
+        "rank": 126,
         "id": "HugoXOX3-20260716-103141",
         "author": "HugoXOX3",
         "cpuName": "Intel Core i5-9400F",
@@ -14725,7 +14833,7 @@
         "repoPath": "reports/HugoXOX3/HugoXOX3-20260716-103141.json"
       },
       {
-        "rank": 126,
+        "rank": 127,
         "id": "Qian-Xi-QuQ-20260711-173510",
         "author": "Qian-Xi-QuQ",
         "cpuName": "12th Gen Intel(R) Core(TM) i3-12100F",
@@ -14752,7 +14860,7 @@
         "repoPath": "reports/Qian-Xi-QuQ/Qian-Xi-QuQ-20260711-173510.json"
       },
       {
-        "rank": 127,
+        "rank": 128,
         "id": "wjs6awa-20260714-100324",
         "author": "wjs6awa",
         "cpuName": "Intel Xeon E5-2660 0",
@@ -14779,7 +14887,7 @@
         "repoPath": "reports/wjs6awa/wjs6awa-20260714-100324.json"
       },
       {
-        "rank": 128,
+        "rank": 129,
         "id": "491666886-20260709-094041",
         "author": "491666886",
         "cpuName": "12th Gen Intel Core i5-12500H",
@@ -14806,7 +14914,7 @@
         "repoPath": "reports/491666886/491666886-20260709-094041.json"
       },
       {
-        "rank": 129,
+        "rank": 130,
         "id": "luolangaga-20260709-231859",
         "author": "luolangaga",
         "cpuName": "Intel Core Ultra 5 338H",
@@ -14833,7 +14941,7 @@
         "repoPath": "reports/luolangaga/luolangaga-20260709-231859.json"
       },
       {
-        "rank": 130,
+        "rank": 131,
         "id": "Kudonly-20260715-110617",
         "author": "Kudonly",
         "cpuName": "Intel Core Ultra 5 125H",
@@ -14860,7 +14968,7 @@
         "repoPath": "reports/Kudonly/Kudonly-20260715-110617.json"
       },
       {
-        "rank": 131,
+        "rank": 132,
         "id": "G-y-b-20260713-132811",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -14887,7 +14995,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260713-132811.json"
       },
       {
-        "rank": 132,
+        "rank": 133,
         "id": "G-y-b-20260714-174655",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -14914,7 +15022,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260714-174655.json"
       },
       {
-        "rank": 133,
+        "rank": 134,
         "id": "miuiv5ztl-20260714-194447",
         "author": "miuiv5ztl",
         "cpuName": "Intel Core Ultra 7 155H",
@@ -14941,7 +15049,7 @@
         "repoPath": "reports/miuiv5ztl/miuiv5ztl-20260714-194447.json"
       },
       {
-        "rank": 134,
+        "rank": 135,
         "id": "520005962-eng-20260711-192848",
         "author": "520005962-eng",
         "cpuName": "Intel Core Ultra 7 270K Plus",
@@ -14968,7 +15076,7 @@
         "repoPath": "reports/520005962-eng/520005962-eng-20260711-192848.json"
       },
       {
-        "rank": 135,
+        "rank": 136,
         "id": "WinMCHG31400-20260714-123452",
         "author": "WinMCHG31400",
         "cpuName": "AMD Ryzen 7 8845H w/ Radeon 780M Graphics",
@@ -14995,7 +15103,7 @@
         "repoPath": "reports/WinMCHG31400/WinMCHG31400-20260714-123452.json"
       },
       {
-        "rank": 136,
+        "rank": 137,
         "id": "xiaolingawa-20260711-124055",
         "author": "xiaolingawa",
         "cpuName": "AMD Ryzen 7 8745H w/ Radeon 780M Graphics",
@@ -15022,7 +15130,7 @@
         "repoPath": "reports/xiaolingawa/xiaolingawa-20260711-124055.json"
       },
       {
-        "rank": 137,
+        "rank": 138,
         "id": "zeng-xingling-20260709-224729",
         "author": "zeng-xingling",
         "cpuName": "12th Gen Intel Core i5-12450H",
@@ -15049,7 +15157,7 @@
         "repoPath": "reports/zeng-xingling/zeng-xingling-20260709-224729.json"
       },
       {
-        "rank": 138,
+        "rank": 139,
         "id": "doublex2gao-20260719-171105",
         "author": "doublex2gao",
         "cpuName": "AMD Ryzen 5 7600",
@@ -15076,7 +15184,7 @@
         "repoPath": "reports/doublex2gao/doublex2gao-20260719-171105.json"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "id": "ms-win-20260719-210928",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -15103,7 +15211,7 @@
         "repoPath": "reports/ms-win/ms-win-20260719-210928.json"
       },
       {
-        "rank": 140,
+        "rank": 141,
         "id": "hindows11-20260713-113354",
         "author": "hindows11",
         "cpuName": "Intel Core i5-8250U",
@@ -16537,6 +16645,33 @@
       },
       {
         "rank": 53,
+        "id": "WinGua-20260720-104950",
+        "author": "WinGua",
+        "cpuName": "13th Gen Intel Core i7-13700HX",
+        "gpuName": "NVIDIA GeForce RTX 4070 Laptop GPU",
+        "gamingScore": 166,
+        "officeScore": 122,
+        "cpuSingleCoreScore": 107,
+        "cpuMultiCoreScore": 118,
+        "gpuRenderScore": 261,
+        "memoryCapacityScore": 99,
+        "diskSeqReadScore": 114,
+        "diskSeqWriteScore": 73,
+        "disk4KReadScore": 170,
+        "disk4KWriteScore": 156,
+        "browserTotalScore": 120,
+        "gamingGrade": "S",
+        "officeGrade": "A+",
+        "submittedAt": "2026-07-20T03:29:53.5196301+00:00",
+        "osName": "Microsoft Windows 11 家庭版 中文版",
+        "motherboardName": "Micro-Star International Co., Ltd. MS-17S2 BIOS E17S2IMS.114",
+        "memoryInfo": "31.7 GB | DDR5 | 三星(Samsung) M425R2GA3BB0-CQKOL 16 GB 4800 MHz | 三星(Samsung) M425R2GA3BB0-CQKOL 16 GB 4800 MHz",
+        "diskInfo": "NVMe SAMSUNG MZVL21T0HCLR-00B00 HDD 953.9 GB SCSI | NVMe ZHITAI TiPlus7100 2TB HDD 1907.7 GB SCSI",
+        "displayInfo": "友达(AU Optronics) 2560 x 1600 240 Hz 主显",
+        "repoPath": "reports/WinGua/WinGua-20260720-104950.json"
+      },
+      {
+        "rank": 54,
         "id": "ZZN521-20260719-180242",
         "author": "ZZN521",
         "cpuName": "AMD Ryzen 9 8945HX with Radeon Graphics",
@@ -16563,7 +16698,7 @@
         "repoPath": "reports/ZZN521/ZZN521-20260719-180242.json"
       },
       {
-        "rank": 54,
+        "rank": 55,
         "id": "cheekibreeki480-20260711-003742",
         "author": "cheekibreeki480",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -16590,7 +16725,7 @@
         "repoPath": "reports/cheekibreeki480/cheekibreeki480-20260711-003742.json"
       },
       {
-        "rank": 55,
+        "rank": 56,
         "id": "hunanhjx-20260711-005632",
         "author": "hunanhjx",
         "cpuName": "Intel Core i7-14650HX",
@@ -16617,7 +16752,7 @@
         "repoPath": "reports/hunanhjx/hunanhjx-20260711-005632.json"
       },
       {
-        "rank": 56,
+        "rank": 57,
         "id": "mianhuatangcrystal117-cloud-20260711-202716",
         "author": "mianhuatangcrystal117-cloud",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -16644,7 +16779,7 @@
         "repoPath": "reports/mianhuatangcrystal117-cloud/mianhuatangcrystal117-cloud-20260711-202716.json"
       },
       {
-        "rank": 57,
+        "rank": 58,
         "id": "woods1w-20260718-224159",
         "author": "woods1w",
         "cpuName": "13th Gen Intel Core i9-13900HX",
@@ -16671,7 +16806,7 @@
         "repoPath": "reports/woods1w/woods1w-20260718-224159.json"
       },
       {
-        "rank": 58,
+        "rank": 59,
         "id": "xiaolingawa-20260711-124055",
         "author": "xiaolingawa",
         "cpuName": "AMD Ryzen 7 8745H w/ Radeon 780M Graphics",
@@ -16698,7 +16833,7 @@
         "repoPath": "reports/xiaolingawa/xiaolingawa-20260711-124055.json"
       },
       {
-        "rank": 59,
+        "rank": 60,
         "id": "yurihuruitao-20260712-132003",
         "author": "yurihuruitao",
         "cpuName": "13th Gen Intel Core i7-13700",
@@ -16725,7 +16860,7 @@
         "repoPath": "reports/yurihuruitao/yurihuruitao-20260712-132003.json"
       },
       {
-        "rank": 60,
+        "rank": 61,
         "id": "Evoltsuki-20260712-220301",
         "author": "Evoltsuki",
         "cpuName": "Genuine Intel 0000",
@@ -16752,7 +16887,7 @@
         "repoPath": "reports/Evoltsuki/Evoltsuki-20260712-220301.json"
       },
       {
-        "rank": 61,
+        "rank": 62,
         "id": "Gwy1111-20260715-001056",
         "author": "Gwy1111",
         "cpuName": "Intel Core i5-14600KF",
@@ -16779,7 +16914,7 @@
         "repoPath": "reports/Gwy1111/Gwy1111-20260715-001056.json"
       },
       {
-        "rank": 62,
+        "rank": 63,
         "id": "Kudonly-20260715-111040",
         "author": "Kudonly",
         "cpuName": "12th Gen Intel Core i5-12600KF",
@@ -16806,7 +16941,7 @@
         "repoPath": "reports/Kudonly/Kudonly-20260715-111040.json"
       },
       {
-        "rank": 63,
+        "rank": 64,
         "id": "LeonGetRPG-20260712-092411",
         "author": "LeonGetRPG",
         "cpuName": "Intel Core Ultra 9 275HX",
@@ -16833,7 +16968,7 @@
         "repoPath": "reports/LeonGetRPG/LeonGetRPG-20260712-092411.json"
       },
       {
-        "rank": 64,
+        "rank": 65,
         "id": "WinMCHG31400-20260714-123452",
         "author": "WinMCHG31400",
         "cpuName": "AMD Ryzen 7 8845H w/ Radeon 780M Graphics",
@@ -16860,7 +16995,7 @@
         "repoPath": "reports/WinMCHG31400/WinMCHG31400-20260714-123452.json"
       },
       {
-        "rank": 65,
+        "rank": 66,
         "id": "Yoasobisong-20260715-175138",
         "author": "Yoasobisong",
         "cpuName": "Intel Core i5-14490F",
@@ -16887,7 +17022,7 @@
         "repoPath": "reports/Yoasobisong/Yoasobisong-20260715-175138.json"
       },
       {
-        "rank": 66,
+        "rank": 67,
         "id": "ZZN521-20260709-222936",
         "author": "ZZN521",
         "cpuName": "AMD Ryzen 9 8945HX with Radeon Graphics",
@@ -16914,7 +17049,7 @@
         "repoPath": "reports/ZZN521/ZZN521-20260709-222936.json"
       },
       {
-        "rank": 67,
+        "rank": 68,
         "id": "ertutio-20260712-134932",
         "author": "ertutio",
         "cpuName": "Intel Core Ultra 9 275HX",
@@ -16941,7 +17076,7 @@
         "repoPath": "reports/ertutio/ertutio-20260712-134932.json"
       },
       {
-        "rank": 68,
+        "rank": 69,
         "id": "sunshengyan-20260712-124320",
         "author": "sunshengyan",
         "cpuName": "Intel Core Ultra 9 285H",
@@ -16968,7 +17103,7 @@
         "repoPath": "reports/sunshengyan/sunshengyan-20260712-124320.json"
       },
       {
-        "rank": 69,
+        "rank": 70,
         "id": "2581374794-20260712-113741",
         "author": "2581374794",
         "cpuName": "13th Gen Intel Core i5-13500HX",
@@ -16995,7 +17130,7 @@
         "repoPath": "reports/2581374794/2581374794-20260712-113741.json"
       },
       {
-        "rank": 70,
+        "rank": 71,
         "id": "520005962-eng-20260711-192848",
         "author": "520005962-eng",
         "cpuName": "Intel Core Ultra 7 270K Plus",
@@ -17022,7 +17157,7 @@
         "repoPath": "reports/520005962-eng/520005962-eng-20260711-192848.json"
       },
       {
-        "rank": 71,
+        "rank": 72,
         "id": "Alpha-Qian-20260711-172441",
         "author": "Alpha-Qian",
         "cpuName": "13th Gen Intel Core i9-13900HX",
@@ -17049,7 +17184,7 @@
         "repoPath": "reports/Alpha-Qian/Alpha-Qian-20260711-172441.json"
       },
       {
-        "rank": 72,
+        "rank": 73,
         "id": "Jamnes844-20260709-213705",
         "author": "Jamnes844",
         "cpuName": "Intel Core Ultra 9 275HX",
@@ -17076,7 +17211,7 @@
         "repoPath": "reports/Jamnes844/Jamnes844-20260709-213705.json"
       },
       {
-        "rank": 73,
+        "rank": 74,
         "id": "OneT1er-20260710-194709",
         "author": "OneT1er",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -17103,7 +17238,7 @@
         "repoPath": "reports/OneT1er/OneT1er-20260710-194709.json"
       },
       {
-        "rank": 74,
+        "rank": 75,
         "id": "RekiP-20260720-010000",
         "author": "RekiP",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -17130,7 +17265,7 @@
         "repoPath": "reports/RekiP/RekiP-20260720-010000.json"
       },
       {
-        "rank": 75,
+        "rank": 76,
         "id": "jeffrey559556-sys-20260712-164155",
         "author": "jeffrey559556-sys",
         "cpuName": "Intel Core Ultra 7 265K",
@@ -17157,7 +17292,7 @@
         "repoPath": "reports/jeffrey559556-sys/jeffrey559556-sys-20260712-164155.json"
       },
       {
-        "rank": 76,
+        "rank": 77,
         "id": "liu7863-20260712-133554",
         "author": "liu7863",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -17184,7 +17319,7 @@
         "repoPath": "reports/liu7863/liu7863-20260712-133554.json"
       },
       {
-        "rank": 77,
+        "rank": 78,
         "id": "smile-wq-20260715-221232",
         "author": "smile-wq",
         "cpuName": "Intel Core i7-14700HX",
@@ -17211,7 +17346,7 @@
         "repoPath": "reports/smile-wq/smile-wq-20260715-221232.json"
       },
       {
-        "rank": 78,
+        "rank": 79,
         "id": "8848van-20260710-135242",
         "author": "8848van",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -17238,7 +17373,7 @@
         "repoPath": "reports/8848van/8848van-20260710-135242.json"
       },
       {
-        "rank": 79,
+        "rank": 80,
         "id": "Kudonly-20260715-110617",
         "author": "Kudonly",
         "cpuName": "Intel Core Ultra 5 125H",
@@ -17265,7 +17400,7 @@
         "repoPath": "reports/Kudonly/Kudonly-20260715-110617.json"
       },
       {
-        "rank": 80,
+        "rank": 81,
         "id": "cokice-20260716-022014",
         "author": "cokice",
         "cpuName": "Intel Core i7-14700KF",
@@ -17292,7 +17427,7 @@
         "repoPath": "reports/cokice/cokice-20260716-022014.json"
       },
       {
-        "rank": 81,
+        "rank": 82,
         "id": "hharry1608-20260711-202803",
         "author": "hharry1608",
         "cpuName": "Intel Core Ultra 9 275HX",
@@ -17319,7 +17454,7 @@
         "repoPath": "reports/hharry1608/hharry1608-20260711-202803.json"
       },
       {
-        "rank": 82,
+        "rank": 83,
         "id": "renvlers-20260713-181700",
         "author": "renvlers",
         "cpuName": "Intel Core Ultra 7 265KF",
@@ -17346,7 +17481,7 @@
         "repoPath": "reports/renvlers/renvlers-20260713-181700.json"
       },
       {
-        "rank": 83,
+        "rank": 84,
         "id": "q978383152-20260714-131852",
         "author": "q978383152",
         "cpuName": "13th Gen Intel Core i9-13980HX",
@@ -17373,7 +17508,7 @@
         "repoPath": "reports/q978383152/q978383152-20260714-131852.json"
       },
       {
-        "rank": 84,
+        "rank": 85,
         "id": "RainZhu862-20260712-100107",
         "author": "RainZhu862",
         "cpuName": "13th Gen Intel Core i5-13600K",
@@ -17400,7 +17535,7 @@
         "repoPath": "reports/RainZhu862/RainZhu862-20260712-100107.json"
       },
       {
-        "rank": 85,
+        "rank": 86,
         "id": "qulongkun-20260714-101927",
         "author": "qulongkun",
         "cpuName": "Intel Core i5-14600KF",
@@ -17427,7 +17562,7 @@
         "repoPath": "reports/qulongkun/qulongkun-20260714-101927.json"
       },
       {
-        "rank": 86,
+        "rank": 87,
         "id": "luolangaga-20260709-231859",
         "author": "luolangaga",
         "cpuName": "Intel Core Ultra 5 338H",
@@ -17454,7 +17589,7 @@
         "repoPath": "reports/luolangaga/luolangaga-20260709-231859.json"
       },
       {
-        "rank": 87,
+        "rank": 88,
         "id": "zhouben-110-20260711-191527",
         "author": "zhouben-110",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -17481,7 +17616,7 @@
         "repoPath": "reports/zhouben-110/zhouben-110-20260711-191527.json"
       },
       {
-        "rank": 88,
+        "rank": 89,
         "id": "Alioth-MuCanoe-20260712-213956",
         "author": "Alioth-MuCanoe",
         "cpuName": "13th Gen Intel Core i5-13600KF",
@@ -17508,7 +17643,7 @@
         "repoPath": "reports/Alioth-MuCanoe/Alioth-MuCanoe-20260712-213956.json"
       },
       {
-        "rank": 89,
+        "rank": 90,
         "id": "Mio114-20260710-064735",
         "author": "Mio114",
         "cpuName": "AMD Ryzen 9 8945H w/ Radeon 780M Graphics",
@@ -17535,7 +17670,7 @@
         "repoPath": "reports/Mio114/Mio114-20260710-064735.json"
       },
       {
-        "rank": 90,
+        "rank": 91,
         "id": "Zzz-0-0-20260715-141646",
         "author": "Zzz-0-0",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -17562,7 +17697,7 @@
         "repoPath": "reports/Zzz-0-0/Zzz-0-0-20260715-141646.json"
       },
       {
-        "rank": 91,
+        "rank": 92,
         "id": "breeze313-20260711-174727",
         "author": "breeze313",
         "cpuName": "AMD Ryzen 9 7940HX with Radeon Graphics",
@@ -17589,7 +17724,7 @@
         "repoPath": "reports/breeze313/breeze313-20260711-174727.json"
       },
       {
-        "rank": 92,
+        "rank": 93,
         "id": "roby30307-20260713-183316",
         "author": "roby30307",
         "cpuName": "13th Gen Intel Core i9-13980HX",
@@ -17616,7 +17751,7 @@
         "repoPath": "reports/roby30307/roby30307-20260713-183316.json"
       },
       {
-        "rank": 93,
+        "rank": 94,
         "id": "hinokaze-20260711-193400",
         "author": "hinokaze",
         "cpuName": "13th Gen Intel Core i5-13600KF",
@@ -17643,7 +17778,7 @@
         "repoPath": "reports/hinokaze/hinokaze-20260711-193400.json"
       },
       {
-        "rank": 94,
+        "rank": 95,
         "id": "xiaohuangbo-20260715-113212",
         "author": "xiaohuangbo",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -17670,7 +17805,7 @@
         "repoPath": "reports/xiaohuangbo/xiaohuangbo-20260715-113212.json"
       },
       {
-        "rank": 95,
+        "rank": 96,
         "id": "xushengping666-20260710-104525",
         "author": "xushengping666",
         "cpuName": "Intel Core i7-14650HX",
@@ -17697,7 +17832,7 @@
         "repoPath": "reports/xushengping666/xushengping666-20260710-104525.json"
       },
       {
-        "rank": 96,
+        "rank": 97,
         "id": "jjh060807-dev-20260711-184251",
         "author": "jjh060807-dev",
         "cpuName": "Intel Core 7 240H",
@@ -17724,7 +17859,7 @@
         "repoPath": "reports/jjh060807-dev/jjh060807-dev-20260711-184251.json"
       },
       {
-        "rank": 97,
+        "rank": 98,
         "id": "PDSB001-20260710-144250",
         "author": "PDSB001",
         "cpuName": "Intel Core Ultra 7 255HX",
@@ -17751,7 +17886,7 @@
         "repoPath": "reports/PDSB001/PDSB001-20260710-144250.json"
       },
       {
-        "rank": 98,
+        "rank": 99,
         "id": "haihaihailailo-20260716-211337",
         "author": "haihaihailailo",
         "cpuName": "AMD Ryzen 7 H 255 W/ Radeon 780M",
@@ -17778,7 +17913,7 @@
         "repoPath": "reports/haihaihailailo/haihaihailailo-20260716-211337.json"
       },
       {
-        "rank": 99,
+        "rank": 100,
         "id": "HanScTc-20260715-105102",
         "author": "HanScTc",
         "cpuName": "13th Gen Intel Core i7-13700KF",
@@ -17805,7 +17940,7 @@
         "repoPath": "reports/HanScTc/HanScTc-20260715-105102.json"
       },
       {
-        "rank": 100,
+        "rank": 101,
         "id": "yanyualexander-rgb-20260710-195757",
         "author": "yanyualexander-rgb",
         "cpuName": "Intel Core Ultra 7 265K",
@@ -17832,7 +17967,7 @@
         "repoPath": "reports/yanyualexander-rgb/yanyualexander-rgb-20260710-195757.json"
       },
       {
-        "rank": 101,
+        "rank": 102,
         "id": "zeng-xingling-20260709-224729",
         "author": "zeng-xingling",
         "cpuName": "12th Gen Intel Core i5-12450H",
@@ -17859,7 +17994,7 @@
         "repoPath": "reports/zeng-xingling/zeng-xingling-20260709-224729.json"
       },
       {
-        "rank": 102,
+        "rank": 103,
         "id": "byybht-20260716-161452",
         "author": "byybht",
         "cpuName": "AMD Ryzen 7 5700X",
@@ -17886,7 +18021,7 @@
         "repoPath": "reports/byybht/byybht-20260716-161452.json"
       },
       {
-        "rank": 103,
+        "rank": 104,
         "id": "byybht-20260719-214147",
         "author": "byybht",
         "cpuName": "AMD Ryzen 7 5700X",
@@ -17913,7 +18048,7 @@
         "repoPath": "reports/byybht/byybht-20260719-214147.json"
       },
       {
-        "rank": 104,
+        "rank": 105,
         "id": "DongMui-20260711-171725",
         "author": "DongMui",
         "cpuName": "12th Gen Intel Core i7-12700H",
@@ -17940,7 +18075,7 @@
         "repoPath": "reports/DongMui/DongMui-20260711-171725.json"
       },
       {
-        "rank": 105,
+        "rank": 106,
         "id": "tomcatone-20260708-190440",
         "author": "tomcatone",
         "cpuName": "Intel Core Ultra 5 230F",
@@ -17967,7 +18102,7 @@
         "repoPath": "reports/tomcatone/tomcatone-20260708-190440.json"
       },
       {
-        "rank": 106,
+        "rank": 107,
         "id": "chy9002-20260712-160548",
         "author": "chy9002",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -17994,7 +18129,7 @@
         "repoPath": "reports/chy9002/chy9002-20260712-160548.json"
       },
       {
-        "rank": 107,
+        "rank": 108,
         "id": "jinmmliang-20260702-183632",
         "author": "jinmmliang",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -18021,7 +18156,7 @@
         "repoPath": "reports/jinmmliang/jinmmliang-20260702-183632.json"
       },
       {
-        "rank": 108,
+        "rank": 109,
         "id": "491666886-20260709-094041",
         "author": "491666886",
         "cpuName": "12th Gen Intel Core i5-12500H",
@@ -18048,7 +18183,7 @@
         "repoPath": "reports/491666886/491666886-20260709-094041.json"
       },
       {
-        "rank": 109,
+        "rank": 110,
         "id": "SipherNa-20260710-082710",
         "author": "SipherNa",
         "cpuName": "AMD Ryzen 5 5600",
@@ -18075,7 +18210,7 @@
         "repoPath": "reports/SipherNa/SipherNa-20260710-082710.json"
       },
       {
-        "rank": 110,
+        "rank": 111,
         "id": "xianyu2383-20260711-191149",
         "author": "xianyu2383",
         "cpuName": "AMD Ryzen 9 8945HX with Radeon Graphics",
@@ -18102,7 +18237,7 @@
         "repoPath": "reports/xianyu2383/xianyu2383-20260711-191149.json"
       },
       {
-        "rank": 111,
+        "rank": 112,
         "id": "FUFNOU-20260710-111548",
         "author": "FUFNOU",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -18129,7 +18264,7 @@
         "repoPath": "reports/FUFNOU/FUFNOU-20260710-111548.json"
       },
       {
-        "rank": 112,
+        "rank": 113,
         "id": "cqian93-20260710-152504",
         "author": "cqian93",
         "cpuName": "AMD Ryzen 5 5600",
@@ -18156,7 +18291,7 @@
         "repoPath": "reports/cqian93/cqian93-20260710-152504.json"
       },
       {
-        "rank": 113,
+        "rank": 114,
         "id": "yyy123zc-20260713-225645",
         "author": "yyy123zc",
         "cpuName": "AMD Ryzen 5 3500X",
@@ -18183,7 +18318,7 @@
         "repoPath": "reports/yyy123zc/yyy123zc-20260713-225645.json"
       },
       {
-        "rank": 114,
+        "rank": 115,
         "id": "SXT3808-20260712-162855",
         "author": "SXT3808",
         "cpuName": "12th Gen Intel Core i5-12400F",
@@ -18210,7 +18345,7 @@
         "repoPath": "reports/SXT3808/SXT3808-20260712-162855.json"
       },
       {
-        "rank": 115,
+        "rank": 116,
         "id": "dai123-dai-20260716-082824",
         "author": "dai123-dai",
         "cpuName": "AMD Ryzen 5 5600",
@@ -18237,7 +18372,7 @@
         "repoPath": "reports/dai123-dai/dai123-dai-20260716-082824.json"
       },
       {
-        "rank": 116,
+        "rank": 117,
         "id": "luolangaga-20260709-233646",
         "author": "luolangaga",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -18264,7 +18399,7 @@
         "repoPath": "reports/luolangaga/luolangaga-20260709-233646.json"
       },
       {
-        "rank": 117,
+        "rank": 118,
         "id": "3804313647-20260713-093902",
         "author": "3804313647",
         "cpuName": "Genuine Intel 0000",
@@ -18291,7 +18426,7 @@
         "repoPath": "reports/3804313647/3804313647-20260713-093902.json"
       },
       {
-        "rank": 118,
+        "rank": 119,
         "id": "MaLei2017-20260709-232623",
         "author": "MaLei2017",
         "cpuName": "13th Gen Intel Core i9-13900HX",
@@ -18318,7 +18453,7 @@
         "repoPath": "reports/MaLei2017/MaLei2017-20260709-232623.json"
       },
       {
-        "rank": 119,
+        "rank": 120,
         "id": "YuzukiRen-20260710-055018",
         "author": "YuzukiRen",
         "cpuName": "Intel Core Ultra 7 270K Plus",
@@ -18345,7 +18480,7 @@
         "repoPath": "reports/YuzukiRen/YuzukiRen-20260710-055018.json"
       },
       {
-        "rank": 120,
+        "rank": 121,
         "id": "Mark66616-20260711-014443",
         "author": "Mark66616",
         "cpuName": "AMD Ryzen 5 5600",
@@ -18372,7 +18507,7 @@
         "repoPath": "reports/Mark66616/Mark66616-20260711-014443.json"
       },
       {
-        "rank": 121,
+        "rank": 122,
         "id": "blacater-20260715-062033",
         "author": "blacater",
         "cpuName": "12th Gen Intel Core i5-12400F",
@@ -18399,7 +18534,7 @@
         "repoPath": "reports/blacater/blacater-20260715-062033.json"
       },
       {
-        "rank": 122,
+        "rank": 123,
         "id": "x1ex1eyu-20260713-070348",
         "author": "x1ex1eyu",
         "cpuName": "AMD Ryzen 7 7700",
@@ -18426,7 +18561,7 @@
         "repoPath": "reports/x1ex1eyu/x1ex1eyu-20260713-070348.json"
       },
       {
-        "rank": 123,
+        "rank": 124,
         "id": "xuebi1326-20260719-050815",
         "author": "xuebi1326",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -18453,7 +18588,7 @@
         "repoPath": "reports/xuebi1326/xuebi1326-20260719-050815.json"
       },
       {
-        "rank": 124,
+        "rank": 125,
         "id": "NaiveDrifter-20260715-213805",
         "author": "NaiveDrifter",
         "cpuName": "AMD Ryzen 5 5500X3D",
@@ -18480,7 +18615,7 @@
         "repoPath": "reports/NaiveDrifter/NaiveDrifter-20260715-213805.json"
       },
       {
-        "rank": 125,
+        "rank": 126,
         "id": "Qian-Xi-QuQ-20260711-173510",
         "author": "Qian-Xi-QuQ",
         "cpuName": "12th Gen Intel(R) Core(TM) i3-12100F",
@@ -18507,7 +18642,7 @@
         "repoPath": "reports/Qian-Xi-QuQ/Qian-Xi-QuQ-20260711-173510.json"
       },
       {
-        "rank": 126,
+        "rank": 127,
         "id": "andrewlinzp-20260711-223053",
         "author": "andrewlinzp",
         "cpuName": "AMD Ryzen 5 5600G with Radeon Graphics",
@@ -18534,7 +18669,7 @@
         "repoPath": "reports/andrewlinzp/andrewlinzp-20260711-223053.json"
       },
       {
-        "rank": 127,
+        "rank": 128,
         "id": "doublex2gao-20260719-171105",
         "author": "doublex2gao",
         "cpuName": "AMD Ryzen 5 7600",
@@ -18561,7 +18696,7 @@
         "repoPath": "reports/doublex2gao/doublex2gao-20260719-171105.json"
       },
       {
-        "rank": 128,
+        "rank": 129,
         "id": "ldzandqwe-ship-it-20260715-235554",
         "author": "ldzandqwe-ship-it",
         "cpuName": "AMD Ryzen 7 7800X3D",
@@ -18588,7 +18723,7 @@
         "repoPath": "reports/ldzandqwe-ship-it/ldzandqwe-ship-it-20260715-235554.json"
       },
       {
-        "rank": 129,
+        "rank": 130,
         "id": "HugoXOX3-20260716-103141",
         "author": "HugoXOX3",
         "cpuName": "Intel Core i5-9400F",
@@ -18615,7 +18750,7 @@
         "repoPath": "reports/HugoXOX3/HugoXOX3-20260716-103141.json"
       },
       {
-        "rank": 130,
+        "rank": 131,
         "id": "kearnysong-20260712-005806",
         "author": "kearnysong",
         "cpuName": "Intel Core Ultra 7 251HX",
@@ -18642,7 +18777,7 @@
         "repoPath": "reports/kearnysong/kearnysong-20260712-005806.json"
       },
       {
-        "rank": 131,
+        "rank": 132,
         "id": "tb18911217759-20260713-142452",
         "author": "tb18911217759",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -18669,7 +18804,7 @@
         "repoPath": "reports/tb18911217759/tb18911217759-20260713-142452.json"
       },
       {
-        "rank": 132,
+        "rank": 133,
         "id": "lingkawaii-20260715-165659",
         "author": "lingkawaii",
         "cpuName": "AMD Ryzen 5 9600X",
@@ -18696,7 +18831,7 @@
         "repoPath": "reports/lingkawaii/lingkawaii-20260715-165659.json"
       },
       {
-        "rank": 133,
+        "rank": 134,
         "id": "x1ex1eyu-20260713-065505",
         "author": "x1ex1eyu",
         "cpuName": "AMD Ryzen 7 7700",
@@ -18723,7 +18858,7 @@
         "repoPath": "reports/x1ex1eyu/x1ex1eyu-20260713-065505.json"
       },
       {
-        "rank": 134,
+        "rank": 135,
         "id": "Sandwitch-eat-20260712-161551",
         "author": "Sandwitch-eat",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -18750,7 +18885,7 @@
         "repoPath": "reports/Sandwitch-eat/Sandwitch-eat-20260712-161551.json"
       },
       {
-        "rank": 135,
+        "rank": 136,
         "id": "zazahuizaichi-20260713-160926",
         "author": "zazahuizaichi",
         "cpuName": "Intel Xeon E5-2673 v4",
@@ -18777,7 +18912,7 @@
         "repoPath": "reports/zazahuizaichi/zazahuizaichi-20260713-160926.json"
       },
       {
-        "rank": 136,
+        "rank": 137,
         "id": "G-y-b-20260713-132811",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -18804,7 +18939,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260713-132811.json"
       },
       {
-        "rank": 137,
+        "rank": 138,
         "id": "G-y-b-20260714-174655",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -18831,7 +18966,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260714-174655.json"
       },
       {
-        "rank": 138,
+        "rank": 139,
         "id": "hindows11-20260713-113354",
         "author": "hindows11",
         "cpuName": "Intel Core i5-8250U",
@@ -18858,7 +18993,7 @@
         "repoPath": "reports/hindows11/hindows11-20260713-113354.json"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "id": "ms-win-20260719-210928",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -18885,7 +19020,7 @@
         "repoPath": "reports/ms-win/ms-win-20260719-210928.json"
       },
       {
-        "rank": 140,
+        "rank": 141,
         "id": "wjs6awa-20260714-100324",
         "author": "wjs6awa",
         "cpuName": "Intel Xeon E5-2660 0",
@@ -20643,6 +20778,33 @@
       },
       {
         "rank": 65,
+        "id": "WinGua-20260720-104950",
+        "author": "WinGua",
+        "cpuName": "13th Gen Intel Core i7-13700HX",
+        "gpuName": "NVIDIA GeForce RTX 4070 Laptop GPU",
+        "gamingScore": 166,
+        "officeScore": 122,
+        "cpuSingleCoreScore": 107,
+        "cpuMultiCoreScore": 118,
+        "gpuRenderScore": 261,
+        "memoryCapacityScore": 99,
+        "diskSeqReadScore": 114,
+        "diskSeqWriteScore": 73,
+        "disk4KReadScore": 170,
+        "disk4KWriteScore": 156,
+        "browserTotalScore": 120,
+        "gamingGrade": "S",
+        "officeGrade": "A+",
+        "submittedAt": "2026-07-20T03:29:53.5196301+00:00",
+        "osName": "Microsoft Windows 11 家庭版 中文版",
+        "motherboardName": "Micro-Star International Co., Ltd. MS-17S2 BIOS E17S2IMS.114",
+        "memoryInfo": "31.7 GB | DDR5 | 三星(Samsung) M425R2GA3BB0-CQKOL 16 GB 4800 MHz | 三星(Samsung) M425R2GA3BB0-CQKOL 16 GB 4800 MHz",
+        "diskInfo": "NVMe SAMSUNG MZVL21T0HCLR-00B00 HDD 953.9 GB SCSI | NVMe ZHITAI TiPlus7100 2TB HDD 1907.7 GB SCSI",
+        "displayInfo": "友达(AU Optronics) 2560 x 1600 240 Hz 主显",
+        "repoPath": "reports/WinGua/WinGua-20260720-104950.json"
+      },
+      {
+        "rank": 66,
         "id": "Yoasobisong-20260715-175138",
         "author": "Yoasobisong",
         "cpuName": "Intel Core i5-14490F",
@@ -20669,7 +20831,7 @@
         "repoPath": "reports/Yoasobisong/Yoasobisong-20260715-175138.json"
       },
       {
-        "rank": 66,
+        "rank": 67,
         "id": "roby30307-20260713-183316",
         "author": "roby30307",
         "cpuName": "13th Gen Intel Core i9-13980HX",
@@ -20696,7 +20858,7 @@
         "repoPath": "reports/roby30307/roby30307-20260713-183316.json"
       },
       {
-        "rank": 67,
+        "rank": 68,
         "id": "yurihuruitao-20260712-132003",
         "author": "yurihuruitao",
         "cpuName": "13th Gen Intel Core i7-13700",
@@ -20723,7 +20885,7 @@
         "repoPath": "reports/yurihuruitao/yurihuruitao-20260712-132003.json"
       },
       {
-        "rank": 68,
+        "rank": 69,
         "id": "ziyin-zzz-20260709-190024",
         "author": "ziyin-zzz",
         "cpuName": "AMD Ryzen 7 9700X",
@@ -20750,7 +20912,7 @@
         "repoPath": "reports/ziyin-zzz/ziyin-zzz-20260709-190024.json"
       },
       {
-        "rank": 69,
+        "rank": 70,
         "id": "x1ex1eyu-20260713-065505",
         "author": "x1ex1eyu",
         "cpuName": "AMD Ryzen 7 7700",
@@ -20777,7 +20939,7 @@
         "repoPath": "reports/x1ex1eyu/x1ex1eyu-20260713-065505.json"
       },
       {
-        "rank": 70,
+        "rank": 71,
         "id": "hinokaze-20260711-193400",
         "author": "hinokaze",
         "cpuName": "13th Gen Intel Core i5-13600KF",
@@ -20804,7 +20966,7 @@
         "repoPath": "reports/hinokaze/hinokaze-20260711-193400.json"
       },
       {
-        "rank": 71,
+        "rank": 72,
         "id": "sunshengyan-20260712-124320",
         "author": "sunshengyan",
         "cpuName": "Intel Core Ultra 9 285H",
@@ -20831,7 +20993,7 @@
         "repoPath": "reports/sunshengyan/sunshengyan-20260712-124320.json"
       },
       {
-        "rank": 72,
+        "rank": 73,
         "id": "Alioth-MuCanoe-20260712-213956",
         "author": "Alioth-MuCanoe",
         "cpuName": "13th Gen Intel Core i5-13600KF",
@@ -20858,7 +21020,7 @@
         "repoPath": "reports/Alioth-MuCanoe/Alioth-MuCanoe-20260712-213956.json"
       },
       {
-        "rank": 73,
+        "rank": 74,
         "id": "Kudonly-20260715-111040",
         "author": "Kudonly",
         "cpuName": "12th Gen Intel Core i5-12600KF",
@@ -20885,7 +21047,7 @@
         "repoPath": "reports/Kudonly/Kudonly-20260715-111040.json"
       },
       {
-        "rank": 74,
+        "rank": 75,
         "id": "xianyu2383-20260711-191149",
         "author": "xianyu2383",
         "cpuName": "AMD Ryzen 9 8945HX with Radeon Graphics",
@@ -20912,7 +21074,7 @@
         "repoPath": "reports/xianyu2383/xianyu2383-20260711-191149.json"
       },
       {
-        "rank": 75,
+        "rank": 76,
         "id": "hunanhjx-20260711-005632",
         "author": "hunanhjx",
         "cpuName": "Intel Core i7-14650HX",
@@ -20939,7 +21101,7 @@
         "repoPath": "reports/hunanhjx/hunanhjx-20260711-005632.json"
       },
       {
-        "rank": 76,
+        "rank": 77,
         "id": "kearnysong-20260712-005806",
         "author": "kearnysong",
         "cpuName": "Intel Core Ultra 7 251HX",
@@ -20966,7 +21128,7 @@
         "repoPath": "reports/kearnysong/kearnysong-20260712-005806.json"
       },
       {
-        "rank": 77,
+        "rank": 78,
         "id": "mianhuatangcrystal117-cloud-20260711-202716",
         "author": "mianhuatangcrystal117-cloud",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -20993,7 +21155,7 @@
         "repoPath": "reports/mianhuatangcrystal117-cloud/mianhuatangcrystal117-cloud-20260711-202716.json"
       },
       {
-        "rank": 78,
+        "rank": 79,
         "id": "BlankGrey-20260713-214622",
         "author": "BlankGrey",
         "cpuName": "13th Gen Intel Core i7-13700K",
@@ -21020,7 +21182,7 @@
         "repoPath": "reports/BlankGrey/BlankGrey-20260713-214622.json"
       },
       {
-        "rank": 79,
+        "rank": 80,
         "id": "IOOIZIO-20260710-213453",
         "author": "IOOIZIO",
         "cpuName": "Intel Core i7-14650HX",
@@ -21047,7 +21209,7 @@
         "repoPath": "reports/IOOIZIO/IOOIZIO-20260710-213453.json"
       },
       {
-        "rank": 80,
+        "rank": 81,
         "id": "cheekibreeki480-20260711-003742",
         "author": "cheekibreeki480",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -21074,7 +21236,7 @@
         "repoPath": "reports/cheekibreeki480/cheekibreeki480-20260711-003742.json"
       },
       {
-        "rank": 81,
+        "rank": 82,
         "id": "ertutio-20260712-134932",
         "author": "ertutio",
         "cpuName": "Intel Core Ultra 9 275HX",
@@ -21101,7 +21263,7 @@
         "repoPath": "reports/ertutio/ertutio-20260712-134932.json"
       },
       {
-        "rank": 82,
+        "rank": 83,
         "id": "zhouben-110-20260711-191527",
         "author": "zhouben-110",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -21128,7 +21290,7 @@
         "repoPath": "reports/zhouben-110/zhouben-110-20260711-191527.json"
       },
       {
-        "rank": 83,
+        "rank": 84,
         "id": "zj010520-a11y-20260715-232700",
         "author": "zj010520-a11y",
         "cpuName": "Intel Core Ultra 9 285HX",
@@ -21155,7 +21317,7 @@
         "repoPath": "reports/zj010520-a11y/zj010520-a11y-20260715-232700.json"
       },
       {
-        "rank": 84,
+        "rank": 85,
         "id": "RekiP-20260720-010000",
         "author": "RekiP",
         "cpuName": "AMD Ryzen 7 9800X3D",
@@ -21182,7 +21344,7 @@
         "repoPath": "reports/RekiP/RekiP-20260720-010000.json"
       },
       {
-        "rank": 85,
+        "rank": 86,
         "id": "byybht-20260719-214147",
         "author": "byybht",
         "cpuName": "AMD Ryzen 7 5700X",
@@ -21209,7 +21371,7 @@
         "repoPath": "reports/byybht/byybht-20260719-214147.json"
       },
       {
-        "rank": 86,
+        "rank": 87,
         "id": "smile-wq-20260715-221232",
         "author": "smile-wq",
         "cpuName": "Intel Core i7-14700HX",
@@ -21236,7 +21398,7 @@
         "repoPath": "reports/smile-wq/smile-wq-20260715-221232.json"
       },
       {
-        "rank": 87,
+        "rank": 88,
         "id": "KindaCello4028-20260711-135308",
         "author": "KindaCello4028",
         "cpuName": "AMD Ryzen 9 9955HX",
@@ -21263,7 +21425,7 @@
         "repoPath": "reports/KindaCello4028/KindaCello4028-20260711-135308.json"
       },
       {
-        "rank": 88,
+        "rank": 89,
         "id": "Mio114-20260710-064735",
         "author": "Mio114",
         "cpuName": "AMD Ryzen 9 8945H w/ Radeon 780M Graphics",
@@ -21290,7 +21452,7 @@
         "repoPath": "reports/Mio114/Mio114-20260710-064735.json"
       },
       {
-        "rank": 89,
+        "rank": 90,
         "id": "byybht-20260716-161452",
         "author": "byybht",
         "cpuName": "AMD Ryzen 7 5700X",
@@ -21317,7 +21479,7 @@
         "repoPath": "reports/byybht/byybht-20260716-161452.json"
       },
       {
-        "rank": 90,
+        "rank": 91,
         "id": "DaDPrime-20260715-001347",
         "author": "DaDPrime",
         "cpuName": "AMD Ryzen 7 8845H w/ Radeon 780M Graphics",
@@ -21344,7 +21506,7 @@
         "repoPath": "reports/DaDPrime/DaDPrime-20260715-001347.json"
       },
       {
-        "rank": 91,
+        "rank": 92,
         "id": "jinmmliang-20260702-183632",
         "author": "jinmmliang",
         "cpuName": "13th Gen Intel Core i7-13650HX",
@@ -21371,7 +21533,7 @@
         "repoPath": "reports/jinmmliang/jinmmliang-20260702-183632.json"
       },
       {
-        "rank": 92,
+        "rank": 93,
         "id": "Asher-08-20260710-215558",
         "author": "Asher-08",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -21398,7 +21560,7 @@
         "repoPath": "reports/Asher-08/Asher-08-20260710-215558.json"
       },
       {
-        "rank": 93,
+        "rank": 94,
         "id": "AuthoRay-20260714-164236",
         "author": "AuthoRay",
         "cpuName": "Intel Core i7-14650HX",
@@ -21425,7 +21587,7 @@
         "repoPath": "reports/AuthoRay/AuthoRay-20260714-164236.json"
       },
       {
-        "rank": 94,
+        "rank": 95,
         "id": "megane3251-20260713-032437",
         "author": "megane3251",
         "cpuName": "AMD Ryzen 7 7800X3D",
@@ -21452,7 +21614,7 @@
         "repoPath": "reports/megane3251/megane3251-20260713-032437.json"
       },
       {
-        "rank": 95,
+        "rank": 96,
         "id": "woods1w-20260718-224159",
         "author": "woods1w",
         "cpuName": "13th Gen Intel Core i9-13900HX",
@@ -21479,7 +21641,7 @@
         "repoPath": "reports/woods1w/woods1w-20260718-224159.json"
       },
       {
-        "rank": 96,
+        "rank": 97,
         "id": "Freewind72-20260710-231927",
         "author": "Freewind72",
         "cpuName": "12th Gen Intel Core i5-12600K",
@@ -21506,7 +21668,7 @@
         "repoPath": "reports/Freewind72/Freewind72-20260710-231927.json"
       },
       {
-        "rank": 97,
+        "rank": 98,
         "id": "jeffrey559556-sys-20260712-164155",
         "author": "jeffrey559556-sys",
         "cpuName": "Intel Core Ultra 7 265K",
@@ -21533,7 +21695,7 @@
         "repoPath": "reports/jeffrey559556-sys/jeffrey559556-sys-20260712-164155.json"
       },
       {
-        "rank": 98,
+        "rank": 99,
         "id": "xuebi1326-20260719-050815",
         "author": "xuebi1326",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -21560,7 +21722,7 @@
         "repoPath": "reports/xuebi1326/xuebi1326-20260719-050815.json"
       },
       {
-        "rank": 99,
+        "rank": 100,
         "id": "Sandwitch-eat-20260712-161551",
         "author": "Sandwitch-eat",
         "cpuName": "AMD Ryzen 5 7500F",
@@ -21587,7 +21749,7 @@
         "repoPath": "reports/Sandwitch-eat/Sandwitch-eat-20260712-161551.json"
       },
       {
-        "rank": 100,
+        "rank": 101,
         "id": "Alpha-Qian-20260711-172441",
         "author": "Alpha-Qian",
         "cpuName": "13th Gen Intel Core i9-13900HX",
@@ -21614,7 +21776,7 @@
         "repoPath": "reports/Alpha-Qian/Alpha-Qian-20260711-172441.json"
       },
       {
-        "rank": 101,
+        "rank": 102,
         "id": "HU233MAX-20260711-174143",
         "author": "HU233MAX",
         "cpuName": "AMD Ryzen 5 5500X3D",
@@ -21641,7 +21803,7 @@
         "repoPath": "reports/HU233MAX/HU233MAX-20260711-174143.json"
       },
       {
-        "rank": 102,
+        "rank": 103,
         "id": "SipherNa-20260710-082710",
         "author": "SipherNa",
         "cpuName": "AMD Ryzen 5 5600",
@@ -21668,7 +21830,7 @@
         "repoPath": "reports/SipherNa/SipherNa-20260710-082710.json"
       },
       {
-        "rank": 103,
+        "rank": 104,
         "id": "491666886-20260709-094041",
         "author": "491666886",
         "cpuName": "12th Gen Intel Core i5-12500H",
@@ -21695,7 +21857,7 @@
         "repoPath": "reports/491666886/491666886-20260709-094041.json"
       },
       {
-        "rank": 104,
+        "rank": 105,
         "id": "RenYong-GitHub-20260711-060945",
         "author": "RenYong-GitHub",
         "cpuName": "12th Gen Intel Core i7-12650H",
@@ -21722,7 +21884,7 @@
         "repoPath": "reports/RenYong-GitHub/RenYong-GitHub-20260711-060945.json"
       },
       {
-        "rank": 105,
+        "rank": 106,
         "id": "megane3251-20260713-030234",
         "author": "megane3251",
         "cpuName": "AMD Ryzen 7 7800X3D",
@@ -21749,7 +21911,7 @@
         "repoPath": "reports/megane3251/megane3251-20260713-030234.json"
       },
       {
-        "rank": 106,
+        "rank": 107,
         "id": "217432-20260711-211208",
         "author": "217432",
         "cpuName": "13th Gen Intel Core i5-13400F",
@@ -21776,7 +21938,7 @@
         "repoPath": "reports/217432/217432-20260711-211208.json"
       },
       {
-        "rank": 107,
+        "rank": 108,
         "id": "doublex2gao-20260719-171105",
         "author": "doublex2gao",
         "cpuName": "AMD Ryzen 5 7600",
@@ -21803,7 +21965,7 @@
         "repoPath": "reports/doublex2gao/doublex2gao-20260719-171105.json"
       },
       {
-        "rank": 108,
+        "rank": 109,
         "id": "q978383152-20260714-131852",
         "author": "q978383152",
         "cpuName": "13th Gen Intel Core i9-13980HX",
@@ -21830,7 +21992,7 @@
         "repoPath": "reports/q978383152/q978383152-20260714-131852.json"
       },
       {
-        "rank": 109,
+        "rank": 110,
         "id": "blacater-20260715-062033",
         "author": "blacater",
         "cpuName": "12th Gen Intel Core i5-12400F",
@@ -21857,7 +22019,7 @@
         "repoPath": "reports/blacater/blacater-20260715-062033.json"
       },
       {
-        "rank": 110,
+        "rank": 111,
         "id": "cqian93-20260710-152504",
         "author": "cqian93",
         "cpuName": "AMD Ryzen 5 5600",
@@ -21884,7 +22046,7 @@
         "repoPath": "reports/cqian93/cqian93-20260710-152504.json"
       },
       {
-        "rank": 111,
+        "rank": 112,
         "id": "luolangaga-20260709-231859",
         "author": "luolangaga",
         "cpuName": "Intel Core Ultra 5 338H",
@@ -21911,7 +22073,7 @@
         "repoPath": "reports/luolangaga/luolangaga-20260709-231859.json"
       },
       {
-        "rank": 112,
+        "rank": 113,
         "id": "xiaolingawa-20260711-124055",
         "author": "xiaolingawa",
         "cpuName": "AMD Ryzen 7 8745H w/ Radeon 780M Graphics",
@@ -21938,7 +22100,7 @@
         "repoPath": "reports/xiaolingawa/xiaolingawa-20260711-124055.json"
       },
       {
-        "rank": 113,
+        "rank": 114,
         "id": "jjh060807-dev-20260711-184251",
         "author": "jjh060807-dev",
         "cpuName": "Intel Core 7 240H",
@@ -21965,7 +22127,7 @@
         "repoPath": "reports/jjh060807-dev/jjh060807-dev-20260711-184251.json"
       },
       {
-        "rank": 114,
+        "rank": 115,
         "id": "NaiveDrifter-20260715-213805",
         "author": "NaiveDrifter",
         "cpuName": "AMD Ryzen 5 5500X3D",
@@ -21992,7 +22154,7 @@
         "repoPath": "reports/NaiveDrifter/NaiveDrifter-20260715-213805.json"
       },
       {
-        "rank": 115,
+        "rank": 116,
         "id": "Qian-Xi-QuQ-20260711-173510",
         "author": "Qian-Xi-QuQ",
         "cpuName": "12th Gen Intel(R) Core(TM) i3-12100F",
@@ -22019,7 +22181,7 @@
         "repoPath": "reports/Qian-Xi-QuQ/Qian-Xi-QuQ-20260711-173510.json"
       },
       {
-        "rank": 116,
+        "rank": 117,
         "id": "DongMui-20260711-171725",
         "author": "DongMui",
         "cpuName": "12th Gen Intel Core i7-12700H",
@@ -22046,7 +22208,7 @@
         "repoPath": "reports/DongMui/DongMui-20260711-171725.json"
       },
       {
-        "rank": 117,
+        "rank": 118,
         "id": "Nkctro-20260710-192633",
         "author": "Nkctro",
         "cpuName": "AMD Ryzen 9 9950X3D",
@@ -22073,7 +22235,7 @@
         "repoPath": "reports/Nkctro/Nkctro-20260710-192633.json"
       },
       {
-        "rank": 118,
+        "rank": 119,
         "id": "breeze313-20260711-174727",
         "author": "breeze313",
         "cpuName": "AMD Ryzen 9 7940HX with Radeon Graphics",
@@ -22100,7 +22262,7 @@
         "repoPath": "reports/breeze313/breeze313-20260711-174727.json"
       },
       {
-        "rank": 119,
+        "rank": 120,
         "id": "SXT3808-20260712-162855",
         "author": "SXT3808",
         "cpuName": "12th Gen Intel Core i5-12400F",
@@ -22127,7 +22289,7 @@
         "repoPath": "reports/SXT3808/SXT3808-20260712-162855.json"
       },
       {
-        "rank": 120,
+        "rank": 121,
         "id": "WinMCHG31400-20260714-123452",
         "author": "WinMCHG31400",
         "cpuName": "AMD Ryzen 7 8845H w/ Radeon 780M Graphics",
@@ -22154,7 +22316,7 @@
         "repoPath": "reports/WinMCHG31400/WinMCHG31400-20260714-123452.json"
       },
       {
-        "rank": 121,
+        "rank": 122,
         "id": "dai123-dai-20260716-082824",
         "author": "dai123-dai",
         "cpuName": "AMD Ryzen 5 5600",
@@ -22181,7 +22343,7 @@
         "repoPath": "reports/dai123-dai/dai123-dai-20260716-082824.json"
       },
       {
-        "rank": 122,
+        "rank": 123,
         "id": "haihaihailailo-20260716-211337",
         "author": "haihaihailailo",
         "cpuName": "AMD Ryzen 7 H 255 W/ Radeon 780M",
@@ -22208,7 +22370,7 @@
         "repoPath": "reports/haihaihailailo/haihaihailailo-20260716-211337.json"
       },
       {
-        "rank": 123,
+        "rank": 124,
         "id": "w007-01-20260711-164628",
         "author": "w007-01",
         "cpuName": "AMD Ryzen 9 8940HX with Radeon Graphics",
@@ -22235,7 +22397,7 @@
         "repoPath": "reports/w007-01/w007-01-20260711-164628.json"
       },
       {
-        "rank": 124,
+        "rank": 125,
         "id": "andrewlinzp-20260711-223053",
         "author": "andrewlinzp",
         "cpuName": "AMD Ryzen 5 5600G with Radeon Graphics",
@@ -22262,7 +22424,7 @@
         "repoPath": "reports/andrewlinzp/andrewlinzp-20260711-223053.json"
       },
       {
-        "rank": 125,
+        "rank": 126,
         "id": "miuiv5ztl-20260714-194447",
         "author": "miuiv5ztl",
         "cpuName": "Intel Core Ultra 7 155H",
@@ -22289,7 +22451,7 @@
         "repoPath": "reports/miuiv5ztl/miuiv5ztl-20260714-194447.json"
       },
       {
-        "rank": 126,
+        "rank": 127,
         "id": "yyy123zc-20260713-225645",
         "author": "yyy123zc",
         "cpuName": "AMD Ryzen 5 3500X",
@@ -22316,7 +22478,7 @@
         "repoPath": "reports/yyy123zc/yyy123zc-20260713-225645.json"
       },
       {
-        "rank": 127,
+        "rank": 128,
         "id": "3804313647-20260713-093902",
         "author": "3804313647",
         "cpuName": "Genuine Intel 0000",
@@ -22343,7 +22505,7 @@
         "repoPath": "reports/3804313647/3804313647-20260713-093902.json"
       },
       {
-        "rank": 128,
+        "rank": 129,
         "id": "zeng-xingling-20260709-224729",
         "author": "zeng-xingling",
         "cpuName": "12th Gen Intel Core i5-12450H",
@@ -22370,7 +22532,7 @@
         "repoPath": "reports/zeng-xingling/zeng-xingling-20260709-224729.json"
       },
       {
-        "rank": 129,
+        "rank": 130,
         "id": "Kudonly-20260715-110617",
         "author": "Kudonly",
         "cpuName": "Intel Core Ultra 5 125H",
@@ -22397,7 +22559,7 @@
         "repoPath": "reports/Kudonly/Kudonly-20260715-110617.json"
       },
       {
-        "rank": 130,
+        "rank": 131,
         "id": "HugoXOX3-20260716-103141",
         "author": "HugoXOX3",
         "cpuName": "Intel Core i5-9400F",
@@ -22424,7 +22586,7 @@
         "repoPath": "reports/HugoXOX3/HugoXOX3-20260716-103141.json"
       },
       {
-        "rank": 131,
+        "rank": 132,
         "id": "Mark66616-20260711-014443",
         "author": "Mark66616",
         "cpuName": "AMD Ryzen 5 5600",
@@ -22451,7 +22613,7 @@
         "repoPath": "reports/Mark66616/Mark66616-20260711-014443.json"
       },
       {
-        "rank": 132,
+        "rank": 133,
         "id": "G-y-b-20260713-132811",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -22478,7 +22640,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260713-132811.json"
       },
       {
-        "rank": 133,
+        "rank": 134,
         "id": "G-y-b-20260714-174655",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -22505,7 +22667,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260714-174655.json"
       },
       {
-        "rank": 134,
+        "rank": 135,
         "id": "zazahuizaichi-20260713-160926",
         "author": "zazahuizaichi",
         "cpuName": "Intel Xeon E5-2673 v4",
@@ -22532,7 +22694,7 @@
         "repoPath": "reports/zazahuizaichi/zazahuizaichi-20260713-160926.json"
       },
       {
-        "rank": 135,
+        "rank": 136,
         "id": "hindows11-20260713-113354",
         "author": "hindows11",
         "cpuName": "Intel Core i5-8250U",
@@ -22559,7 +22721,7 @@
         "repoPath": "reports/hindows11/hindows11-20260713-113354.json"
       },
       {
-        "rank": 136,
+        "rank": 137,
         "id": "wjs6awa-20260714-100324",
         "author": "wjs6awa",
         "cpuName": "Intel Xeon E5-2660 0",
@@ -22586,7 +22748,7 @@
         "repoPath": "reports/wjs6awa/wjs6awa-20260714-100324.json"
       },
       {
-        "rank": 137,
+        "rank": 138,
         "id": "2581374794-20260712-113741",
         "author": "2581374794",
         "cpuName": "13th Gen Intel Core i5-13500HX",
@@ -22613,7 +22775,7 @@
         "repoPath": "reports/2581374794/2581374794-20260712-113741.json"
       },
       {
-        "rank": 138,
+        "rank": 139,
         "id": "ms-win-20260719-210928",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -22640,7 +22802,7 @@
         "repoPath": "reports/ms-win/ms-win-20260719-210928.json"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "id": "tomcatone-20260708-190440",
         "author": "tomcatone",
         "cpuName": "Intel Core Ultra 5 230F",
@@ -22667,7 +22829,7 @@
         "repoPath": "reports/tomcatone/tomcatone-20260708-190440.json"
       },
       {
-        "rank": 140,
+        "rank": 141,
         "id": "xushengping666-20260710-104525",
         "author": "xushengping666",
         "cpuName": "Intel Core i7-14650HX",
