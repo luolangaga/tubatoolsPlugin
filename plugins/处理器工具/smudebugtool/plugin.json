@@ -1,0 +1,14 @@
+{
+  "id": "smudebugtool",
+  "name": "SMUDebugTool",
+  "version": "1.0",
+  "description": "",
+  "category": "\u5904\u7406\u5668\u5DE5\u5177",
+  "publisher": null,
+  "tags": [],
+  "launchTarget": "SMUDebugTool.exe",
+  "author": "Chiuu1118",
+  "submittedAt": "2026-07-22T12:41:43.4589398\u002B00:00",
+  "homepage": null,
+  "file": "SMUDebugTool_v1.40.zip"
+}
