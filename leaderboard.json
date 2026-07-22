@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-22T10:11:47.755Z",
-  "totalReports": 146,
+  "updatedAt": "2026-07-22T10:27:48.494Z",
+  "totalReports": 147,
   "leaderboards": {
     "gaming": [
       {
@@ -3677,6 +3677,33 @@
       },
       {
         "rank": 137,
+        "id": "shizuku166-20260722-103623",
+        "author": "shizuku166",
+        "cpuName": "Intel Core i5-10400F",
+        "gpuName": "NVIDIA GeForce GTX 1660 SUPER",
+        "gamingScore": 65,
+        "officeScore": 43,
+        "cpuSingleCoreScore": 56,
+        "cpuMultiCoreScore": 35,
+        "gpuRenderScore": 111,
+        "memoryCapacityScore": 49,
+        "diskSeqReadScore": 0,
+        "diskSeqWriteScore": 0,
+        "disk4KReadScore": 0,
+        "disk4KWriteScore": 0,
+        "browserTotalScore": 66,
+        "gamingGrade": "B+",
+        "officeGrade": "B",
+        "submittedAt": "2026-07-22T03:13:10.0436412+00:00",
+        "osName": "Microsoft Windows 10 IoT 企业版 LTSC",
+        "motherboardName": "技嘉(Gigabyte) B460M AORUS ELITE BIOS F7",
+        "memoryInfo": "15.9 GB | DDR4 | 04CD F4-2666C19-8GNT 8 GB 2666 MHz | 金士顿(Kingston) KHX2666C16/8G 8 GB 2666 MHz | 空 | 空",
+        "diskInfo": "YIMAI 512GB HDD 476.9 GB IDE/PATA | NS300 256G SSD HDD 238.5 GB IDE/PATA | SSD HDD 476.9 GB IDE/PATA | BR120G HDD 111.8 GB IDE/PATA",
+        "displayInfo": "ADU (SN:6666) 1920 x 1080 75 Hz 主显",
+        "repoPath": "reports/shizuku166/shizuku166-20260722-103623.json"
+      },
+      {
+        "rank": 138,
         "id": "HugoXOX3-20260716-103141",
         "author": "HugoXOX3",
         "cpuName": "Intel Core i5-9400F",
@@ -3703,7 +3730,7 @@
         "repoPath": "reports/HugoXOX3/HugoXOX3-20260716-103141.json"
       },
       {
-        "rank": 138,
+        "rank": 139,
         "id": "zeng-xingling-20260709-224729",
         "author": "zeng-xingling",
         "cpuName": "12th Gen Intel Core i5-12450H",
@@ -3730,7 +3757,7 @@
         "repoPath": "reports/zeng-xingling/zeng-xingling-20260709-224729.json"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "id": "doublex2gao-20260719-171105",
         "author": "doublex2gao",
         "cpuName": "AMD Ryzen 5 7600",
@@ -3757,7 +3784,7 @@
         "repoPath": "reports/doublex2gao/doublex2gao-20260719-171105.json"
       },
       {
-        "rank": 140,
+        "rank": 141,
         "id": "wjs6awa-20260714-100324",
         "author": "wjs6awa",
         "cpuName": "Intel Xeon E5-2660 0",
@@ -3784,7 +3811,7 @@
         "repoPath": "reports/wjs6awa/wjs6awa-20260714-100324.json"
       },
       {
-        "rank": 141,
+        "rank": 142,
         "id": "G-y-b-20260714-174655",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -3811,7 +3838,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260714-174655.json"
       },
       {
-        "rank": 142,
+        "rank": 143,
         "id": "G-y-b-20260713-132811",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -3838,7 +3865,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260713-132811.json"
       },
       {
-        "rank": 143,
+        "rank": 144,
         "id": "ms-win-20260722-124341",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -3865,7 +3892,7 @@
         "repoPath": "reports/ms-win/ms-win-20260722-124341.json"
       },
       {
-        "rank": 144,
+        "rank": 145,
         "id": "ms-win-20260720-102504",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -3892,7 +3919,7 @@
         "repoPath": "reports/ms-win/ms-win-20260720-102504.json"
       },
       {
-        "rank": 145,
+        "rank": 146,
         "id": "ms-win-20260719-210928",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -3919,7 +3946,7 @@
         "repoPath": "reports/ms-win/ms-win-20260719-210928.json"
       },
       {
-        "rank": 146,
+        "rank": 147,
         "id": "hindows11-20260713-113354",
         "author": "hindows11",
         "cpuName": "Intel Core i5-8250U",
@@ -7729,6 +7756,33 @@
       },
       {
         "rank": 141,
+        "id": "shizuku166-20260722-103623",
+        "author": "shizuku166",
+        "cpuName": "Intel Core i5-10400F",
+        "gpuName": "NVIDIA GeForce GTX 1660 SUPER",
+        "gamingScore": 65,
+        "officeScore": 43,
+        "cpuSingleCoreScore": 56,
+        "cpuMultiCoreScore": 35,
+        "gpuRenderScore": 111,
+        "memoryCapacityScore": 49,
+        "diskSeqReadScore": 0,
+        "diskSeqWriteScore": 0,
+        "disk4KReadScore": 0,
+        "disk4KWriteScore": 0,
+        "browserTotalScore": 66,
+        "gamingGrade": "B+",
+        "officeGrade": "B",
+        "submittedAt": "2026-07-22T03:13:10.0436412+00:00",
+        "osName": "Microsoft Windows 10 IoT 企业版 LTSC",
+        "motherboardName": "技嘉(Gigabyte) B460M AORUS ELITE BIOS F7",
+        "memoryInfo": "15.9 GB | DDR4 | 04CD F4-2666C19-8GNT 8 GB 2666 MHz | 金士顿(Kingston) KHX2666C16/8G 8 GB 2666 MHz | 空 | 空",
+        "diskInfo": "YIMAI 512GB HDD 476.9 GB IDE/PATA | NS300 256G SSD HDD 238.5 GB IDE/PATA | SSD HDD 476.9 GB IDE/PATA | BR120G HDD 111.8 GB IDE/PATA",
+        "displayInfo": "ADU (SN:6666) 1920 x 1080 75 Hz 主显",
+        "repoPath": "reports/shizuku166/shizuku166-20260722-103623.json"
+      },
+      {
+        "rank": 142,
         "id": "G-y-b-20260714-174655",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -7755,7 +7809,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260714-174655.json"
       },
       {
-        "rank": 142,
+        "rank": 143,
         "id": "G-y-b-20260713-132811",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -7782,7 +7836,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260713-132811.json"
       },
       {
-        "rank": 143,
+        "rank": 144,
         "id": "ms-win-20260722-124341",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -7809,7 +7863,7 @@
         "repoPath": "reports/ms-win/ms-win-20260722-124341.json"
       },
       {
-        "rank": 144,
+        "rank": 145,
         "id": "ms-win-20260720-102504",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -7836,7 +7890,7 @@
         "repoPath": "reports/ms-win/ms-win-20260720-102504.json"
       },
       {
-        "rank": 145,
+        "rank": 146,
         "id": "hindows11-20260713-113354",
         "author": "hindows11",
         "cpuName": "Intel Core i5-8250U",
@@ -7863,7 +7917,7 @@
         "repoPath": "reports/hindows11/hindows11-20260713-113354.json"
       },
       {
-        "rank": 146,
+        "rank": 147,
         "id": "ms-win-20260719-210928",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -11538,6 +11592,33 @@
       },
       {
         "rank": 136,
+        "id": "shizuku166-20260722-103623",
+        "author": "shizuku166",
+        "cpuName": "Intel Core i5-10400F",
+        "gpuName": "NVIDIA GeForce GTX 1660 SUPER",
+        "gamingScore": 65,
+        "officeScore": 43,
+        "cpuSingleCoreScore": 56,
+        "cpuMultiCoreScore": 35,
+        "gpuRenderScore": 111,
+        "memoryCapacityScore": 49,
+        "diskSeqReadScore": 0,
+        "diskSeqWriteScore": 0,
+        "disk4KReadScore": 0,
+        "disk4KWriteScore": 0,
+        "browserTotalScore": 66,
+        "gamingGrade": "B+",
+        "officeGrade": "B",
+        "submittedAt": "2026-07-22T03:13:10.0436412+00:00",
+        "osName": "Microsoft Windows 10 IoT 企业版 LTSC",
+        "motherboardName": "技嘉(Gigabyte) B460M AORUS ELITE BIOS F7",
+        "memoryInfo": "15.9 GB | DDR4 | 04CD F4-2666C19-8GNT 8 GB 2666 MHz | 金士顿(Kingston) KHX2666C16/8G 8 GB 2666 MHz | 空 | 空",
+        "diskInfo": "YIMAI 512GB HDD 476.9 GB IDE/PATA | NS300 256G SSD HDD 238.5 GB IDE/PATA | SSD HDD 476.9 GB IDE/PATA | BR120G HDD 111.8 GB IDE/PATA",
+        "displayInfo": "ADU (SN:6666) 1920 x 1080 75 Hz 主显",
+        "repoPath": "reports/shizuku166/shizuku166-20260722-103623.json"
+      },
+      {
+        "rank": 137,
         "id": "Qian-Xi-QuQ-20260711-173510",
         "author": "Qian-Xi-QuQ",
         "cpuName": "12th Gen Intel(R) Core(TM) i3-12100F",
@@ -11564,7 +11645,7 @@
         "repoPath": "reports/Qian-Xi-QuQ/Qian-Xi-QuQ-20260711-173510.json"
       },
       {
-        "rank": 137,
+        "rank": 138,
         "id": "2581374794-20260712-113741",
         "author": "2581374794",
         "cpuName": "13th Gen Intel Core i5-13500HX",
@@ -11591,7 +11672,7 @@
         "repoPath": "reports/2581374794/2581374794-20260712-113741.json"
       },
       {
-        "rank": 138,
+        "rank": 139,
         "id": "wjs6awa-20260714-100324",
         "author": "wjs6awa",
         "cpuName": "Intel Xeon E5-2660 0",
@@ -11618,7 +11699,7 @@
         "repoPath": "reports/wjs6awa/wjs6awa-20260714-100324.json"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "id": "G-y-b-20260713-132811",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -11645,7 +11726,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260713-132811.json"
       },
       {
-        "rank": 140,
+        "rank": 141,
         "id": "yyy123zc-20260713-225645",
         "author": "yyy123zc",
         "cpuName": "AMD Ryzen 5 3500X",
@@ -11672,7 +11753,7 @@
         "repoPath": "reports/yyy123zc/yyy123zc-20260713-225645.json"
       },
       {
-        "rank": 141,
+        "rank": 142,
         "id": "G-y-b-20260714-174655",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -11699,7 +11780,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260714-174655.json"
       },
       {
-        "rank": 142,
+        "rank": 143,
         "id": "HugoXOX3-20260716-103141",
         "author": "HugoXOX3",
         "cpuName": "Intel Core i5-9400F",
@@ -11726,7 +11807,7 @@
         "repoPath": "reports/HugoXOX3/HugoXOX3-20260716-103141.json"
       },
       {
-        "rank": 143,
+        "rank": 144,
         "id": "hindows11-20260713-113354",
         "author": "hindows11",
         "cpuName": "Intel Core i5-8250U",
@@ -11753,7 +11834,7 @@
         "repoPath": "reports/hindows11/hindows11-20260713-113354.json"
       },
       {
-        "rank": 144,
+        "rank": 145,
         "id": "ms-win-20260720-102504",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -11780,7 +11861,7 @@
         "repoPath": "reports/ms-win/ms-win-20260720-102504.json"
       },
       {
-        "rank": 145,
+        "rank": 146,
         "id": "ms-win-20260722-124341",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -11807,7 +11888,7 @@
         "repoPath": "reports/ms-win/ms-win-20260722-124341.json"
       },
       {
-        "rank": 146,
+        "rank": 147,
         "id": "ms-win-20260719-210928",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -15185,6 +15266,33 @@
       },
       {
         "rank": 125,
+        "id": "shizuku166-20260722-103623",
+        "author": "shizuku166",
+        "cpuName": "Intel Core i5-10400F",
+        "gpuName": "NVIDIA GeForce GTX 1660 SUPER",
+        "gamingScore": 65,
+        "officeScore": 43,
+        "cpuSingleCoreScore": 56,
+        "cpuMultiCoreScore": 35,
+        "gpuRenderScore": 111,
+        "memoryCapacityScore": 49,
+        "diskSeqReadScore": 0,
+        "diskSeqWriteScore": 0,
+        "disk4KReadScore": 0,
+        "disk4KWriteScore": 0,
+        "browserTotalScore": 66,
+        "gamingGrade": "B+",
+        "officeGrade": "B",
+        "submittedAt": "2026-07-22T03:13:10.0436412+00:00",
+        "osName": "Microsoft Windows 10 IoT 企业版 LTSC",
+        "motherboardName": "技嘉(Gigabyte) B460M AORUS ELITE BIOS F7",
+        "memoryInfo": "15.9 GB | DDR4 | 04CD F4-2666C19-8GNT 8 GB 2666 MHz | 金士顿(Kingston) KHX2666C16/8G 8 GB 2666 MHz | 空 | 空",
+        "diskInfo": "YIMAI 512GB HDD 476.9 GB IDE/PATA | NS300 256G SSD HDD 238.5 GB IDE/PATA | SSD HDD 476.9 GB IDE/PATA | BR120G HDD 111.8 GB IDE/PATA",
+        "displayInfo": "ADU (SN:6666) 1920 x 1080 75 Hz 主显",
+        "repoPath": "reports/shizuku166/shizuku166-20260722-103623.json"
+      },
+      {
+        "rank": 126,
         "id": "xiaohuangbo-20260715-113212",
         "author": "xiaohuangbo",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -15211,7 +15319,7 @@
         "repoPath": "reports/xiaohuangbo/xiaohuangbo-20260715-113212.json"
       },
       {
-        "rank": 126,
+        "rank": 127,
         "id": "luolangaga-20260709-233646",
         "author": "luolangaga",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -15238,7 +15346,7 @@
         "repoPath": "reports/luolangaga/luolangaga-20260709-233646.json"
       },
       {
-        "rank": 127,
+        "rank": 128,
         "id": "IOOIZIO-20260710-213453",
         "author": "IOOIZIO",
         "cpuName": "Intel Core i7-14650HX",
@@ -15265,7 +15373,7 @@
         "repoPath": "reports/IOOIZIO/IOOIZIO-20260710-213453.json"
       },
       {
-        "rank": 128,
+        "rank": 129,
         "id": "Asher-08-20260710-215558",
         "author": "Asher-08",
         "cpuName": "Intel Core Ultra X7 358H",
@@ -15292,7 +15400,7 @@
         "repoPath": "reports/Asher-08/Asher-08-20260710-215558.json"
       },
       {
-        "rank": 129,
+        "rank": 130,
         "id": "HugoXOX3-20260716-103141",
         "author": "HugoXOX3",
         "cpuName": "Intel Core i5-9400F",
@@ -15319,7 +15427,7 @@
         "repoPath": "reports/HugoXOX3/HugoXOX3-20260716-103141.json"
       },
       {
-        "rank": 130,
+        "rank": 131,
         "id": "Qian-Xi-QuQ-20260711-173510",
         "author": "Qian-Xi-QuQ",
         "cpuName": "12th Gen Intel(R) Core(TM) i3-12100F",
@@ -15346,7 +15454,7 @@
         "repoPath": "reports/Qian-Xi-QuQ/Qian-Xi-QuQ-20260711-173510.json"
       },
       {
-        "rank": 131,
+        "rank": 132,
         "id": "wjs6awa-20260714-100324",
         "author": "wjs6awa",
         "cpuName": "Intel Xeon E5-2660 0",
@@ -15373,7 +15481,7 @@
         "repoPath": "reports/wjs6awa/wjs6awa-20260714-100324.json"
       },
       {
-        "rank": 132,
+        "rank": 133,
         "id": "491666886-20260709-094041",
         "author": "491666886",
         "cpuName": "12th Gen Intel Core i5-12500H",
@@ -15400,7 +15508,7 @@
         "repoPath": "reports/491666886/491666886-20260709-094041.json"
       },
       {
-        "rank": 133,
+        "rank": 134,
         "id": "luolangaga-20260709-231859",
         "author": "luolangaga",
         "cpuName": "Intel Core Ultra 5 338H",
@@ -15427,7 +15535,7 @@
         "repoPath": "reports/luolangaga/luolangaga-20260709-231859.json"
       },
       {
-        "rank": 134,
+        "rank": 135,
         "id": "Kudonly-20260715-110617",
         "author": "Kudonly",
         "cpuName": "Intel Core Ultra 5 125H",
@@ -15454,7 +15562,7 @@
         "repoPath": "reports/Kudonly/Kudonly-20260715-110617.json"
       },
       {
-        "rank": 135,
+        "rank": 136,
         "id": "G-y-b-20260713-132811",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -15481,7 +15589,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260713-132811.json"
       },
       {
-        "rank": 136,
+        "rank": 137,
         "id": "G-y-b-20260714-174655",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -15508,7 +15616,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260714-174655.json"
       },
       {
-        "rank": 137,
+        "rank": 138,
         "id": "miuiv5ztl-20260714-194447",
         "author": "miuiv5ztl",
         "cpuName": "Intel Core Ultra 7 155H",
@@ -15535,7 +15643,7 @@
         "repoPath": "reports/miuiv5ztl/miuiv5ztl-20260714-194447.json"
       },
       {
-        "rank": 138,
+        "rank": 139,
         "id": "520005962-eng-20260711-192848",
         "author": "520005962-eng",
         "cpuName": "Intel Core Ultra 7 270K Plus",
@@ -15562,7 +15670,7 @@
         "repoPath": "reports/520005962-eng/520005962-eng-20260711-192848.json"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "id": "WinMCHG31400-20260714-123452",
         "author": "WinMCHG31400",
         "cpuName": "AMD Ryzen 7 8845H w/ Radeon 780M Graphics",
@@ -15589,7 +15697,7 @@
         "repoPath": "reports/WinMCHG31400/WinMCHG31400-20260714-123452.json"
       },
       {
-        "rank": 140,
+        "rank": 141,
         "id": "xiaolingawa-20260711-124055",
         "author": "xiaolingawa",
         "cpuName": "AMD Ryzen 7 8745H w/ Radeon 780M Graphics",
@@ -15616,7 +15724,7 @@
         "repoPath": "reports/xiaolingawa/xiaolingawa-20260711-124055.json"
       },
       {
-        "rank": 141,
+        "rank": 142,
         "id": "zeng-xingling-20260709-224729",
         "author": "zeng-xingling",
         "cpuName": "12th Gen Intel Core i5-12450H",
@@ -15643,7 +15751,7 @@
         "repoPath": "reports/zeng-xingling/zeng-xingling-20260709-224729.json"
       },
       {
-        "rank": 142,
+        "rank": 143,
         "id": "doublex2gao-20260719-171105",
         "author": "doublex2gao",
         "cpuName": "AMD Ryzen 5 7600",
@@ -15670,7 +15778,7 @@
         "repoPath": "reports/doublex2gao/doublex2gao-20260719-171105.json"
       },
       {
-        "rank": 143,
+        "rank": 144,
         "id": "ms-win-20260719-210928",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -15697,7 +15805,7 @@
         "repoPath": "reports/ms-win/ms-win-20260719-210928.json"
       },
       {
-        "rank": 144,
+        "rank": 145,
         "id": "ms-win-20260720-102504",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -15724,7 +15832,7 @@
         "repoPath": "reports/ms-win/ms-win-20260720-102504.json"
       },
       {
-        "rank": 145,
+        "rank": 146,
         "id": "ms-win-20260722-124341",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -15751,7 +15859,7 @@
         "repoPath": "reports/ms-win/ms-win-20260722-124341.json"
       },
       {
-        "rank": 146,
+        "rank": 147,
         "id": "hindows11-20260713-113354",
         "author": "hindows11",
         "cpuName": "Intel Core i5-8250U",
@@ -19720,6 +19828,33 @@
         "diskInfo": "BR 480G HDD 447.1 GB IDE/PATA",
         "displayInfo": "飞利浦(Philips) (SN:AU11313002149) 1920 x 1080 60 Hz 主显",
         "repoPath": "reports/wjs6awa/wjs6awa-20260714-100324.json"
+      },
+      {
+        "rank": 147,
+        "id": "shizuku166-20260722-103623",
+        "author": "shizuku166",
+        "cpuName": "Intel Core i5-10400F",
+        "gpuName": "NVIDIA GeForce GTX 1660 SUPER",
+        "gamingScore": 65,
+        "officeScore": 43,
+        "cpuSingleCoreScore": 56,
+        "cpuMultiCoreScore": 35,
+        "gpuRenderScore": 111,
+        "memoryCapacityScore": 49,
+        "diskSeqReadScore": 0,
+        "diskSeqWriteScore": 0,
+        "disk4KReadScore": 0,
+        "disk4KWriteScore": 0,
+        "browserTotalScore": 66,
+        "gamingGrade": "B+",
+        "officeGrade": "B",
+        "submittedAt": "2026-07-22T03:13:10.0436412+00:00",
+        "osName": "Microsoft Windows 10 IoT 企业版 LTSC",
+        "motherboardName": "技嘉(Gigabyte) B460M AORUS ELITE BIOS F7",
+        "memoryInfo": "15.9 GB | DDR4 | 04CD F4-2666C19-8GNT 8 GB 2666 MHz | 金士顿(Kingston) KHX2666C16/8G 8 GB 2666 MHz | 空 | 空",
+        "diskInfo": "YIMAI 512GB HDD 476.9 GB IDE/PATA | NS300 256G SSD HDD 238.5 GB IDE/PATA | SSD HDD 476.9 GB IDE/PATA | BR120G HDD 111.8 GB IDE/PATA",
+        "displayInfo": "ADU (SN:6666) 1920 x 1080 75 Hz 主显",
+        "repoPath": "reports/shizuku166/shizuku166-20260722-103623.json"
       }
     ],
     "browser": [
@@ -23316,6 +23451,33 @@
       },
       {
         "rank": 134,
+        "id": "shizuku166-20260722-103623",
+        "author": "shizuku166",
+        "cpuName": "Intel Core i5-10400F",
+        "gpuName": "NVIDIA GeForce GTX 1660 SUPER",
+        "gamingScore": 65,
+        "officeScore": 43,
+        "cpuSingleCoreScore": 56,
+        "cpuMultiCoreScore": 35,
+        "gpuRenderScore": 111,
+        "memoryCapacityScore": 49,
+        "diskSeqReadScore": 0,
+        "diskSeqWriteScore": 0,
+        "disk4KReadScore": 0,
+        "disk4KWriteScore": 0,
+        "browserTotalScore": 66,
+        "gamingGrade": "B+",
+        "officeGrade": "B",
+        "submittedAt": "2026-07-22T03:13:10.0436412+00:00",
+        "osName": "Microsoft Windows 10 IoT 企业版 LTSC",
+        "motherboardName": "技嘉(Gigabyte) B460M AORUS ELITE BIOS F7",
+        "memoryInfo": "15.9 GB | DDR4 | 04CD F4-2666C19-8GNT 8 GB 2666 MHz | 金士顿(Kingston) KHX2666C16/8G 8 GB 2666 MHz | 空 | 空",
+        "diskInfo": "YIMAI 512GB HDD 476.9 GB IDE/PATA | NS300 256G SSD HDD 238.5 GB IDE/PATA | SSD HDD 476.9 GB IDE/PATA | BR120G HDD 111.8 GB IDE/PATA",
+        "displayInfo": "ADU (SN:6666) 1920 x 1080 75 Hz 主显",
+        "repoPath": "reports/shizuku166/shizuku166-20260722-103623.json"
+      },
+      {
+        "rank": 135,
         "id": "HugoXOX3-20260716-103141",
         "author": "HugoXOX3",
         "cpuName": "Intel Core i5-9400F",
@@ -23342,7 +23504,7 @@
         "repoPath": "reports/HugoXOX3/HugoXOX3-20260716-103141.json"
       },
       {
-        "rank": 135,
+        "rank": 136,
         "id": "Mark66616-20260711-014443",
         "author": "Mark66616",
         "cpuName": "AMD Ryzen 5 5600",
@@ -23369,7 +23531,7 @@
         "repoPath": "reports/Mark66616/Mark66616-20260711-014443.json"
       },
       {
-        "rank": 136,
+        "rank": 137,
         "id": "G-y-b-20260713-132811",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -23396,7 +23558,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260713-132811.json"
       },
       {
-        "rank": 137,
+        "rank": 138,
         "id": "G-y-b-20260714-174655",
         "author": "G-y-b",
         "cpuName": "Intel Core i7-9750H",
@@ -23423,7 +23585,7 @@
         "repoPath": "reports/G-y-b/G-y-b-20260714-174655.json"
       },
       {
-        "rank": 138,
+        "rank": 139,
         "id": "ms-win-20260722-124341",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -23450,7 +23612,7 @@
         "repoPath": "reports/ms-win/ms-win-20260722-124341.json"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "id": "ms-win-20260720-102504",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -23477,7 +23639,7 @@
         "repoPath": "reports/ms-win/ms-win-20260720-102504.json"
       },
       {
-        "rank": 140,
+        "rank": 141,
         "id": "zazahuizaichi-20260713-160926",
         "author": "zazahuizaichi",
         "cpuName": "Intel Xeon E5-2673 v4",
@@ -23504,7 +23666,7 @@
         "repoPath": "reports/zazahuizaichi/zazahuizaichi-20260713-160926.json"
       },
       {
-        "rank": 141,
+        "rank": 142,
         "id": "hindows11-20260713-113354",
         "author": "hindows11",
         "cpuName": "Intel Core i5-8250U",
@@ -23531,7 +23693,7 @@
         "repoPath": "reports/hindows11/hindows11-20260713-113354.json"
       },
       {
-        "rank": 142,
+        "rank": 143,
         "id": "wjs6awa-20260714-100324",
         "author": "wjs6awa",
         "cpuName": "Intel Xeon E5-2660 0",
@@ -23558,7 +23720,7 @@
         "repoPath": "reports/wjs6awa/wjs6awa-20260714-100324.json"
       },
       {
-        "rank": 143,
+        "rank": 144,
         "id": "2581374794-20260712-113741",
         "author": "2581374794",
         "cpuName": "13th Gen Intel Core i5-13500HX",
@@ -23585,7 +23747,7 @@
         "repoPath": "reports/2581374794/2581374794-20260712-113741.json"
       },
       {
-        "rank": 144,
+        "rank": 145,
         "id": "ms-win-20260719-210928",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -23612,7 +23774,7 @@
         "repoPath": "reports/ms-win/ms-win-20260719-210928.json"
       },
       {
-        "rank": 145,
+        "rank": 146,
         "id": "tomcatone-20260708-190440",
         "author": "tomcatone",
         "cpuName": "Intel Core Ultra 5 230F",
@@ -23639,7 +23801,7 @@
         "repoPath": "reports/tomcatone/tomcatone-20260708-190440.json"
       },
       {
-        "rank": 146,
+        "rank": 147,
         "id": "xushengping666-20260710-104525",
         "author": "xushengping666",
         "cpuName": "Intel Core i7-14650HX",
