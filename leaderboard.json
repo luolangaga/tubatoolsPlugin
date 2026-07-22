@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-22T10:10:35.869Z",
-  "totalReports": 145,
+  "updatedAt": "2026-07-22T10:11:47.755Z",
+  "totalReports": 146,
   "leaderboards": {
     "gaming": [
       {
@@ -3839,6 +3839,33 @@
       },
       {
         "rank": 143,
+        "id": "ms-win-20260722-124341",
+        "author": "ms-win",
+        "cpuName": "Intel Pentium Gold G5400",
+        "gpuName": "Intel(R) UHD Graphics 610",
+        "gamingScore": 21,
+        "officeScore": 29,
+        "cpuSingleCoreScore": 44,
+        "cpuMultiCoreScore": 9,
+        "gpuRenderScore": 4,
+        "memoryCapacityScore": 24,
+        "diskSeqReadScore": 8,
+        "diskSeqWriteScore": 6,
+        "disk4KReadScore": 30,
+        "disk4KWriteScore": 2,
+        "browserTotalScore": 48,
+        "gamingGrade": "C",
+        "officeGrade": "C",
+        "submittedAt": "2026-07-22T04:48:45.908305+00:00",
+        "osName": "Microsoft Windows 10 专业版",
+        "motherboardName": "梅捷(Soyo) SY-KL H311M-VH M.2 BIOS 5.12",
+        "memoryInfo": "7.7 GB | DDR4 | 金士顿(Kingston) 99P5752-E05.A00G 8 GB 2400 MHz | 空",
+        "diskInfo": "WDC WDS240G2G0A-00JH30 HDD 223.6 GB IDE/PATA | Microsoft 虚拟磁盘 SCSI",
+        "displayInfo": "RGT (SN:16843009) 1920 x 1080 60 Hz 主显",
+        "repoPath": "reports/ms-win/ms-win-20260722-124341.json"
+      },
+      {
+        "rank": 144,
         "id": "ms-win-20260720-102504",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -3865,7 +3892,7 @@
         "repoPath": "reports/ms-win/ms-win-20260720-102504.json"
       },
       {
-        "rank": 144,
+        "rank": 145,
         "id": "ms-win-20260719-210928",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -3892,7 +3919,7 @@
         "repoPath": "reports/ms-win/ms-win-20260719-210928.json"
       },
       {
-        "rank": 145,
+        "rank": 146,
         "id": "hindows11-20260713-113354",
         "author": "hindows11",
         "cpuName": "Intel Core i5-8250U",
@@ -7756,6 +7783,33 @@
       },
       {
         "rank": 143,
+        "id": "ms-win-20260722-124341",
+        "author": "ms-win",
+        "cpuName": "Intel Pentium Gold G5400",
+        "gpuName": "Intel(R) UHD Graphics 610",
+        "gamingScore": 21,
+        "officeScore": 29,
+        "cpuSingleCoreScore": 44,
+        "cpuMultiCoreScore": 9,
+        "gpuRenderScore": 4,
+        "memoryCapacityScore": 24,
+        "diskSeqReadScore": 8,
+        "diskSeqWriteScore": 6,
+        "disk4KReadScore": 30,
+        "disk4KWriteScore": 2,
+        "browserTotalScore": 48,
+        "gamingGrade": "C",
+        "officeGrade": "C",
+        "submittedAt": "2026-07-22T04:48:45.908305+00:00",
+        "osName": "Microsoft Windows 10 专业版",
+        "motherboardName": "梅捷(Soyo) SY-KL H311M-VH M.2 BIOS 5.12",
+        "memoryInfo": "7.7 GB | DDR4 | 金士顿(Kingston) 99P5752-E05.A00G 8 GB 2400 MHz | 空",
+        "diskInfo": "WDC WDS240G2G0A-00JH30 HDD 223.6 GB IDE/PATA | Microsoft 虚拟磁盘 SCSI",
+        "displayInfo": "RGT (SN:16843009) 1920 x 1080 60 Hz 主显",
+        "repoPath": "reports/ms-win/ms-win-20260722-124341.json"
+      },
+      {
+        "rank": 144,
         "id": "ms-win-20260720-102504",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -7782,7 +7836,7 @@
         "repoPath": "reports/ms-win/ms-win-20260720-102504.json"
       },
       {
-        "rank": 144,
+        "rank": 145,
         "id": "hindows11-20260713-113354",
         "author": "hindows11",
         "cpuName": "Intel Core i5-8250U",
@@ -7809,7 +7863,7 @@
         "repoPath": "reports/hindows11/hindows11-20260713-113354.json"
       },
       {
-        "rank": 145,
+        "rank": 146,
         "id": "ms-win-20260719-210928",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -11727,6 +11781,33 @@
       },
       {
         "rank": 145,
+        "id": "ms-win-20260722-124341",
+        "author": "ms-win",
+        "cpuName": "Intel Pentium Gold G5400",
+        "gpuName": "Intel(R) UHD Graphics 610",
+        "gamingScore": 21,
+        "officeScore": 29,
+        "cpuSingleCoreScore": 44,
+        "cpuMultiCoreScore": 9,
+        "gpuRenderScore": 4,
+        "memoryCapacityScore": 24,
+        "diskSeqReadScore": 8,
+        "diskSeqWriteScore": 6,
+        "disk4KReadScore": 30,
+        "disk4KWriteScore": 2,
+        "browserTotalScore": 48,
+        "gamingGrade": "C",
+        "officeGrade": "C",
+        "submittedAt": "2026-07-22T04:48:45.908305+00:00",
+        "osName": "Microsoft Windows 10 专业版",
+        "motherboardName": "梅捷(Soyo) SY-KL H311M-VH M.2 BIOS 5.12",
+        "memoryInfo": "7.7 GB | DDR4 | 金士顿(Kingston) 99P5752-E05.A00G 8 GB 2400 MHz | 空",
+        "diskInfo": "WDC WDS240G2G0A-00JH30 HDD 223.6 GB IDE/PATA | Microsoft 虚拟磁盘 SCSI",
+        "displayInfo": "RGT (SN:16843009) 1920 x 1080 60 Hz 主显",
+        "repoPath": "reports/ms-win/ms-win-20260722-124341.json"
+      },
+      {
+        "rank": 146,
         "id": "ms-win-20260719-210928",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -15644,6 +15725,33 @@
       },
       {
         "rank": 145,
+        "id": "ms-win-20260722-124341",
+        "author": "ms-win",
+        "cpuName": "Intel Pentium Gold G5400",
+        "gpuName": "Intel(R) UHD Graphics 610",
+        "gamingScore": 21,
+        "officeScore": 29,
+        "cpuSingleCoreScore": 44,
+        "cpuMultiCoreScore": 9,
+        "gpuRenderScore": 4,
+        "memoryCapacityScore": 24,
+        "diskSeqReadScore": 8,
+        "diskSeqWriteScore": 6,
+        "disk4KReadScore": 30,
+        "disk4KWriteScore": 2,
+        "browserTotalScore": 48,
+        "gamingGrade": "C",
+        "officeGrade": "C",
+        "submittedAt": "2026-07-22T04:48:45.908305+00:00",
+        "osName": "Microsoft Windows 10 专业版",
+        "motherboardName": "梅捷(Soyo) SY-KL H311M-VH M.2 BIOS 5.12",
+        "memoryInfo": "7.7 GB | DDR4 | 金士顿(Kingston) 99P5752-E05.A00G 8 GB 2400 MHz | 空",
+        "diskInfo": "WDC WDS240G2G0A-00JH30 HDD 223.6 GB IDE/PATA | Microsoft 虚拟磁盘 SCSI",
+        "displayInfo": "RGT (SN:16843009) 1920 x 1080 60 Hz 主显",
+        "repoPath": "reports/ms-win/ms-win-20260722-124341.json"
+      },
+      {
+        "rank": 146,
         "id": "hindows11-20260713-113354",
         "author": "hindows11",
         "cpuName": "Intel Core i5-8250U",
@@ -19534,6 +19642,33 @@
       },
       {
         "rank": 144,
+        "id": "ms-win-20260722-124341",
+        "author": "ms-win",
+        "cpuName": "Intel Pentium Gold G5400",
+        "gpuName": "Intel(R) UHD Graphics 610",
+        "gamingScore": 21,
+        "officeScore": 29,
+        "cpuSingleCoreScore": 44,
+        "cpuMultiCoreScore": 9,
+        "gpuRenderScore": 4,
+        "memoryCapacityScore": 24,
+        "diskSeqReadScore": 8,
+        "diskSeqWriteScore": 6,
+        "disk4KReadScore": 30,
+        "disk4KWriteScore": 2,
+        "browserTotalScore": 48,
+        "gamingGrade": "C",
+        "officeGrade": "C",
+        "submittedAt": "2026-07-22T04:48:45.908305+00:00",
+        "osName": "Microsoft Windows 10 专业版",
+        "motherboardName": "梅捷(Soyo) SY-KL H311M-VH M.2 BIOS 5.12",
+        "memoryInfo": "7.7 GB | DDR4 | 金士顿(Kingston) 99P5752-E05.A00G 8 GB 2400 MHz | 空",
+        "diskInfo": "WDC WDS240G2G0A-00JH30 HDD 223.6 GB IDE/PATA | Microsoft 虚拟磁盘 SCSI",
+        "displayInfo": "RGT (SN:16843009) 1920 x 1080 60 Hz 主显",
+        "repoPath": "reports/ms-win/ms-win-20260722-124341.json"
+      },
+      {
+        "rank": 145,
         "id": "ms-win-20260720-102504",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -19560,7 +19695,7 @@
         "repoPath": "reports/ms-win/ms-win-20260720-102504.json"
       },
       {
-        "rank": 145,
+        "rank": 146,
         "id": "wjs6awa-20260714-100324",
         "author": "wjs6awa",
         "cpuName": "Intel Xeon E5-2660 0",
@@ -23289,6 +23424,33 @@
       },
       {
         "rank": 138,
+        "id": "ms-win-20260722-124341",
+        "author": "ms-win",
+        "cpuName": "Intel Pentium Gold G5400",
+        "gpuName": "Intel(R) UHD Graphics 610",
+        "gamingScore": 21,
+        "officeScore": 29,
+        "cpuSingleCoreScore": 44,
+        "cpuMultiCoreScore": 9,
+        "gpuRenderScore": 4,
+        "memoryCapacityScore": 24,
+        "diskSeqReadScore": 8,
+        "diskSeqWriteScore": 6,
+        "disk4KReadScore": 30,
+        "disk4KWriteScore": 2,
+        "browserTotalScore": 48,
+        "gamingGrade": "C",
+        "officeGrade": "C",
+        "submittedAt": "2026-07-22T04:48:45.908305+00:00",
+        "osName": "Microsoft Windows 10 专业版",
+        "motherboardName": "梅捷(Soyo) SY-KL H311M-VH M.2 BIOS 5.12",
+        "memoryInfo": "7.7 GB | DDR4 | 金士顿(Kingston) 99P5752-E05.A00G 8 GB 2400 MHz | 空",
+        "diskInfo": "WDC WDS240G2G0A-00JH30 HDD 223.6 GB IDE/PATA | Microsoft 虚拟磁盘 SCSI",
+        "displayInfo": "RGT (SN:16843009) 1920 x 1080 60 Hz 主显",
+        "repoPath": "reports/ms-win/ms-win-20260722-124341.json"
+      },
+      {
+        "rank": 139,
         "id": "ms-win-20260720-102504",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -23315,7 +23477,7 @@
         "repoPath": "reports/ms-win/ms-win-20260720-102504.json"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "id": "zazahuizaichi-20260713-160926",
         "author": "zazahuizaichi",
         "cpuName": "Intel Xeon E5-2673 v4",
@@ -23342,7 +23504,7 @@
         "repoPath": "reports/zazahuizaichi/zazahuizaichi-20260713-160926.json"
       },
       {
-        "rank": 140,
+        "rank": 141,
         "id": "hindows11-20260713-113354",
         "author": "hindows11",
         "cpuName": "Intel Core i5-8250U",
@@ -23369,7 +23531,7 @@
         "repoPath": "reports/hindows11/hindows11-20260713-113354.json"
       },
       {
-        "rank": 141,
+        "rank": 142,
         "id": "wjs6awa-20260714-100324",
         "author": "wjs6awa",
         "cpuName": "Intel Xeon E5-2660 0",
@@ -23396,7 +23558,7 @@
         "repoPath": "reports/wjs6awa/wjs6awa-20260714-100324.json"
       },
       {
-        "rank": 142,
+        "rank": 143,
         "id": "2581374794-20260712-113741",
         "author": "2581374794",
         "cpuName": "13th Gen Intel Core i5-13500HX",
@@ -23423,7 +23585,7 @@
         "repoPath": "reports/2581374794/2581374794-20260712-113741.json"
       },
       {
-        "rank": 143,
+        "rank": 144,
         "id": "ms-win-20260719-210928",
         "author": "ms-win",
         "cpuName": "Intel Pentium Gold G5400",
@@ -23450,7 +23612,7 @@
         "repoPath": "reports/ms-win/ms-win-20260719-210928.json"
       },
       {
-        "rank": 144,
+        "rank": 145,
         "id": "tomcatone-20260708-190440",
         "author": "tomcatone",
         "cpuName": "Intel Core Ultra 5 230F",
@@ -23477,7 +23639,7 @@
         "repoPath": "reports/tomcatone/tomcatone-20260708-190440.json"
       },
       {
-        "rank": 145,
+        "rank": 146,
         "id": "xushengping666-20260710-104525",
         "author": "xushengping666",
         "cpuName": "Intel Core i7-14650HX",
