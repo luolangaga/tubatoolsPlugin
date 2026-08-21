@@ -1,0 +1,19 @@
+{
+  "id": "bluescreenquery",
+  "name": "BlueScreenQuery",
+  "version": "1.0",
+  "description": "\u84DD\u5C4F\u4EE3\u7801\u67E5\u8BE2\u5DE5\u5177\uFF0C\u6536\u5F55105\u79CD\u5E38\u89C1Windows\u84DD\u5C4F\u9519\u8BEF\u4EE3\u7801\uFF0C\u652F\u6301\u4EE3\u7801\u3001\u540D\u79F0\u3001\u5173\u952E\u5B57\u641C\u7D22\uFF0C\u6BCF\u6761\u9644\u5E26\u542B\u4E49\u89E3\u91CA\u548C\u89E3\u51B3\u65B9\u6CD5\u3002\u672C\u5730\u8FD0\u884C\uFF0C\u65E0\u9700\u8054\u7F51\uFF0C\u5373\u5F00\u5373\u7528\u3002\r",
+  "category": "\u663E\u793A\u5668\u5DE5\u5177",
+  "publisher": "a688682024-sketch",
+  "tags": [
+    "\u6545\u969C\u6392\u67E5",
+    "\u7CFB\u7EDF",
+    "\u5DE5\u5177"
+  ],
+  "launchTarget": "BlueScreenQuery.exe",
+  "author": "a688682024-sketch",
+  "submittedAt": "2026-08-21T06:05:50.0644787\u002B00:00",
+  "homepage": "https://github.com/a688682024-sketch/BlueScreenQuery",
+  "file": "BlueScreenQuery.zip",
+  "icon": "BlueScreenQuery.ico"
+}
