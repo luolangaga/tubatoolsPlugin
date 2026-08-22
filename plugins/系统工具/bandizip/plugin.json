@@ -1,0 +1,19 @@
+{
+  "id": "bandizip",
+  "name": "Bandizip",
+  "version": "7.46",
+  "description": "Bandizip\u6807\u51C6\u514D\u8D39\u7248\uFF0C\u9AD8\u901F\u89E3\u538B\u652F\u6301ZIP/ 7Z/RAR\u7B4940\u002B\u683C\u5F0F\uFF0C\u5B98\u65B9\u4FBF\u643A\u7EFF\u8272\u7248\u89E3\u538B\u5373\u7528\uFF0C\u4E2A\u4EBA\u5546\u7528\u5747\u514D\u8D39\uFF0C\u53E6\u6709\u4E13\u4E1A\u7248\u63D0\u4F9B\u53BB\u5E7F\u544A\u53CA\u9AD8\u7EA7\u529F\u80FD;\u672C\u5305\u4E3A\u5B98\u65B9\u539F\u7248\u672A\u4FEE\u6539\u65E0\u6346\u7ED1\uFF0C\u89E3\u538B\u540E\u53CC\u51FBBandizip.exe\u5373\u7528\uFF0C\u6807\u51C6\u7248\u542B\u5B98\u7F51\u81EA\u5E26\u5E7F\u544A\uFF0C\u975E\u7B2C\u4E09\u65B9\u6CE8\u5165\u3002",
+  "category": "\u7CFB\u7EDF\u5DE5\u5177",
+  "publisher": "Bandisoft International Inc.",
+  "tags": [
+    "\u538B\u7F29",
+    "\u89E3\u538B",
+    "\u4FBF\u643A"
+  ],
+  "launchTarget": "BANDIZIP-SETUP-STD-X64.EXE",
+  "author": "a688682024-sketch",
+  "submittedAt": "2026-08-22T04:43:43.3577634\u002B00:00",
+  "homepage": "https://www.bandisoft.com/bandizip/",
+  "downloadUrl": "https://bandisoft.app/bandizip/BANDIZIP-SETUP-STD-X64.EXE",
+  "icon": "Bandizip.ico"
+}
