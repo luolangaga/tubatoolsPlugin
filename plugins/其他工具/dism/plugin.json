@@ -1,0 +1,15 @@
+{
+  "id": "dism",
+  "name": "Dism\u002B\u002B",
+  "version": "10.1.1002.2",
+  "description": "",
+  "category": "\u5176\u4ED6\u5DE5\u5177",
+  "publisher": "\u521D\u96E8\u56E2\u961F",
+  "tags": [],
+  "launchTarget": "Dism\u002B\u002Bx64.exe",
+  "author": "MyresMkG",
+  "submittedAt": "2026-09-06T01:29:43.5978967\u002B00:00",
+  "homepage": "https://github.com/Chuyu-Team/Dism-Multi-language",
+  "file": "Dism\u002B\u002B10.1.1002.1B.zip",
+  "icon": "Dism\u002B\u002Bx64_256x256_32bit.ico"
+}
