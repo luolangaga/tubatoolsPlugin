@@ -1,0 +1,18 @@
+{
+  "id": "bandizip-setup6-26",
+  "name": "BANDIZIP-SETUP6.26",
+  "version": "6.26",
+  "description": "\u539F\u7248\u539F\u5305\uFF0C\u6700\u540E\u4E00\u7248\u4E0D\u9700\u8981\u81EA\u52A8\u66F4\u65B0\u7684bandizip",
+  "category": "\u5904\u7406\u5668\u5DE5\u5177",
+  "publisher": "HoshimoriNemu",
+  "tags": [
+    "\u538B\u7F29",
+    "\u538B\u7F29\u8F6F\u4EF6",
+    "\u5DE5\u5177"
+  ],
+  "launchTarget": "BANDIZIP-SETUP6.26.exe",
+  "author": "AsukaNemu",
+  "submittedAt": "2026-09-08T06:41:16.9156998\u002B00:00",
+  "homepage": null,
+  "file": "BANDIZIP-SETUP6.26.zip"
+}
