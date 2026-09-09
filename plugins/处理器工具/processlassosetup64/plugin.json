@@ -1,0 +1,14 @@
+{
+  "id": "processlassosetup64",
+  "name": "Processlassosetup64",
+  "version": "1.0",
+  "description": "\u4E00\u4E2A\u89E3\u51B3cpu\u4EB2\u548C\u6027\u548Ccpu\u8C03\u5EA6\u95EE\u9898\u5DE5\u5177",
+  "category": "\u5904\u7406\u5668\u5DE5\u5177",
+  "publisher": null,
+  "tags": [],
+  "launchTarget": "Processlassosetup64.exe",
+  "author": "nangao-a",
+  "submittedAt": "2026-09-09T12:29:12.2806370\u002B00:00",
+  "homepage": null,
+  "file": "Processlassosetup64.zip"
+}
