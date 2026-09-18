@@ -1,0 +1,14 @@
+{
+  "id": "trayce-v260818",
+  "name": "trayce-v260818",
+  "version": "1.0.1",
+  "description": "Trayce \u2014 \u4E00\u6B3E\u8F7B\u91CF\u7EA7\u3001\u65E0\u7BA1\u7406\u5458\u7684 Windows 11 \u5DE5\u5177\uFF0C\u7528\u4E8E\u67E5\u770B\u548C\u6E05\u7406\u7528\u6237\u6CE8\u518C\u8868\u4E2D\u8FC7\u671F\u7684\u901A\u77E5\u533A\uFF08\u6258\u76D8\uFF09\u56FE\u6807\u8BB0\u5F55\u3002\u91C7\u7528Wails v2\u3001Vue 3\u548CNaive UI\u6784\u5EFA\u3002\u79BB\u7EBF\u4F18\u5148\uFF1A\u626B\u63CFHKCU\\\u63A7\u5236\u9762\u677F\\NotifyIconSettings\uFF0C\u5220\u9664\u524D\u81EA\u52A8\u5907\u4EFD\uFF0C\u652F\u6301\u64A4\u9500\uFF0C\u4E14\u7EDD\u4E0D\u89E6\u78B0HKLM\u6216\u4F60\u7684\u6587\u4EF6\u3002",
+  "category": "\u5176\u4ED6\u5DE5\u5177",
+  "publisher": null,
+  "tags": [],
+  "launchTarget": "trayce-v260818.exe",
+  "author": "15120283854",
+  "submittedAt": "2026-09-18T16:14:40.9201894\u002B00:00",
+  "homepage": "https://github.com/KaiZhou554/trayce",
+  "file": "trayce-v260818.zip"
+}
