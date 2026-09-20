@@ -1,0 +1,17 @@
+{
+  "id": "librehardwaremonitor",
+  "name": "LibreHardwareMonitor",
+  "version": "0.9.6",
+  "description": "",
+  "category": "\u5904\u7406\u5668\u5DE5\u5177",
+  "publisher": null,
+  "tags": [
+    "CPU",
+    "\u7EFC\u5408\u68C0\u6D4B"
+  ],
+  "launchTarget": "LibreHardwareMonitor",
+  "author": "1human",
+  "submittedAt": "2026-09-20T01:03:01.5714099\u002B00:00",
+  "homepage": null,
+  "downloadUrl": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor"
+}
