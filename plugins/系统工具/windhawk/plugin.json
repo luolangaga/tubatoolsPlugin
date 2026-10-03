@@ -1,0 +1,20 @@
+{
+  "id": "windhawk",
+  "name": "Windhawk",
+  "version": "1.7.3",
+  "description": "\u514D\u8D39\u5F00\u6E90\u7684 Windows \u5B9A\u5236\u5E02\u573A\uFF0C\u901A\u8FC7\u6A21\u5757\u5316 Mod \u4FEE\u6539\u7CFB\u7EDF\u4E0E\u5E94\u7528\u7684\u5916\u89C2\u548C\u529F\u80FD\uFF0C\u652F\u6301\u4EFB\u52A1\u680F\u5B9A\u5236\u3001\u5E94\u7528\u754C\u9762\u589E\u5F3A\u3001\u7A97\u53E3\u7BA1\u7406\u7B49\u3002\u9002\u7528\u4E8E Windows 10/11 64 \u4F4D\uFF082.0 \u8D77\u4EC5\u652F\u6301 64 \u4F4D\uFF09\uFF0C\u5B98\u65B9\u7248\u4E3A\u82F1\u6587\uFF0C\u5B89\u88C5\u7A0B\u5E8F\u53CA\u57FA\u7840\u754C\u9762\u652F\u6301\u4E2D\u6587\u3002",
+  "category": "\u7CFB\u7EDF\u5DE5\u5177",
+  "publisher": "Michael Maltsev",
+  "tags": [
+    "\u7CFB\u7EDF\u5B9A\u5236",
+    "\u6A21\u5757\u5316",
+    "\u684C\u9762\u7F8E\u5316",
+    "\u514D\u8D39\u5F00\u6E90"
+  ],
+  "launchTarget": "windhawk_setup.exe",
+  "author": "a688682024-sketch",
+  "submittedAt": "2026-10-03T16:24:50.6142755\u002B00:00",
+  "homepage": "https://windhawk.net/",
+  "downloadUrl": "https://ramensoftware.com/downloads/windhawk_setup.exe",
+  "icon": "windhawk.ico"
+}
