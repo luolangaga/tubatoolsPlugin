@@ -1,0 +1,20 @@
+{
+  "id": "inno-setup",
+  "name": "Inno Setup",
+  "version": "7.1.0",
+  "description": "\u514D\u8D39\u5F00\u6E90\u7684 Windows \u5B89\u88C5\u7A0B\u5E8F\u5236\u4F5C\u5DE5\u5177\uFF0C\u81EA 1997 \u5E74\u53D1\u5E03\u4EE5\u6765\u88AB\u5E7F\u6CDB\u4F7F\u7528\u3002\u7B2C 7 \u4EE3\u65B0\u589E 64 \u4F4D\u7F16\u8BD1\u5668\uFF0C\u652F\u6301\u540C\u65F6\u6784\u5EFA 32 \u4F4D\u548C 64 \u4F4D\u5B89\u88C5\u7A0B\u5E8F\uFF0C\u5E76\u89E3\u9664\u4E86 MAX_PATH \u8DEF\u5F84\u957F\u5EA6\u9650\u5236\u3002\u652F\u6301\u591A\u8BED\u8A00\u5B89\u88C5\u3001\u6697\u8272\u6A21\u5F0F\u3001Pascal \u811A\u672C\u5B9A\u5236\u3001\u6570\u5B57\u7B7E\u540D\u5B89\u88C5\u5305\u7B49\u7279\u6027\uFF0C\u53EF\u4E0E\u7B2C 6 \u4EE3\u5171\u5B58\u3002",
+  "category": "\u7CFB\u7EDF\u5DE5\u5177",
+  "publisher": "Jordan Russell / Martijn Laan",
+  "tags": [
+    "\u5B89\u88C5\u5236\u4F5C",
+    "\u514D\u8D39\u5F00\u6E90",
+    "\u5F00\u53D1\u5DE5\u5177",
+    "Windows"
+  ],
+  "launchTarget": "ISIDE.exe",
+  "author": "a688682024-sketch",
+  "submittedAt": "2026-10-03T16:10:02.3326864\u002B00:00",
+  "homepage": "https://jrsoftware.org/",
+  "file": "Inno Setup 7.zip",
+  "icon": "ISIDE.ico"
+}
