@@ -1,0 +1,17 @@
+{
+  "id": "hibituninstaller-portable",
+  "name": "HiBitUninstaller-Portable",
+  "version": "4.0.10",
+  "description": "\u8F6F\u4EF6\u5378\u8F7D\u5668\u6CE8\u518C\u8868\u6B8B\u7559\uFF0C\u6B8B\u7559\u6587\u4EF6/\u6587\u4EF6\u5939\uFF0C\u5783\u573E\u6587\u4EF6\u6E05\u7406\uFF0C\u6CE8\u518C\u8868\u6E05\u7406\uFF0C\u53F3\u952E\u83DC\u5355\u7BA1\u7406\uFF0C\u7A7A\u6587\u4EF6\u5939\u6E05\u7406\uFF0C\u542F\u52A8\u9879\u7BA1\u7406\uFF0C\u8BA1\u5212\u4EFB\u52A1\u7BA1\u7406\uFF0C\u670D\u52A1\u9879\u7BA1\u7406\uFF0C\u8FDB\u7A0B\u7BA1\u7406\uFF0C\u8FDE\u63A5\u7BA1\u7406\uFF0C\u78C1\u76D8\u5206\u6790\u5668\uFF0C\u6587\u4EF6\u7C89\u788E\uFF0C\u7CFB\u7EDF\u8FD8\u539F\u7BA1\u7406\uFF0C\u9648\u65ED\u7EC4\u4EF6\u7BA1\u7406\uFF0CWindows\u5E94\u7528\u5546\u5E97\u5E94\u7528\u7BA1\u7406\uFF0CWindows\u66F4\u65B0\u7BA1\u7406\uFF0C\u91CD\u590D\u6587\u4EF6\u67E5\u8BE2",
+  "category": "\u7CFB\u7EDF\u5DE5\u5177",
+  "publisher": null,
+  "tags": [
+    "\u6E05\u7406\u5DE5\u5177"
+  ],
+  "launchTarget": "HiBitUninstaller-Portable.exe",
+  "author": "Lambunge520",
+  "submittedAt": "2026-10-04T13:45:01.6680542\u002B00:00",
+  "homepage": "https://www.hibitsoft.ir/",
+  "downloadUrl": "https://www.hibitsoft.ir/HiBitUninstaller/HiBitUninstaller-Portable-4.0.10.zip",
+  "icon": "HiBitUninstaller-Portable.exe"
+}
