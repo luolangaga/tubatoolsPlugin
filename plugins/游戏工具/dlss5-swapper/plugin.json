@@ -1,0 +1,16 @@
+{
+  "id": "dlss5-swapper",
+  "name": "DLSS5-Swapper",
+  "version": "2.2.9",
+  "description": "\u7ED9\u4F60\u7684\u6E38\u620F\u6CE8\u5165DLSS5",
+  "category": "\u6E38\u620F\u5DE5\u5177",
+  "publisher": "rakanki911",
+  "tags": [
+    "\u6E38\u620F\u5DE5\u5177"
+  ],
+  "launchTarget": "DLSS5-Swapper-2.2.9-portable.exe",
+  "author": "Lambunge520",
+  "submittedAt": "2026-10-04T14:00:57.1440485\u002B00:00",
+  "homepage": "https://github.com/rakanki911/DLSS5-Swapper",
+  "downloadUrl": "https://github.com/rakanki911/DLSS5-Swapper/releases/download/v2.2.9/DLSS5-Swapper-2.2.9-portable.exe"
+}
