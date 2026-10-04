@@ -1,0 +1,14 @@
+{
+  "id": "steam\u56FE\u6807\u4FEE\u590D\u5668",
+  "name": "steam\u56FE\u6807\u4FEE\u590D\u5668",
+  "version": "1.0.8",
+  "description": "\u4FEE\u590Dsteam\u542F\u52A8\u7684\u5FEB\u6377\u65B9\u5F0F\u56FE\u6807",
+  "category": "\u6E38\u620F\u5DE5\u5177",
+  "publisher": "ez4y2f",
+  "tags": [],
+  "launchTarget": "SteamIconFix.exe",
+  "author": "Lambunge520",
+  "submittedAt": "2026-10-04T14:13:06.9504346\u002B00:00",
+  "homepage": "https://github.com/ez4y2f/SteamIconFix",
+  "downloadUrl": "https://github.com/ez4y2f/SteamIconFix/releases/download/V1.0.8/SteamIconFix.exe"
+}
