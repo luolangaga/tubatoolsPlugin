@@ -1,0 +1,16 @@
+{
+  "id": "game-cheats-manager",
+  "name": "Game Cheats Manager",
+  "version": "2.5.1",
+  "description": "\u6E38\u620F\u4F5C\u5F0A\u5668\u7BA1\u7406\u5668",
+  "category": "\u6E38\u620F\u5DE5\u5177",
+  "publisher": null,
+  "tags": [
+    "\u6E38\u620F\u4F5C\u5F0A\u5668\u7BA1\u7406"
+  ],
+  "launchTarget": "Game Cheats Manager.exe",
+  "author": "Lambunge520",
+  "submittedAt": "2026-10-05T12:25:06.3675300\u002B00:00",
+  "homepage": "https://gamezonelabs.com/",
+  "downloadUrl": "https://github.com/dyang886/Game-Cheats-Manager/releases/download/v2.5.1/Game.Cheats.Manager.Portable.2.5.1.zip"
+}
