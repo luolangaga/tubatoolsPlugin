@@ -1,0 +1,17 @@
+{
+  "id": "driverstoreexplorer",
+  "name": "DriverStoreExplorer",
+  "version": "1.0.26",
+  "description": "Driver Store Explorer (RAPR) \u662F\u4E00\u6B3E\u529F\u80FD\u5F3A\u5927\u7684\u5DE5\u5177\uFF0C\u7528\u4E8E\u67E5\u770B\u3001\u7BA1\u7406\u548C\u6E05\u7406 Windows \u9A71\u52A8\u7A0B\u5E8F\u5B58\u50A8\u3002\u5B83\u9762\u5411\u9AD8\u7EA7\u7528\u6237\u548C\u7CFB\u7EDF\u7BA1\u7406\u5458\u3002\u5982\u679C\u60A8\u4E0D\u719F\u6089 Windows \u5185\u90E8\u673A\u5236\uFF0C\u4E0D\u5EFA\u8BAE\u4F7F\u7528\u6B64\u5DE5\u5177\u3002",
+  "category": "\u7CFB\u7EDF\u5DE5\u5177",
+  "publisher": "lostindark",
+  "tags": [
+    "\u9A71\u52A8"
+  ],
+  "launchTarget": "Rapr.exe",
+  "author": "wyj5211",
+  "submittedAt": "2026-10-07T15:45:47.9616019\u002B00:00",
+  "homepage": "https://github.com/lostindark/DriverStoreExplorer",
+  "file": "DriverStoreExplorer-v1.0.26.zip",
+  "icon": "icon.ico"
+}
