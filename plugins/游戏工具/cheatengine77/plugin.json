@@ -1,0 +1,17 @@
+{
+  "id": "cheatengine77",
+  "name": "CheatEngine77",
+  "version": "7.7",
+  "description": "\u4E00\u6B3E\u5F00\u6E90\u7684\u6E38\u620F\u5185\u5B58\u4FEE\u6539\u548C\u52A8\u6001\u8C03\u8BD5\u5DE5\u5177\uFF0C\u4E3B\u8981\u7528\u4E8E\u5728\u5355\u673A\u6E38\u620F\u4E2D\u4FEE\u6539\u5404\u79CD\u6570\u503C\u3002",
+  "category": "\u6E38\u620F\u5DE5\u5177",
+  "publisher": null,
+  "tags": [
+    "\u4FEE\u6539\u5DE5\u5177"
+  ],
+  "launchTarget": "CheatEngine77.exe",
+  "author": "tanyaoting",
+  "submittedAt": "2026-10-08T08:25:58.6984587\u002B00:00",
+  "homepage": "https://www.cheatengine.org/index.php",
+  "file": "CheatEngine77.zip",
+  "icon": "ce_icon_128.png"
+}
