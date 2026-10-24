@@ -1,0 +1,17 @@
+{
+  "id": "zyperwin",
+  "name": "ZyperWin\u002B\u002B",
+  "version": "4.1",
+  "description": "\u96C6\u7CFB\u7EDF\u4F18\u5316\uFF0CWindows\u5B89\u5168\u4E2D\u5FC3\u5F00\u5173\uFF0Cappx\u7BA1\u7406\uFF0Coffice\u7BA1\u7406\uFF0C\u7CFB\u7EDF\u6FC0\u6D3B\uFF0C\u5783\u573E\u6E05\u7406\u529F\u80FD\u7684\u5F00\u6E90\u7CFB\u7EDF\u4F18\u5316\u5DE5\u5177",
+  "category": "\u7CFB\u7EDF\u5DE5\u5177",
+  "tags": [
+    "\u7CFB\u7EDF\u4F18\u5316"
+  ],
+  "launchTarget": "ZyperWin\u002B\u002B.exe",
+  "author": "Lambunge520",
+  "submittedAt": "2026-10-24T12:41:13.8947621\u002B00:00",
+  "publisher": "ZyperWave",
+  "homepage": "https://github.com/ZyperWave/ZyperWinOptimize",
+  "icon": "ZyperWin\u002B\u002B.exe",
+  "file": "ZyperWin\u002B\u002B4.1.zip"
+}
