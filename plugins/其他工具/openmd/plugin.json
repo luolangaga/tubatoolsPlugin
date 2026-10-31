@@ -1,0 +1,17 @@
+{
+  "id": "openmd",
+  "name": "OpenMD",
+  "version": "1.0.2",
+  "description": "\u5C0F\u6728\u6D41\u5F00\u53D1\u7684\u7B2C\u4E8C\u6B3E\u684C\u9762\u7AEF\u8F6F\u4EF6\uFF0C\u672C\u5730\u4F18\u5148\u7684Markdown\u9605\u8BFB\u5668-\u4E3A\u9605\u8BFB\r\u800C\u751F\uFF0C\u5FEB\u901F\u3001\u5E72\u51C0\u3001\u65E0\u5E72\u6270\u3002",
+  "category": "\u5176\u4ED6\u5DE5\u5177",
+  "publisher": "\u6728\u6D41",
+  "tags": [
+    "OpenMD",
+    "MarkDown\u9605\u8BFB\u5668"
+  ],
+  "launchTarget": "OpenMD_1.0.2_Windows_x86_64.exe",
+  "author": "MuLiuSaMa",
+  "submittedAt": "2026-10-04T13:42:02.5812312\u002B00:00",
+  "homepage": "https://openmd.nexbox.cn",
+  "downloadUrl": "https://gitcode.com/MuLiuSaMa/OpenMD/releases/download/v1.0.2/OpenMD_1.0.2_Windows_x86_64.exe"
+}
