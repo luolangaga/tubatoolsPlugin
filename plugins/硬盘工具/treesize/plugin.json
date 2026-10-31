@@ -1,0 +1,15 @@
+{
+  "id": "treesize",
+  "name": "treesize",
+  "version": "1.0",
+  "description": "\u7528\u9014\uFF1A\u6307\u5B9A\u76D8\u7B26\uFF0C\u5FEB\u901F\u4EE5\u56FE\u5F62\u5217\u8868\u5F62\u5F0F\u626B\u63CF\u5E76\u663E\u793A\u6587\u4EF6\u5360\u7528\u5927\u5C0F\r\u6CE8\uFF1A\u7F51\u7AD9\u5EF6\u8FDF\u6709\u70B9\u9AD8\uFF0C\u53EF\u80FD\u8981\u7528\u5230\u52A0\u901F\u5668(\u8DDFgithub\u4E00\u6837\uFF0C\u770B\u4F60\u8FD0\u6C14)",
+  "category": "\u786C\u76D8\u5DE5\u5177",
+  "tags": [],
+  "launchTarget": "treesize",
+  "author": "HelloMinecraftGame",
+  "submittedAt": "2026-10-17T07:29:47.5400933\u002B00:00",
+  "publisher": "JamSoftware",
+  "homepage": "https://www.jam-software.com/",
+  "icon": "TreeSizeFree44.png",
+  "downloadUrl": "https://www.jam-software.com/treesize"
+}
