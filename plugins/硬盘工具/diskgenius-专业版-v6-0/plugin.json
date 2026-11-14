@@ -1,0 +1,17 @@
+{
+  "id": "diskgenius-\u4E13\u4E1A\u7248-v6-0",
+  "name": "DiskGenius \u4E13\u4E1A\u7248 V6.0",
+  "version": "V6.0",
+  "description": "DG\u7684\u4E13\u4E1A\u7248",
+  "category": "\u786C\u76D8\u5DE5\u5177",
+  "publisher": null,
+  "tags": [
+    "\u786C\u76D8"
+  ],
+  "launchTarget": "DiskGenius.exe",
+  "author": "KGCXD",
+  "submittedAt": "2026-10-06T14:43:21.3755367\u002B00:00",
+  "homepage": null,
+  "file": "DiskGenius\u6CE8\u518C\u7248\u672C.zip",
+  "icon": "DiskGenius.exe"
+}
